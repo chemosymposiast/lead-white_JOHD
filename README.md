@@ -18,7 +18,7 @@ The first public dataset encoded with the *TheSu* XML stand-off annotation schem
 
 The dataset contains *TheSu* XML annotations of six sources discussing lead white: four ancient Greek texts (Plato, Theophrastus, Dioscorides, Plutarch) and two modern scientific studies (Caley & Richards 1956; Katsaros, Liritzis & Laskaris 2010). It also includes the Graphviz and Gephi graphs derived from those annotations and used as figures in the companion paper.
 
-All annotations are collected in [ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml), which uses stand-off references: `THESIS`, `SUPPORT`, `PROPOSITION`, `sequence`, and `phase` elements point to tokenised `xml:id`s inside the files under `[sources-segmented/](sources-segmented/)`, rather than containing the source text themselves.
+All annotations are collected in [ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml), which uses stand-off references: `THESIS`, `SUPPORT`, `PROPOSITION`, `sequence`, and `phase` elements point to tokenised `xml:id`s inside the files under [sources-segmented/](sources-segmented/), rather than containing the source text themselves.
 
 ## Sources
 
