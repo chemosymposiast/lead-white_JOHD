@@ -6,7 +6,7 @@ The first public dataset encoded with the *TheSu* XML stand-off annotation schem
 
 ## At a glance
 
-- **Creator:** Daniele Morrone — KU Leuven, Institute of Philosophy — `daniele.morrone@kuleuven.be`
+- **Creator:** Daniele Morrone — KU Leuven, Institute of Philosophy
 - **Languages:** English, Ancient Greek, Latin
 - **Formats:** XML, XSD, CSS, XHTML, DOT, SVG
 - **License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -18,7 +18,7 @@ The first public dataset encoded with the *TheSu* XML stand-off annotation schem
 
 The dataset contains *TheSu* XML annotations of six sources discussing lead white: four ancient Greek texts (Plato, Theophrastus, Dioscorides, Plutarch) and two modern scientific studies (Caley & Richards 1956; Katsaros, Liritzis & Laskaris 2010). It also includes the Graphviz and Gephi graphs derived from those annotations and used as figures in the companion paper.
 
-All annotations are collected in `[ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml)`, which uses stand-off references: `THESIS`, `SUPPORT`, `PROPOSITION`, `sequence`, and `phase` elements point to tokenised `xml:id`s inside the files under `[sources-segmented/](sources-segmented/)`, rather than containing the source text themselves.
+All annotations are collected in [ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml), which uses stand-off references: `THESIS`, `SUPPORT`, `PROPOSITION`, `sequence`, and `phase` elements point to tokenised `xml:id`s inside the files under `[sources-segmented/](sources-segmented/)`, rather than containing the source text themselves.
 
 ## Sources
 
@@ -50,7 +50,7 @@ All annotations are collected in `[ancient-lead-white_JOHD.xml](ancient-lead-whi
 
 ## Reproducing the visualisations
 
-The `.dot` and `.svg` files under `[visualisations/](visualisations/)` can be regenerated from the annotation using the companion tool **TheSu-to-DOT**:
+The `.dot` and `.svg` files under [visualisations/](visualisations/) can be regenerated from the annotation using the companion tool **TheSu-to-DOT**:
 
 - Repository: [https://github.com/chemosymposiast/TheSu-to-DOT](https://github.com/chemosymposiast/TheSu-to-DOT)
 - Archived release: [10.5281/zenodo.19613192](https://doi.org/10.5281/zenodo.19613192)
@@ -73,13 +73,9 @@ Morrone, D. (2025). Lead White in Context Across Greco-Roman Sources: The First 
 
 ## License
 
-- Full license text: `[LICENSE](LICENSE)` (CC BY-SA 4.0).
+- Full license text: [LICENSE](LICENSE) (CC BY-SA 4.0).
 - Annotations, schema, stylesheets, and derived visualisations in this repository: **CC BY-SA 4.0**.
 - Third-party source texts retain their original licences:
   - Perseus / PerseusDL *canonical-greekLit* and OpenGreekAndLatin *First1KGreek* editions — CC BY-SA 4.0.
   - Katsaros, Liritzis & Laskaris, 2010 — CC BY-NC-ND 4.0.
   - Caley & Richards, 1956 — copyrighted; the segmented XHTML is intentionally redacted, keeping only the boundary words of referenced spans for annotation verification (see section 3.1 of the paper).
-
-## Contact
-
-Daniele Morrone — KU Leuven, Institute of Philosophy — `daniele.morrone@kuleuven.be`
