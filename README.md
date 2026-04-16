@@ -44,7 +44,7 @@ All annotations are collected in [ancient-lead-white_JOHD.xml](ancient-lead-whit
 
 ## How to explore the annotations
 
-- Recommended: open `[ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml)` in [Oxygen XML Editor](https://www.oxygenxml.com/) in **Author mode**. The CSS in `[css/TheSu/](css/TheSu/)` is applied automatically via the `xml-stylesheet` processing instruction at the top of the file.
+- Recommended: open [ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml) in [Oxygen XML Editor](https://www.oxygenxml.com/) in **Author mode**. The CSS in [css/TheSu/](css/TheSu/) is applied automatically via the `xml-stylesheet` processing instruction at the top of the file.
 - Any standard XML editor or web browser also works for structural inspection.
 - For the meaning of elements, attributes, and tag vocabularies, see the schema documentation at [https://alchemeast.eu/thesu/ns/1.0/documentation/TheSu.html](https://alchemeast.eu/thesu/ns/1.0/documentation/TheSu.html).
 
