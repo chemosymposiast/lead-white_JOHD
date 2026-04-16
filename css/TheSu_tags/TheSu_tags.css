@@ -1,0 +1,164 @@
+/*
+ * ========================================================================
+ *       TheSu_tags.css: Custom Stylesheet for TheSu Taxonomy
+ * ========================================================================
+ *
+ *  NOTE: This stylesheet is for use ONLY within the Oxygen XML Editor.
+ *  It uses proprietary Oxygen CSS extensions (e.g., -oxy-*, oxy_xpath())
+ *  and is not fully compatible with web browsers.
+ *
+ *  This CSS provides styling for the tags authority document
+ *  (tags.xml), ensuring a clear and organized presentation of the
+ *  hierarchical tag structure.
+ *
+ */
+
+/* ========================================================================
+ *  Root <tags> Element
+ * ======================================================================== */
+tags{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-size: 0.85em;
+    line-height: 1.1;
+}
+
+/* ========================================================================
+ *  Section Headings (e.g., <sharedTags>, <supportFormTags>)
+ * ======================================================================== */
+sharedTags,
+supportFormTags,
+entailmentTags,
+oppositionTags,
+macroThemeTags,
+microThemeTags,
+keywordTags,
+timeUnitTags,
+objectDetailsTags{
+    display: block;
+    margin: 0.2em 0 0.1em 0;
+    padding: 0.1em 0.3em;
+    padding-top: 0.4em;
+    border-left: 2px solid #999;
+    color: #666;
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+}
+
+/* Section Titles */
+sharedTags:before{ content: "Shared"; font-weight: bold; }
+supportFormTags:before{ content: "Support Form"; font-weight: bold; }
+entailmentTags:before{ content: "Entailment"; font-weight: bold; }
+oppositionTags:before{ content: "Opposition"; font-weight: bold; }
+macroThemeTags:before{ content: "MacroThemes"; font-weight: bold; }
+microThemeTags:before{ content: "MicroThemes"; font-weight: bold; }
+keywordTags:before{ content: "Keywords"; font-weight: bold; }
+timeUnitTags:before{ content: "Time Units"; font-weight: bold; }
+objectDetailsTags:before{ content: "Object Details"; font-weight: bold; }
+
+
+/* ========================================================================
+ *  <tag> Element
+ * ======================================================================== */
+
+/* General styling for each tag entry */
+tags tag{
+    display: block;
+    margin: 0;
+    padding: 0.1em 0.1em 0.1em 0.5em;
+    border-bottom: 1px dotted #eee;
+    content: oxy_textfield(
+        edit, "@id", 
+        color, #555, 
+        columns, 14,
+        fontInherit, true
+    );
+}
+
+/* Bullet point before the tag ID */
+tags tag:before{
+    content: "•";
+    color: #999;
+    font-size: 0.8em;
+    padding-right: 0.3em;
+}
+
+/* Subtle row alternation for readability */
+tags tag:nth-child(even){
+    background-color: #fafafa;
+}
+
+
+/* ========================================================================
+ *  <definition> Element
+ * ======================================================================== */
+
+/* Styling for the definition text */
+tags definition{
+    display: block;
+    margin: 0 0 0 0.7em;
+    padding: 0;
+    color: #555;
+    font-size: 0.85em;
+    border-left: 1px solid #ccc;
+    padding-left: 0.3em;
+}
+
+/* Default prefix for definition */
+tags definition:before{
+    content: "≡ ";
+    color: #999;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+/* Show language attribute if present */
+tags definition[lang]:before{
+    content: "≡ " attr(lang) " ";
+    font-size: 0.8em;
+}
+
+/* Show source attribute if present */
+tags definition[source]:after{
+    content: " ⟨" attr(source) "⟩";
+    font-style: italic;
+    color: #999;
+    font-size: 0.8em;
+}
+
+
+/* ========================================================================
+ *  <parent> Element
+ * ======================================================================== */
+
+/* Styling for parent tag reference */
+tags parent{
+    display: inline-block;
+    margin: 0 0 0 0.7em;
+    font-size: 0.8em;
+    color: #777;
+    white-space: nowrap;
+    content: oxy_textfield(
+        edit, "@ref", 
+        color, #777, 
+        columns, 10,
+        fontInherit, true
+    );
+}
+
+/* Arrow symbol before parent reference */
+tags parent:before{
+    content: "→ ";
+    color: #999;
+    font-size: 0.9em;
+}
+
+/* Link to parent tag when 'ref' is specified */
+tags parent:not([ref=""]):after{
+    content: "↗";
+    color: #888;
+    font-size: 0.85em;
+    cursor: pointer;
+    -oxy-link: attr(ref);
+}

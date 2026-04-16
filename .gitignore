@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Exclude unlinked source pools from repository package
+sources-original/_unlinked/
+sources-segmented/_unlinked/
+
+# Local tooling and experiments (not part of the published dataset)
+visualisation-script/
+
+# Root: exported/binary artefacts (keep only JOHD XML below)
+/*.xpr
+/*.dot
+/*.pdf
+/*.png
+/*.svg
+
+# Root: only the JOHD dataset XML files are tracked
+/*.xml
+!ancient-lead-white_JOHD.xml
+!ancient-lead-white_JOHD_new-propositions.xml

@@ -1,0 +1,2931 @@
+/*
+ * ========================================================================
+ *         TheSu.css: Custom Stylesheet for the TheSu XML Schema
+ * ========================================================================
+ *
+ *  NOTE: This stylesheet is for use ONLY within the Oxygen XML Editor.
+ *  It uses proprietary Oxygen CSS extensions (e.g., -oxy-*, oxy_xpath())
+ *  and is not fully compatible with web browsers.
+ *
+ *  The CSS rules are organized to broadly match the structure of the
+ *  project's XML Schema (TheSu.xsd). In the schema, reusable components
+ *  are defined first as 'complexType' blocks, which are then used to
+ *  build the main elements. The stylesheet follows a similar logic,
+ *  placing general and component styles before the main, high-level
+ *  element styles.
+ *
+ */
+
+@namespace thesu url(http://alchemeast.eu/thesu/ns/1.0);
+@namespace xml url(http://www.w3.org/XML/1998/namespace);
+objectRef {
+    display: inline;
+    content: "ref: " oxy_textfield(
+edit, "@thesu:ref", columns, 12) " "
+    }
+objectRef[thesu|ref]:not([thesu|ref=""]) {
+    content: oxy_xpath('let $refId := if (starts-with(@thesu:ref, "#")) then substring-after(@thesu:ref, "#") else @thesu:ref, $targetObj := //*[@xml:id = $refId], $targetHasParaphrasis := count($targetObj/paraphrasis[string-length(normalize-space(.)) > 0]) > 0, $targetParaphrasisContent := string($targetObj/paraphrasis) return if ($targetHasParaphrasis) then $targetParaphrasisContent else (let $keywordSeq := $targetObj/keywordSubRef/@thesu:keywordsInSequence return if ($keywordSeq) then (let $pos := number($keywordSeq), $keywordRef := $targetObj/ancestor::*[self::THESIS or self::MISC or self::PROPOSITION][1]//thesu:keywordsGroup/keywordRef[position() = $pos] return if ($keywordRef/@thesu:namely != "") then (if (contains($keywordRef/@thesu:namely, "#")) then tokenize($keywordRef/@thesu:namely, "#")[last()] else $keywordRef/@thesu:namely) else if ($keywordRef/@thesu:ref) then (let $kwRefId := if (starts-with($keywordRef/@thesu:ref, "#")) then substring-after($keywordRef/@thesu:ref, "#") else $keywordRef/@thesu:ref, $keywordElem := //keyword[@xml:id = $kwRefId] return if ($keywordElem/@thesu:namely) then (if (contains($keywordElem/@thesu:namely, "#")) then tokenize($keywordElem/@thesu:namely, "#")[last()] else $keywordElem/@thesu:namely) else (if (contains($keywordRef/@thesu:ref, "#")) then tokenize($keywordRef/@thesu:ref, "#")[last()] else $keywordRef/@thesu:ref)) else "keyword not found") else (if ($targetObj//snippet) then string($targetObj//snippet) else "no keyword"))', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|ref);
+    color: darkOrange
+    }
+objectRef > paraphrasis:empty {
+    content: "Paraphrasis: ";
+    font-style: normal;
+    font-weight: normal;
+    color: #666
+    }
+objectRef[thesu|ref]:not([thesu|ref=""]) > paraphrasis:not(:empty) {
+    -oxy-link: oxy_xpath('let $ref := string(../@thesu:ref) return if (starts-with($ref, "#")) then $ref else concat("#", $ref)', evaluate, dynamic-once)
+    }
+changedObject objectRef {
+    color: darkOrange
+    }
+paraphrasis:before {
+    content: "Paraphrasis: ";
+    color: #545454;
+    font-style: normal;
+    font-size: medium;
+    font-weight: normal
+    }
+paraphrasis {
+    display: block;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 120%;
+    text-indent: -4%;
+    padding-left: 8%;
+    padding-top: 1%
+    }
+paraphrasis:empty {
+    content: "insert here";
+    display: block;
+    color: black;
+    text-indent: -4%;
+    padding-left: 8%;
+    padding-top: 1%
+    }
+paraphrasis proof {
+    display: block;
+    margin-bottom: 0.5rem
+    }
+objectQuantity, quantityAddition {
+    content: "quantity: " oxy_textfield(
+edit, "@thesu:number", columns, 4);
+    color: red;
+    font-size: small
+    }
+objectQuantity[thesu|number]:not([thesu|number=""]), quantityAddition[thesu|number]:not([thesu|number=""]) {
+    content: attr(thesu|number);
+    color: black;
+    font-size: medium
+    }
+objectQuantity[thesu|nonNumerical]:not([thesu|nonNumerical=""]), quantityAddition[thesu|nonNumerical]:not([thesu|nonNumerical=""]) {
+    content: attr(thesu|nonNumerical);
+    color: black;
+    font-style: italic
+    }
+objectQuantity:not([thesu|unspecifiedPlurality="true"]):after, quantityAddition:after {
+    content: " of ";
+    color: black;
+    font-style: normal
+    }
+objectQuantity[thesu|approximative="true"]:not([thesu|unspecifiedPlurality="true"]):after, quantityAddition[thesu|approximative="true"]:after {
+    content: " (ca.) of "
+    }
+objectQuantity[thesu|measurementUnit]:not([thesu|measurementUnit=""]):not([thesu|unspecifiedPlurality="true"]):after, quantityAddition[thesu|measurementUnit]:not([thesu|measurementUnit=""]):after {
+    content: " " attr(thesu|measurementUnit) " of ";
+    color: black
+    }
+objectQuantity[thesu|measurementUnit][thesu|approximative="true"]:not([thesu|measurementUnit=""]):not([thesu|unspecifiedPlurality="true"]):after, quantityAddition[thesu|measurementUnit][thesu|approximative="true"]:not([thesu|measurementUnit=""]):after {
+    content: " " attr(thesu|measurementUnit) " (ca.) of ";
+    color: black
+    }
+objectQuantity[thesu|unspecifiedPlurality="true"] {
+    content: "(multiple)";
+    color: black;
+    font-style: italic;
+    font-size: medium
+    }
+objectMeasuresGroup {
+    display: inline-block;
+    content: "measures: ";
+    color: darkOrange;
+    font-style: italic;
+    margin-left: 2%
+    }
+productOf:before {
+    content: "as produced in ";
+    color: darkOrange
+    }
+productOf {
+    display: block;
+    margin-left: 1%;
+    text-indent: -1%;
+    color: black;
+    content: "phase(s) " oxy_textfield(
+        edit, "@thesu:phasesRef", 
+        columns, 5)
+    }
+productOf > objectRefsGroup {
+    content: "from: ";
+    color: darkOrange
+    }
+productOf > fromMultipleObjects {
+    content: "from objects: ";
+    margin-left: 4%;
+    color: darkOrange
+    }
+productOf > fromMultipleObjects > objectRef {
+    display: list-item;
+    list-style-type: disc;
+    margin-left: 8%
+    }
+productOf objectRef {
+    display: list-item;
+    margin-left: 5%;
+    text-indent: -6%;
+    padding-left: 7%
+    }
+objectFunction {
+    content: "function?";
+    color: red;
+    font-style: italic
+    }
+objectFunction[thesu|ingredient="true"]:not([thesu|instrument="true"]) {
+    content: "as ingred.";
+    font-style: italic;
+    color: black
+    }
+objectFunction[thesu|ingredient="true"][thesu|instrument="true"] {
+    content: "as ingred. and instr.";
+    font-style: italic;
+    color: black
+    }
+objectFunction[thesu|instrument="true"]:not([thesu|ingredient="true"]) {
+    content: "as instr.";
+    font-style: italic;
+    color: black
+    }
+objectFunction[thesu|ingredient="false"][thesu|instrument="false"]:not([thesu|uncertain="true"]) {
+    content: "not used";
+    font-style: italic;
+    color: black
+    }
+changedObject objectFunction:before {
+    content: "(";
+    color: black;
+    font-style: normal
+    }
+elementRef[thesu|ref*=T]:before, employedElements > elementRef[thesu|ref*=T]:before, target[thesu|ref*=T]:before {
+    content: "(thesis) ";
+    font-weight: bold;
+    color: darkGreen
+    }
+elementRef[thesu|ref*=S]:before, employedElements > elementRef[thesu|ref*=S]:before, target[thesu|ref*=S]:before {
+    content: "(support) ";
+    font-weight: bold;
+    color: darkBlue
+    }
+elementRef[thesu|ref*=M]:before, employedElements > elementRef[thesu|ref*=M]:before, target[thesu|ref*=M]:before {
+    content: "(misc) ";
+    font-weight: bold;
+    color: SaddleBrown
+    }
+elementRef[thesu|ref=""]:before, elementRef:not([thesu|ref]):before {
+    content: "element ";
+    font-style: normal;
+    color: black
+    }
+elementRef[thesu|ref*=K]:before {
+    content: "(keyword) ";
+    font-weight: bold;
+    color: SaddleBrown
+    }
+elementRef[thesu|ref*=L]:before {
+    content: "(lectio) ";
+    font-weight: bold;
+    color: SaddleBrown
+    }
+elementRef[thesu|ref=""], elementRef:not([thesu|ref]) {
+    font-style: italic;
+    color: red;
+    content: "insert ID " oxy_textfield(
+edit, "@thesu:ref", columns, 12);
+    font-size: small
+    }
+elementRef[thesu|ref]:not([thesu|ref=""]) {
+    content: "(link)";
+    font-size: small;
+    -oxy-link: attr(thesu|ref)
+    }
+keywordTagRef[thesu|ref=""], keywordTagRef:not([thesu|ref]) {
+    display: block;
+    content: "namely " oxy_textfield(
+edit, "@thesu:ref", columns, 10) " ";
+    color: red;
+    font-style: italic;
+    font-weight: bold
+    }
+microThemesGroup > microTheme[thesu|microThemeTag=""] {
+    display: inline;
+    content: "insert " oxy_textfield(
+edit, "@thesu:microThemeTag", columns, 10);
+    color: #7256ff;
+    font-style: italic
+    }
+microThemesGroup > microTheme:not([thesu|microThemeTag=""]) {
+    display: inline;
+    content: "" oxy_xpath('if (contains(@thesu:microThemeTag, "#")) then tokenize(@thesu:microThemeTag, "#")[last()] else @thesu:microThemeTag', evaluate, dynamic-once) "";
+    -oxy-link: attr(thesu|microThemeTag);
+    color: #7256ff
+    }
+microThemesGroup > microTheme > conscious[thesu|value="true"] {
+    content: "(consc.) ";
+    font-size: small
+    }
+microThemesGroup > microTheme > conscious[thesu|value="false"] {
+    content: "(unconsc.) ";
+    font-size: small
+    }
+keywordRef[thesu|namely=""], keywordRef:not([thesu|namely]) {
+    display: inline;
+    content: "" oxy_xpath('if (starts-with(@thesu:ref, "#")) then (let $refId := substring-after(@thesu:ref, "#"), $keywordElem := //keyword[@xml:id = $refId] return if ($keywordElem/@thesu:namely and contains($keywordElem/@thesu:namely, "#")) then tokenize($keywordElem/@thesu:namely, "#")[last()] else @thesu:ref) else @thesu:ref', evaluate, dynamic-once) "";
+    color: darkOrange;
+    font-style: italic
+    }
+keywordRef[thesu|namely]:not([thesu|namely=""]) {
+    display: inline;
+    content: "" attr(thesu|namely) "";
+    color: darkOrange;
+    font-style: italic
+    }
+keywordRef[thesu|ref]:not([thesu|ref=""]), keywordTagRef[thesu|ref]:not([thesu|ref=""]) {
+    -oxy-link: attr(thesu|ref)
+    }
+keywordRef[thesu|ref=""], keywordRef:not([thesu|ref]) {
+    content: "ref " oxy_textfield(
+edit, "@thesu:ref", columns, 12);
+    color: red;
+    font-style: italic
+    }
+keywordRef[thesu|wordsInParaphrasis]:not([thesu|wordsInParaphrasis=""]):after {
+    display: inline;
+    content: " (" attr(thesu|focus) ") (in paraphr. " attr(thesu|wordsInParaphrasis) "); ";
+    color: darkOrange;
+    font-style: normal
+    }
+macroThemesGroup{
+    content: "macroTheme: ";
+}
+macroThemesGroup > macroTheme > conscious:not([thesu|value]), microThemesGroup > microTheme > conscious:not([thesu|value]) {
+    content: "(-) ";
+    font-size: small;
+    font-style: normal
+    }
+macroThemesGroup > macroTheme > conscious[thesu|value="true"] {
+    content: "(consc.) ";
+    font-size: small;
+    font-style: normal
+    }
+macroThemesGroup > macroTheme > conscious[thesu|value="false"] {
+    content: "(unconsc.) ";
+    font-size: small;
+    font-style: normal
+    }
+macroThemesGroup > macroTheme > proof, microThemesGroup > microTheme > proof {
+    font-size: small
+    }
+historyType[thesu|historyTypeTag]:not([thesu|historyTypeTag=""]) {
+    content: oxy_combobox(
+edit, '@thesu:historyTypeTag', 
+editable, false, 
+values, ' , #writ, #said, #thou, #acti, #desc, #cplx, #etio, #natu, #cult, #natcu, #lang, #habi', 
+labels, '(null), writing, saying, thought, action, description, complex, etiology, nature, culture, nature + culture, language, habit'
+ columns, 8
+ color, darkRed);
+    color: darkRed;
+    font-size: x-small;
+    -oxy-link: attr(thesu|historyTypeTag)
+    }
+historyType[thesu|historyTypeTag=""], historyType:not([thesu|historyTypeTag]) {
+    content: "type " oxy_combobox(
+edit, '@thesu:historyTypeTag', 
+editable, false, 
+values, ' , #writ, #said, #thou, #acti, #desc, #cplx, #etio, #natu, #cult, #natcu, #lang, #habi', 
+labels, '(null), writing, saying, thought, action, description, complex, etiology, nature, culture, nature + culture, language, habit'
+ columns, 8
+ color, darkRed);
+    font-style: italic;
+    font-size: x-small;
+    color: darkRed
+    }
+historyTime[thesu|historyTimeTag]:not([thesu|historyTimeTag=""]) {
+    content: oxy_combobox(
+edit, '@thesu:historyTimeTag', 
+editable, false, 
+values, ' , #pres, #past, #futu, #both, #ever', 
+labels, '(null), present, past, future, past and present, always'
+ columns, 8
+ color, darkRed)
+    }
+historyTime[thesu|historyTimeTag=""], historyTime:not([thesu|historyTimeTag]) {
+    content: "when " oxy_combobox(
+edit, '@thesu:historyTimeTag', 
+editable, false, 
+values, ' , #pres, #past, #futu, #both, #ever', 
+labels, '(null), present, past, future, past and present, always'
+ columns, 8
+ color, darkRed);
+    font-style: italic;
+    font-size: x-small;
+    color: red
+    }
+historyOnPersons > name:not([thesu|name=""]) {
+    content: "[" attr(thesu|name) "]";
+    color: darkRed;
+    -oxy-link: attr(thesu|name)
+    }
+historyOnPersons > name[thesu|name=""] {
+    content: "person " oxy_textfield(
+edit, "@thesu:name", columns, 10);
+    font-style: italic;
+    font-size: small;
+    color: red
+    }
+historyDetails:before, metatextDetails:before {
+    display: inline;
+    content: "("
+    }
+historyDetails, metatextDetails {
+    display: inline;
+    list-style: none;
+    color: black;
+    font-size: medium;
+    font-weight: normal
+    }
+historyDetails:after, metatextDetails:after {
+    display: inline;
+    content: ")"
+    }
+metatextDetails > txtSpeaker:not([thesu|ref=""]) {
+    content: "" attr(thesu|ref) "";
+    color: #005ab5;
+    -oxy-link: attr(thesu|ref)
+    }
+metatextDetails > quotedSpeaker > speaker [thesu|ref=""] {
+    content: "txtSpk " oxy_textfield(
+edit, "@thesu:ref", columns, 5);
+    font-style: italic;
+    font-size: small
+    }
+macroTheme[thesu|macroThemeTag=""], macroTheme:not([thesu|macroThemeTag]) {
+    content: "insert " oxy_combobox(
+edit, '@thesu:macroThemeTag', 
+editable, false, 
+values, ' , #physical, #historical, #physical-historical, #axiological, #methodological, #metatextual', 
+labels, '(null), physical, historical, physical+historical, axiological, methodological, metatextual'
+ columns, 8
+ color, #c64c00);
+    color: #99000f;
+    font-style: italic
+    }
+macroTheme {
+    display: inline;
+    content: oxy_combobox(
+edit, '@thesu:macroThemeTag', 
+editable, false, 
+values, ' , #physical, #historical, #physical-historical, #axiological, #methodological, #metatextual', 
+labels, '(null), physical, historical, physical+historical, axiological, methodological, metatextual'
+ columns, 12, 
+color, #c64c00)
+    }
+macroTheme[thesu|macroThemeTag]:not([thesu|macroThemeTag=""]) {
+    display: inline;
+    content: oxy_xpath('if (contains(@thesu:macroThemeTag, "#")) then tokenize(@thesu:macroThemeTag, "#")[last()] else @thesu:macroThemeTag', evaluate, dynamic-once);
+    color: #c64c00;
+    -oxy-link: attr(thesu|macroThemeTag)
+    }
+microThemesGroup{
+    content: "microThemes: ";
+    }
+microTheme:not([thesu|microThemeTag=""]):after, microThemesGroup > microTheme:not([thesu|microThemeTag=""]):after {
+    display: inline;
+    content: " (" attr(thesu|focus) "); ";
+    color: #7256ff
+    }
+microTheme[thesu|microThemeTag=""] {
+    display: inline;
+    content: "insert " oxy_textfield(
+edit, "@thesu:microThemeTag", columns, 10);
+    color: #7256ff;
+    font-style: italic
+    }
+microTheme:not([thesu|microThemeTag=""]) {
+    display: inline;
+    content: "" attr(thesu|microThemeTag) "";
+    -oxy-link: attr(thesu|microThemeTag);
+    color: #7256ff
+    }
+microTheme[thesu|conscious="true"]:before {
+    content: "consc. ";
+    font-size: smaller
+    }
+microTheme[thesu|conscious="false"]:before {
+    content: "unconsc. ";
+    font-size: smaller
+    }
+microTheme > proof {
+    font-size: smaller
+    }
+phase {
+    display: list-item;
+    list-style-type: decimal;
+    margin-left: 4%;
+    text-indent: -1%
+    }
+phase:before {
+    display: inline;
+    content: "  phase: ";
+    font-weight: bold
+    }
+phase > themedFreeText > freeText {
+    display: inline;
+    content: "";
+    padding-left: 0
+    }
+phase > elementRef, phase > textRef {
+    display: block;
+    text-indent: -4%;
+    padding-left: 7.5%
+    }
+phase > snippet, productOf > objectRefsGroup > objectRef, productOf > objectRefsGroup > objectRef[thesu|ref]:not([thesu|ref=""]), removedObjects > objectRefsGroup > objectRef, removedObjects > objectRefsGroup > objectRef[thesu|ref]:not([thesu|ref=""]) {
+    color: black
+    }
+phase:has(> containsPurpose[thesu|value="true"]) {
+    border-left: 4px solid #3e8e41;
+    padding-left: 1%;
+    background-color: rgba(62, 142, 65, 0.08);
+    border-radius: 4px;
+    margin-bottom: 0.6rem
+    }
+phase:has(> containsPurpose[thesu|value="true"]):before {
+    content: "  purpose phase: ";
+    font-weight: bold;
+    color: #3e8e41;
+    }
+objectMeasure {
+    display: inline;
+    content: "";
+    color: black;
+    margin-right: 0.5rem
+    }
+objectMeasure[thesu|number]:not([thesu|number=""]) {
+    content: attr(thesu|number)
+    }
+objectMeasure[thesu|nonNumerical]:not([thesu|nonNumerical=""]) {
+    content: attr(thesu|nonNumerical);
+    font-style: italic
+    }
+objectMeasure[thesu|measurementUnit]:not([thesu|measurementUnit=""]):after {
+    content: " " oxy_xpath('if (contains(@thesu:measurementUnit, "#")) then tokenize(@thesu:measurementUnit, "#")[last()] else @thesu:measurementUnit', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|measurementUnit);
+    color: #2a6099
+    }
+objectMeasure[thesu|measurementType]:not([thesu|measurementType=""]):before {
+    content: "(" oxy_xpath('if (contains(@thesu:measurementType, "#")) then tokenize(@thesu:measurementType, "#")[last()] else @thesu:measurementType', evaluate, dynamic-once) ") ";
+    -oxy-link: attr(thesu|measurementType);
+    color: darkOrange;
+    font-size: small
+    }
+objectMeasure[thesu|where]:not([thesu|where=""]):after {
+    content: " [" attr(thesu|where) "]";
+    font-size: small;
+    color: #666
+    }
+objectMeasure[thesu|uncertain="true"]:before {
+    content: "(?) ";
+    font-style: italic;
+    font-size: small;
+    color: #666
+    }
+objectMeasure > relativeTo {
+    content: " rel. to: ";
+    color: darkOrange;
+    font-style: italic;
+    font-size: small
+    }
+objectMeasure > relativeTo > objectRef {
+    display: inline;
+    margin: 0;
+    padding: 0
+    }
+object {
+    display: list-item;
+    list-style-type: hyphen;
+    text-indent: -4%;
+    padding-left: 7%;
+    font-style: normal;
+    font-size: medium;
+    content: "object ( ";
+    color: darkOrange
+    }
+object:after {
+    content: " )"
+    }
+object > microThemedTextRef > textRef > snippet, object > snippet, object textRef > snippet {
+    font-style: italic
+    }
+object themedFreeText, object freeText {
+    display: inline;
+    padding-left: 0
+    }
+changesInObjects object:after, locusRef, objectRef[thesu|ref]:has(> paraphrasis:not(:empty)), objectRef[thesu|ref]:has(> paraphrasis:not(:empty)), object:has(> paraphrasis:not(:empty)) > objectRef[thesu|ref], repeatedPhases removedObjects > objectRefsGroup:before {
+    content: ""
+    }
+object > paraphrasis:empty {
+    display: inline-block;
+    content: "Paraphrasis: ";
+    font-weight: normal;
+    color: #666
+    }
+object > paraphrasis:empty:before, objectRef > paraphrasis:empty:before {
+    content: "";
+    }
+object > paraphrasis, objectRef > paraphrasis {
+    font-style: italic;
+    font-weight: normal;
+    padding-left: 0.5rem
+    }
+object > paraphrasis:before, objectRef > paraphrasis:before {
+    content: "(";
+    color: inherit;
+    font-style: inherit;
+    font-weight: inherit
+    }
+object > paraphrasis:after, objectRef > paraphrasis:after {
+    content: ")";
+    color: inherit;
+    font-style: inherit;
+    font-weight: inherit
+    }
+object:has(> objectRef[thesu|ref]:not([thesu|ref = ""])) > paraphrasis:not(:empty) {
+    -oxy-link: oxy_xpath('let $ref := string(../objectRef/@thesu:ref) return if (starts-with($ref, "#")) then $ref else concat("#", $ref)', evaluate, dynamic-once)
+    }
+changedObjects object {
+    margin-left: 5%;
+    text-indent: -6%;
+    padding-left: 7%;
+    content: "for object... "
+    }
+follows {
+    display: block;
+    content: "follows: ";
+    color: #545454;
+    text-indent: -4%;
+    padding-left: 7.5%;
+    text-decoration: none;
+    font-style: italic
+    }
+phaseTemporality:before {
+    content: "temporal specification:"
+    }
+phaseTemporality {
+    display: block;
+    margin: 0.5rem 0 0.5rem 0;
+    padding-left: 1rem;
+    background-color: rgba(42, 96, 153, 0.05);
+    border: 1px solid rgba(42, 96, 153, 0.1);
+    border-radius: 3px;
+    color: #2a6099
+    }
+changesInTemporality > phaseTemporality:before {
+    display: inline;
+    content: "changes: "
+    }
+changesInTemporality > phaseTemporality {
+    display: inline;
+    margin-left: 0;
+    content: "phases " oxy_textfield(
+edit, "@thesu:phasesSubRange", columns, 4) " of groups " oxy_textfield(
+edit, "@thesu:phasesGroups", columns, 4) " of sequence " oxy_textfield(
+edit, "@thesu:sequenceRef", columns, 14) "... "
+    }
+objectsGroup {
+    display: block;
+    content: "objects: ";
+    text-indent: -4%;
+    padding-left: 7%;
+    color: #545454;
+    text-decoration: none;
+    font-style: italic
+    }
+containsPurpose {
+    display: block;
+    margin-top: 0.3rem;
+    margin-left: 2%;
+    color: #3e8e41;
+    font-style: italic
+    }
+containsPurpose[thesu|value="true"]:not([thesu|implicit="true"]):not([thesu|uncertain="true"]):before {
+    content: "⭐ Recipe Purpose";
+    font-weight: bold;
+    font-style: normal
+    }
+containsPurpose[thesu|value="true"][thesu|implicit="true"]:not([thesu|uncertain="true"]):before {
+    content: "⭐ Implied Recipe Purpose";
+    font-weight: bold;
+    font-style: normal;
+    color: #599b5c;
+    }
+containsPurpose[thesu|value="true"][thesu|uncertain="true"]:not([thesu|implicit="true"]):before {
+    content: "⭐ Possible Recipe Purpose";
+    font-weight: bold;
+    font-style: normal;
+    color: #599b5c;
+    }
+containsPurpose[thesu|value="true"][thesu|implicit="true"][thesu|uncertain="true"]:before {
+    content: "⭐ Implied Possible Recipe Purpose";
+    font-weight: bold;
+    font-style: normal;
+    color: #599b5c;
+    }
+containsPurpose > proof, containsPurpose > scholarPro, containsPurpose > scholarContra, containsPurpose > externalRef {
+    display: inline-block;
+    margin-left: 1rem;
+    font-size: small
+    }
+containsPurpose:not([thesu|value]) {
+    content: "Purpose: " oxy_combobox(
+        edit, "@thesu:value",
+        editable, true,
+        values, "true, false"
+    ) " Implicit: " oxy_combobox(
+        edit, "@thesu:implicit",
+        editable, true,
+        values, "true, false"
+    ) " Uncertain: " oxy_combobox(
+        edit, "@thesu:uncertain",
+        editable, true,
+        values, "true, false"
+    );
+    font-style: normal;
+    color: #666
+    }
+newPhases paraphrasis, repeatedPhases paraphrasis, etiology paraphrasis, analogy paraphrasis {
+    font-size: medium
+    }
+repeatedPhases:before {
+    content: "  repeats ";
+    font-weight: bold
+    }
+repeatedPhases {
+    display: list-item;
+    list-style-type: decimal;
+    margin-left: 4%;
+    text-indent: -1%;
+    font-style: normal;
+    font-size: medium;
+    content: "phases " oxy_textfield(
+edit, "@thesu:phasesRef", columns, 10) " of sequence " oxy_textfield(
+edit, "@thesu:sequenceRef", columns, 17);
+    color: black
+    }
+repeatedPhases removedObjects {
+    display: block;
+    margin-left: 1rem;
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem
+    }
+repeatedPhases removedObjects:before {
+    content: "⊖ from phase " attr(thesu|phasesRef) ":";
+    color: #8b0000;
+    font-weight: bold;
+    font-size: small
+    }
+repeatedPhases removedObjects > objectRefsGroup {
+    color: #8b0000
+    }
+repeatedPhases removedObjects > objectRefsGroup > objectRef {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: darkOrange;
+    -oxy-link: attr(thesu|ref)
+    }
+repeatedPhases removedObjectsGroup {
+    background-color: #fff0f0;
+    border-radius: 3px;
+    padding: 0.3rem
+    }
+repeatedPhases:has(> containsPurpose[thesu|value="true"]) {
+    border-left: 4px solid #3e8e41;
+    padding-left: 1%;
+    background-color: rgba(62, 142, 65, 0.08);
+    border-radius: 4px;
+    margin-bottom: 0.6rem
+    }
+repeatedPhases:has(> containsPurpose[thesu|value="true"]):before {
+    content: "purpose in repeated phases: ";
+    font-weight: bold;
+    color: #3e8e41
+    }
+repeatedPhases > changesInObjectsGroup {
+    display: block;
+    margin-left: 3rem;
+    padding-left: 1rem;
+    border-left: 2px dotted #6b8e23;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem
+    }
+repeatedPhases > changesInObjectsGroup:before {
+    content: "Changes in objects:";
+    font-weight: bold;
+    color: #6b8e23;
+    font-size: small
+    }
+repeatedPhases addedObjectsGroup {
+    display: block;
+    margin-left: 1rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #228b22;
+    margin-top: 0.3rem
+    }
+repeatedPhases addedObjectsGroup:before {
+    content: "Added objects:";
+    font-style: italic;
+    color: #228b22;
+    font-size: small
+    }
+repeatedPhases addedObject {
+    display: block;
+    margin-left: 1rem;
+    padding: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    background-color: #e6ffe6;
+    border-radius: 3px
+    }
+repeatedPhases addedObject:before {
+    content: "⊕ phase " attr(thesu|phasesRef) ": ";
+    color: #228b22;
+    font-weight: bold;
+    font-size: small
+    }
+repeatedPhases removedObjectsGroup:before {
+    content: "Removed objects:";
+    font-style: italic;
+    color: #8b0000;
+    font-size: small
+    }
+repeatedPhases objectRef[thesu|ref]:not([thesu|ref=""]) {
+    display: inline;
+    content: oxy_xpath('let $refId := if (starts-with(@thesu:ref, "#")) then substring-after(@thesu:ref, "#") else @thesu:ref, $targetObj := //*[@xml:id = $refId], $targetHasParaphrasis := count($targetObj/paraphrasis[string-length(normalize-space(.)) > 0]) > 0, $targetParaphrasisContent := string($targetObj/paraphrasis) return if ($targetHasParaphrasis) then $targetParaphrasisContent else "referenced object"', evaluate, dynamic-once)
+    }
+phaseStart {
+    display: block;
+    margin: 0.2rem 0;
+    padding-left: 0.5rem;
+    border-left: 3px solid rgba(42, 96, 153, 0.3)
+    }
+phaseStart:before {
+    content: "start: ";
+    font-weight: bold;
+    color: #2a6099
+    }
+phaseStart[thesu|momentInTime]:not([thesu|momentInTime=""]) {
+    content: attr(thesu|momentInTime);
+    color: #2a6099;
+    font-style: italic
+    }
+phaseStart[thesu|nonNumerical]:not([thesu|nonNumerical=""]) {
+    content: attr(thesu|nonNumerical);
+    color: #2a6099;
+    font-style: italic
+    }
+phaseStart[thesu|timeUnit]:not([thesu|timeUnit=""]):after {
+    content: " " oxy_xpath('if (contains(@thesu:timeUnit, "#")) then substring-after(@thesu:timeUnit, "#") else @thesu:timeUnit', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|timeUnit);
+    color: #2a6099;
+    font-style: italic
+    }
+phaseStart[thesu|approximative="true"]:after {
+    content: " (ca.)";
+    color: #2a6099;
+    font-style: italic
+    }
+phaseStart > relativeTo {
+    margin: 0.2rem 0 0.2rem 1rem;
+    border-left: 2px dotted rgba(42, 96, 153, 0.2)
+    }
+phaseStart > relativeTo:before {
+    content: "relative to: ";
+    color: #2a6099;
+    font-size: 0.9rem
+    }
+phaseStart > relativeTo > fullyThemedFreeText, phaseStart > relativeTo > fullyThemedTextRef {
+    display: inline;
+    margin-left: 0.5rem
+    }
+phaseStart > relativeTo > fullyThemedTextRef:before {
+    content: "ref: ";
+    color: #666;
+    font-size: 0.9rem
+    }
+phaseStart > relativeTo > fullyThemedFreeText:before {
+    content: "text: ";
+    color: #666;
+    font-size: 0.9rem
+    }
+phaseStart > relativeTo > fullyThemedFreeText > freeText {
+    font-style: italic;
+    color: #333
+    }
+phaseStart textRef {
+    color: #333;
+    display: inline
+    }
+phaseStart segment {
+    color: #333;
+    display: inline;
+    text-decoration: underline;
+    -oxy-link: attr(thesu|from)
+    }
+phaseStart snippet {
+    font-style: italic;
+    color: #333;
+    display: inline;
+    background-color: rgba(42, 96, 153, 0.1);
+    padding: 0 0.3rem;
+    border-radius: 2px
+    }
+phaseStart > proof {
+    margin: 0.2rem 0 0.2rem 1rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-left: 2px solid #d0d0d0
+    }
+phaseStart[thesu|durationRange]:not([thesu|durationRange=""]) {
+    content: attr(thesu|durationRange);
+    color: #2a6099;
+    font-style: italic
+    }
+phaseStart[thesu|timingRelation][thesu|durationRange]:not([thesu|timingRelation=""]):not([thesu|durationRange=""]) {
+    content: attr(thesu|timingRelation) " " attr(thesu|durationRange);
+    color: #2a6099;
+    font-style: italic
+    }
+phaseStart[thesu|durationRange^="-"] {
+    content: "maximum " oxy_xpath('substring(@thesu:durationRange, 2)', evaluate, dynamic-once)
+    }
+phaseStart[thesu|durationRange$="-"] {
+    content: "minimum " oxy_xpath('substring(@thesu:durationRange, 1, string-length(@thesu:durationRange)-1)', evaluate, dynamic-once)
+    }
+phaseStart[thesu|durationRange*="-"]:not([thesu|durationRange^="-"]):not([thesu|durationRange$="-"]) {
+    content: "between " oxy_xpath('tokenize(@thesu:durationRange, "-")[1]', evaluate, dynamic-once) " and " oxy_xpath('tokenize(@thesu:durationRange, "-")[2]', evaluate, dynamic-once)
+    }
+phaseStart[thesu|durationRange][thesu|timeUnit]:not([thesu|timeUnit=""]):after {
+    content: " " oxy_xpath('if (contains(@thesu:timeUnit, "#")) then substring-after(@thesu:timeUnit, "#") else @thesu:timeUnit', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|timeUnit);
+    color: #2a6099;
+    font-style: italic
+    }
+phaseDuration:not([thesu|durationRange]), durationAddition:not([thesu|durationRange]) {
+    content: "lasts " oxy_textfield(edit, "@thesu:durationRange", columns, 6)
+    }
+phaseDuration[thesu|durationRange^="-"], durationAddition[thesu|durationRange^="-"] {
+    content: "lasts maximum " oxy_xpath('substring(@thesu:durationRange, 2)', evaluate, dynamic-once)
+    }
+phaseDuration[thesu|durationRange$="-"], durationAddition[thesu|durationRange$="-"] {
+    content: "lasts minimum " oxy_xpath('substring(@thesu:durationRange, 1, string-length(@thesu:durationRange)-1)', evaluate, dynamic-once)
+    }
+phaseDuration[thesu|durationRange*="-"]:not([thesu|durationRange^="-"]):not([thesu|durationRange$="-"]), durationAddition[thesu|durationRange*="-"]:not([thesu|durationRange^="-"]):not([thesu|durationRange$="-"]) {
+    content: "lasts " oxy_xpath('tokenize(@thesu:durationRange, "-")[1]', evaluate, dynamic-once) " to " oxy_xpath('tokenize(@thesu:durationRange, "-")[2]', evaluate, dynamic-once)
+    }
+phaseDuration[thesu|durationRange]:not([thesu|durationRange*="-"]), durationAddition[thesu|durationRange]:not([thesu|durationRange*="-"]) {
+    content: "lasts " oxy_xpath('@thesu:durationRange', evaluate, dynamic-once)
+    }
+phaseDuration[thesu|timeUnit]:not([thesu|timeUnit=""]):after, durationAddition[thesu|timeUnit]:not([thesu|timeUnit=""]):after {
+    display: block;
+    content: oxy_xpath('if (contains(@thesu:timeUnit, "#")) then tokenize(@thesu:timeUnit, "#")[last()] else @thesu:timeUnit', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|timeUnit);
+    color: #2a6099;
+    margin-left: 2rem;
+    padding-left: 0.5rem;
+    border-left: 2px solid #d0d0d0;
+    margin-top: 0.1rem;
+    padding-top: 0;
+    font-style: italic;
+    position: relative;
+    left: -1rem;
+    }
+phaseDuration:not([thesu|timeUnit=""]):not([thesu|timeUnit]):after, durationAddition:not([thesu|timeUnit=""]):not([thesu|timeUnit]):after {
+    display: block;
+    content: oxy_textfield(edit, "@thesu:timeUnit", columns, 6);
+    margin-left: 1rem;
+    padding-left: 0;
+    border-left: 2px solid #d0d0d0;
+    margin-top: 0.1rem;
+    padding-top: 0
+    }
+phaseDuration > * + *, phaseDuration > relativeEnd, phaseRepetition > relativeEnd {
+    margin-top: 5px
+    }
+phaseDuration > * + *, durationAddition > * + * {
+    margin-top: 0
+    }
+phaseDuration > relativeEnd:before, phaseRepetition > relativeEnd:before {
+    content: "relative end: ";
+    font-weight: bold;
+    color: #6495ED
+    }
+phaseDuration > relativeEnd > fullyThemedTextRef, phaseDuration textRef, phaseRepetition > relativeEnd > fullyThemedFreeText, phaseRepetition > relativeEnd > fullyThemedTextRef, phaseRepetition > repetitionsAddition > relativeEnd > fullyThemedFreeText, phaseRepetition > repetitionsAddition > relativeEnd > fullyThemedTextRef, phaseRepetition textRef {
+    display: block;
+    margin-left: 1rem
+    }
+phaseDuration > relativeEnd > fullyThemedTextRef:before {
+    content: "specified in text... ";
+    font-style: italic;
+    color: #4682B4
+    }
+phaseDuration segment, phaseRepetition segment {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 2px 4px;
+    background-color: #F0F8FF;
+    border-radius: 3px
+    }
+phaseDuration snippet, phaseRepetition snippet {
+    display: block;
+    margin-left: 1rem;
+    margin-top: 3px;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    color: #191970
+    }
+changesInTemporality phaseDuration {
+    content: "last " oxy_textfield(
+edit, "@thesu:durationRange", columns, 4)
+    }
+phaseRepetition {
+    content: "is repeated " oxy_textfield(
+edit, "@thesu:repetitionsRange", columns, 4) " times.";
+    display: block;
+    margin-left: 1rem
+    }
+phaseRepetition > repetitionsAddition {
+    margin-left: 2rem;
+    margin-top: 5px;
+    border-left: 2px solid #8A2BE2;
+    padding-left: 5px
+    }
+phaseRepetition > repetitionsAddition:before {
+    content: "additional repetition: ";
+    font-weight: bold;
+    color: #8A2BE2
+    }
+phaseRepetition > repetitionsAddition > relativeEnd {
+    display: block;
+    margin-left: 1rem;
+    margin-top: 5px;
+    border-left: 2px solid #9370DB;
+    padding-left: 5px
+    }
+phaseRepetition > repetitionsAddition > relativeEnd:before {
+    content: "relative end: ";
+    font-weight: bold;
+    color: #9370DB
+    }
+phaseRepetition > repetitionsAddition > relativeEnd > fullyThemedTextRef:before {
+    content: "reference: ";
+    font-style: italic;
+    color: #9370DB
+    }
+phaseRepetition > repetitionsAddition > relativeEnd > fullyThemedFreeText:before {
+    content: "custom text: ";
+    font-style: italic;
+    color: #9370DB
+    }
+phaseRepetition > relativeEnd > fullyThemedFreeText > freeText, phaseRepetition > repetitionsAddition > relativeEnd > fullyThemedFreeText > freeText {
+    display: block;
+    margin-left: 1rem;
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    color: #191970
+    }
+phaseRepetition > relativeEnd > fullyThemedTextRef:before {
+    content: "reference: ";
+    font-style: italic;
+    color: #4682B4
+    }
+changesInTemporality phaseRepetition {
+    content: "are repeated " oxy_textfield(
+edit, "@thesu:repetitionsRange", columns, 4) " times."
+    }
+phaseRepetition > relativeEnd > fullyThemedFreeText:before {
+    content: "custom text: ";
+    font-style: italic;
+    color: #4682B4
+    }
+productType:before {
+    content: "type of product: ";
+    color: darkOrange
+    }
+productType {
+    display: block;
+    content: "transf. " oxy_combobox(
+            edit, '@thesu:transformation', 
+            editable, false, 
+            values, 'true, false', 
+            labels, 'y, n',
+            columns, 4) ", comb. " oxy_combobox(
+            edit, '@thesu:combination', 
+            editable, false, 
+            values, 'true, false', 
+            labels, 'y, n',
+            columns, 4) ", mixt. " oxy_combobox(
+            edit, '@thesu:mixture', 
+            editable, false, 
+            values, 'true, false', 
+            labels, 'y, n',
+            columns, 4) ", port. " oxy_combobox(
+            edit, '@thesu:portion', 
+            editable, false, 
+            values, 'true, false', 
+            labels, 'y, n',
+            columns, 4)
+    }
+phasesGroup {
+    content: "   phases group:";
+    display: list-item;
+    list-style-type: lower-roman;
+    margin-left: 6%;
+    text-indent: -3%;
+    font-size: medium;
+    font-weight: bold
+    }
+phasesGroup * {
+    font-weight: normal
+    }
+sequencesGroup{
+    content: "sequences: ";
+}
+sequence:before {
+    display: inline;
+    content: "  Sequence";
+    color: DarkSlateBlue;
+    font-weight: bold;
+    font-size: medium
+    }
+sequence {
+    display: list-item;
+    margin-left: 4%;
+    text-indent: -1%;
+    display: list-item;
+    content: " |  id " oxy_textfield(
+edit, "@xml:id", columns, 16);
+    font-size: small
+    }
+sequence > matchingPropositionSequence:first-of-type:before {
+    content: "Matched by:";
+    display: block;
+    font-weight: bold;
+    color: purple;
+    margin: 0.5rem 0
+    }
+speaker:not([thesu|name=""]) {
+    content: oxy_xpath('if (contains(@thesu:name, "#")) then tokenize(@thesu:name, "#")[last()] else @thesu:name', evaluate, dynamic-once) " (" attr(thesu|rank) ") "
+    }
+speaker[thesu|rank="1"]:not([thesu|name=""]) {
+    font-weight: bold
+    }
+speaker:not([thesu|name=""]):after {
+    -oxy-link: attr(thesu|name);
+    content: "(link); ";
+    color: black;
+    font-weight: normal
+    }
+speaker:after {
+    display: inline;
+    content: " (" attr(thesu|rank) "); ";
+    color: black
+    }
+speaker[thesu|name=""] {
+    content: "insert " oxy_textfield(
+edit, "@thesu:name", columns, 15);
+    color: red;
+    display: list-item;
+    list-style-type: circle;
+    padding-left: 4%
+    }
+AEsystem, propositions {
+    border-style: groove;
+    border-width: thin;
+    padding: 1%;
+    content: "Argumentative system";
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+    background-color: gray;
+    padding-bottom: 1%;
+    margin: 1%
+    }
+MISC:before {
+    display: block;
+    content: "MISCELLANEA";
+    color: SaddleBrown;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+MISC {
+    display: block;
+    content: oxy_textfield(
+edit, "@xml:id", fontInherit true, 
+columns, 13);
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: 1%;
+    color: black;
+    border-style: groove;
+    border-width: thin;
+    padding: 0.5%;
+    margin: 2%;
+    background-color: white
+    }
+MISC > speakersGroup {
+    background-color: #fff8f2
+    }
+speakersGroup:not([thesu|uncertain="true"]) {
+    display: block;
+    content: "Speakers: ";
+    color: #545454;
+    padding-left: 8%;
+    text-indent: -4%
+    }
+speakersGroup[thesu|uncertain="true"] {
+    display: block;
+    content: "Speakers - uncertain: cf. ";
+    color: #545454;
+    padding-left: 8%;
+    text-indent: -4%
+    }
+speakersGroup:not([thesu|uncertain="true"]) > locusRef > locusLink[thesu|from=""] {
+    display: inline;
+    content: "";
+    margin-right: 1rem;
+    color: #545454;
+    text-decoration: none
+    }
+speakersGroup:not([thesu|uncertain="true"]) > locusRef > locusLink:not([thesu|from=""]) {
+    display: inline;
+    content: "delete uncertainty proof";
+    font-style: italic;
+    color: red
+    }
+speakersGroup[thesu|uncertain="true"] > proof {
+    padding-left: 0.1rem
+    }
+speakersGroup[thesu|uncertain="true"] > locusRef > locusLink:not([thesu|from=""]), speakersGroup[thesu|uncertain="true"] > locusRef > locusLink[thesu|from=""] {
+    display: inline;
+    content: "/ . "
+    }
+speakersGroup[thesu|uncertain="true"] > locusRef > locusLink:not([thesu|to]):not([thesu|from=""]) {
+    display: inline;
+    content: " only; ";
+    margin-right: 1rem
+    }
+speakersGroup[thesu|uncertain="true"] > locusRef > locusLink:not([thesu|to]):not([thesu|from=""]):before {
+    display: inline;
+    content: "[this word]";
+    -oxy-link: attr(thesu|from)
+    }
+speakersGroup[thesu|uncertain="true"] > locusRef > locusLink[thesu|to]:not([thesu|from=""]) {
+    display: inline;
+    content: " to "
+    }
+speakersGroup[thesu|uncertain="true"] > locusRef > locusLink:not([thesu|from=""]):before {
+    display: inline;
+    content: "[first word]";
+    -oxy-link: attr(thesu|from)
+    }
+speakersGroup[thesu|uncertain="true"] > locusRef > locusLink[thesu|to]:not([thesu|from=""]):after {
+    display: inline;
+    content: "[last word]; ";
+    -oxy-link: attr(thesu|to);
+    margin-right: 1rem
+    }
+speakersGroup speaker:not([thesu|name=""]) {
+    padding-left: 4%;
+    display: list-item;
+    list-style-type: circle
+    }
+keywordsGroup{
+    content: "keywords: ";
+    }
+keywordsGroup > keywordRef:after {
+    display: inline;
+    content: " (" attr(thesu|focus) "); ";
+    color: darkOrange
+    }
+externalRef:not([thesu|bibliographyRef=""]) {
+    display: inline;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    content: "" attr(thesu|sourceRef) " ";
+    -oxy-link: attr(thesu|sourceRef);
+    color: saddleBrown
+    }
+externalRef[thesu|bibliographyRef=""] {
+    display: inline;
+    font-size: x-small;
+    font-weight: normal;
+    font-style: italic;
+    content: "insert source " oxy_textfield(
+edit, "@thesu:bibliographyRef", columns, 10) " ";
+    color: saddleBrown
+    }
+externalRef[thesu|biblLocusFree]:after, scholarContra[thesu|biblLocusFree]:after, scholarPro[thesu|biblLocusFree]:after {
+    display: inline;
+    font-size: smaller;
+    content: " (" attr(thesu|biblLocusFree) ")"
+    }
+externalRef biblQuote, locusRef > snippet, proof externalRef biblQuote, proof scholarContra biblQuote, proof scholarPro biblQuote, proof snippet, scholarContra biblQuote, scholarPro biblQuote {
+    display: block;
+    font-style: italic;
+    color: #555;
+    margin-left: 1rem;
+    border-left: 1px dotted #ccc;
+    padding-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem
+    }
+externalRef paraphrasis, proof externalRef paraphrasis, proof scholarContra paraphrasis, proof scholarPro paraphrasis, scholarContra paraphrasis, scholarPro paraphrasis {
+    display: block;
+    font-style: normal;
+    color: #555;
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem
+    }
+externalRef[thesu|biblLocusFree][thesu|biblLocusRefFrom]:after, proof externalRef[thesu|biblLocusFree][thesu|biblLocusRefFrom]:after, proof scholarContra[thesu|biblLocusFree][thesu|biblLocusRefFrom]:after, proof scholarPro[thesu|biblLocusFree][thesu|biblLocusRefFrom]:after, scholarContra[thesu|biblLocusFree][thesu|biblLocusRefFrom]:after, scholarPro[thesu|biblLocusFree][thesu|biblLocusRefFrom]:after {
+    content: " (" attr(thesu|biblLocusFree) ")"
+    }
+PROPOSITION:not([thesu|polarity="neg"]):before {
+    display: block;
+    content: "{ PROPOSITION, affirmative }";
+    color: darkGreen;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+PROPOSITION[thesu|polarity="neg"]:before {
+    display: block;
+    content: "{ PROPOSITION, negative }";
+    color: #700000;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+PROPOSITION keywordRef:not([thesu|namely]), PROPOSITION keywordRef[thesu|namely=""] {
+    content: "namely " oxy_textfield(
+edit, "@thesu:namely", columns, 12);
+    color: red;
+    font-style: italic
+    }
+PROPOSITION keywordRef[thesu|namely]:not([thesu|namely=""]) {
+    content: oxy_xpath('if (contains(@thesu:namely, "#")) then tokenize(@thesu:namely, "#")[last()] else @thesu:namely', evaluate, dynamic-once);
+    color: darkOrange;
+    font-style: italic;
+    -oxy-link: attr(thesu|namely)
+    }
+SUPPORT speaker:not([thesu|name=""]) {
+    color: darkBlue
+    }
+SUPPORT:not([thesu|implicit="true"]):before {
+    display: block;
+    content: "SUPPORT";
+    color: darkBlue;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+SUPPORT[thesu|implicit="true"]:before {
+    display: block;
+    content: "impl. SUPPORT";
+    color: darkBlue;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+SUPPORT[thesu|implicit="true"][thesu|extrinsic="true"]:before {
+    display: block;
+    content: "( extrinsic SUPPORT )";
+    color: darkBlue;
+    font: bold;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline
+    }
+SUPPORT {
+    display: block;
+    content: oxy_textfield(
+edit, "@xml:id", columns, 13, fontInherit true);
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: 1%;
+    color: black;
+    border-style: groove;
+    border-width: thin;
+    padding: 0.5%;
+    margin: 2%;
+    background-color: white
+    }
+SUPPORT[thesu|implicit="true"] {
+    display: block;
+    content: oxy_textfield(
+edit, "@xml:id", columns, 13, fontInherit true);
+    color: black
+    }
+SUPPORT[thesu|implicit="true"][thesu|extrinsic="true"] {
+    display: block;
+    content: "" attr(xml|id) "; implicit; extrinsic";
+    color: black
+    }
+SUPPORT targetsGroup:before {
+    content: "targets";
+    text-decoration: underline
+    }
+SUPPORT targetsGroup {
+    display: block;
+    padding-left: 4%
+    }
+THESIS[thesu|quantity="1"]:not([thesu|polarity="neg"]):before {
+    display: block;
+    content: "" attr(thesu|quantity) " THESIS, affirmative";
+    color: green;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS[thesu|quantity="1"][thesu|implicit="true"]:not([thesu|polarity="neg"]):before {
+    display: block;
+    content: "" attr(thesu|quantity) " impl. THESIS, affirmative";
+    color: green;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS[thesu|quantity="1"][thesu|implicit="true"][thesu|extrinsic="true"]:not([thesu|polarity="neg"]):before {
+    display: block;
+    content: "( " attr(thesu|quantity) " extrinsic THESIS, affirmative )";
+    color: green;
+    font: bold;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline
+    }
+THESIS:not([thesu|polarity="neg"]):before {
+    display: block;
+    content: "" attr(thesu|quantity) " THESES, affirmative";
+    color: green;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS:not([thesu|polarity="neg"])[thesu|implicit="true"]:before {
+    display: block;
+    content: "" attr(thesu|quantity) " impll. THESES, affirmative";
+    color: green;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS:not([thesu|polarity="neg"])[thesu|implicit="true"][thesu|extrinsic="true"]:before {
+    display: block;
+    content: "( " attr(thesu|quantity) " extrinsic THESES, affirmative) ";
+    color: green;
+    font: bold;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline
+    }
+THESIS[thesu|quantity="1"][thesu|polarity="neg"]:before {
+    display: block;
+    content: "" attr(thesu|quantity) " THESIS, negative";
+    color: #a80000;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS[thesu|quantity="1"][thesu|polarity="neg"][thesu|implicit="true"]:before {
+    display: block;
+    content: "" attr(thesu|quantity) " impl. THESIS, negative";
+    color: #a80000;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS[thesu|quantity="1"][thesu|polarity="neg"][thesu|implicit="true"][thesu|extrinsic="true"]:before {
+    display: block;
+    content: "( " attr(thesu|quantity) " extrinsic THESIS, negative )";
+    color: #a80000;
+    font: bold;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline
+    }
+THESIS[thesu|polarity="neg"]:before {
+    display: block;
+    content: "" attr(thesu|quantity) " THESES, negative";
+    color: #a80000;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS[thesu|polarity="neg"][thesu|implicit="true"]:before {
+    display: block;
+    content: "" attr(thesu|quantity) " impll. THESES, negative";
+    color: #a80000;
+    font: bold;
+    font-size: large;
+    text-decoration: underline
+    }
+THESIS[thesu|polarity="neg"][thesu|implicit="true"][thesu|extrinsic="true"]:before {
+    display: block;
+    content: "( " attr(thesu|quantity) " extrinsic THESES, negative )";
+    color: #a80000;
+    font: bold;
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline
+    }
+THESIS, PROPOSITION {
+    display: block;
+    content: oxy_textfield(
+edit, "@xml:id", fontInherit true, 
+columns, 13);
+    font-size: medium;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: 1%;
+    color: black;
+    border-style: groove;
+    border-width: thin;
+    padding: 0.5%;
+    margin: 2%;
+    background-color: white
+    }
+THESIS:not([thesu|polarity="neg"]) speaker:not([thesu|name=""]) {
+    color: green
+    }
+THESIS[thesu|polarity="neg"] speaker:not([thesu|name=""]), scholarContra {
+    color: darkRed
+    }
+THESIS:not([thesu|polarity="neg"]) > thesisType, THESIS:not([thesu|polarity="neg"]) > speakersGroup, PROPOSITION:not([thesu|polarity="neg"]) > propositionType {
+    background-color: #f2fff3;
+    margin-left: 2%;
+    margin-right: 2%
+    }
+THESIS[thesu|polarity="neg"] > thesisType, THESIS[thesu|polarity="neg"] > speakersGroup, PROPOSITION[thesu|polarity="neg"] > propositionType {
+    background-color: #fff9f9;
+    margin-left: 2%;
+    margin-right: 2%
+    }
+THESIS[thesu|implicit="true"] keywordRef:not([thesu|wordsInParaphrasis]):after, THESIS[thesu|extrinsic="true"] keywordRef:not([thesu|wordsInParaphrasis]):after, PROPOSITION keywordRef:not([thesu|wordsInParaphrasis]), THESIS[thesu|implicit="true"] keywordRef[thesu|wordsInParaphrasis=""]:after, THESIS[thesu|extrinsic="true"] keywordRef[thesu|wordsInParaphrasis=""]:after, PROPOSITION keywordRef[thesu|wordsInParaphrasis=""]:after {
+    display: inline;
+    content: " (" attr(thesu|focus) ") (in paraphr. " oxy_textfield(
+edit, "@thesu:wordsInParaphrasis", columns, 4) "); ";
+    color: darkOrange;
+    font-style: normal
+    }
+argumentation:before, exposition:before, expansion:before, contextualization:before {
+    display: block;
+    font-size: medium;
+    text-align: center
+    }
+argumentation[thesu|for="acc"]:not([thesu|rank="4"]):after {
+    display: block;
+    content: "for acceptance";
+    text-decoration: none;
+    font-size: medium;
+    color: green;
+    padding-bottom: 0.5rem
+    }
+argumentation[thesu|for="rej"]:not([thesu|rank="4"]):after {
+    content: "for rejection";
+    text-decoration: none;
+    font-size: medium;
+    color: darkRed;
+    padding-bottom: 0.5rem
+    }
+argumentation[thesu|for="mix"]:not([thesu|rank="4"]):after {
+    content: "for acc + rej";
+    text-decoration: none;
+    font-size: medium;
+    color: orange;
+    padding-bottom: 0.5rem
+    }
+assent {
+    display: block;
+    content: "Assent from: ";
+    color: #545454;
+    text-indent: 4%;
+    font-size: small
+    }
+assentAuthor:not([thesu|assentValue="no"]):not([thesu|assentValue="att"]):not([thesu|assentValue="yes"]) {
+    content: "Author? ";
+    color: #969696;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentAuthor[thesu|assentValue="yes"] {
+    content: "Author ";
+    color: green;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentAuthor[thesu|assentValue="no"] {
+    content: "Author ";
+    color: black;
+    text-decoration: line-through;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentAuthor[thesu|assentValue="att"] {
+    content: "Author ";
+    color: red;
+    text-decoration: line-through;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSpeaker:not([thesu|assentValue="no"]):not([thesu|assentValue="att"]):not([thesu|assentValue="yes"]) {
+    content: "Speaker? ";
+    color: #969696;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSpeaker[thesu|assentValue="yes"] {
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none;
+    content: "Speaker ";
+    color: green
+    }
+assentSpeaker[thesu|assentValue="no"] {
+    content: "Speaker ";
+    color: black;
+    text-decoration: line-through;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSpeaker[thesu|assentValue="att"] {
+    content: "Speaker ";
+    color: red;
+    text-decoration: line-through;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSupSpeaker:not([thesu|assentValue="no"]):not([thesu|assentValue="att"]):not([thesu|assentValue="yes"]) {
+    content: "Super-Speaker? ";
+    color: #969696;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSupSpeaker[thesu|assentValue="yes"] {
+    content: "Super-Speaker ";
+    color: green;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSupSpeaker[thesu|assentValue="no"] {
+    content: "Super-Speaker ";
+    color: black;
+    text-decoration: line-through;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSupSpeaker[thesu|assentValue="att"] {
+    content: "Super-Speaker ";
+    color: red;
+    text-decoration: line-through;
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none
+    }
+assentSupSpeakersGroup {
+    content: "Super-Speakers: ";
+    margin-left: 8.5%;
+    text-indent: -0.5%;
+    display: list-item;
+    list-style-type: none;
+    color: #545454
+    }
+author > spurious {
+    display: block;
+    padding-left: 1.5rem;
+    background-color: #fff8d6
+    }
+author > spurious:not([thesu|value="true"]) {
+    content: "(authentic)";
+    font-style: italic;
+    display: block
+    }
+author > spurious[thesu|value="true"] {
+    content: "(spurious)";
+    font-style: italic;
+    font-weight: bold;
+    display: block
+    }
+bibliography:before {
+    display: block;
+    content: "Bibliography:"
+    }
+bibliography {
+    padding: 2%;
+    display: block
+    }
+bibliographyRef:not([xml|id]) {
+    -oxy-link: attr(thesu|ref);
+    content: "" oxy_xpath('if (contains(@thesu:ref, "#")) then tokenize(@thesu:ref, "#")[last()] else @thesu:ref', evaluate, dynamic-once) ""
+    }
+bibliographyRef[xml|id] {
+    -oxy-link: attr(thesu|ref);
+    content: "" attr(xml|id) ""
+    }
+employedElements {
+    content: "elements employed: ";
+    padding: 1%;
+    margin-left: 3%
+    }
+employedElements > elementRef[thesu|ref=""] {
+    content: "insert " oxy_textfield(
+edit, "@thesu:ref", columns, 12);
+    color: red
+    }
+employedElements > elementRef {
+    display: list-item;
+    list-style-type: decimal;
+    font-size: medium;
+    margin-left: 6%;
+    text-indent: -1%;
+    display: list-item;
+    content: "" attr(thesu|ref) "";
+    -oxy-link: attr(thesu|ref)
+    }
+employedElements > elementRef:after {
+    content: " " attr(thesu|ref) ""
+    }
+entailedBy[thesu|ref=""], entailedBy:not([thesu|ref]) {
+    display: inline;
+    content: "ref " oxy_textfield(
+edit, "@thesu:ref", columns, 5);
+    color: red;
+    font-style: italic
+    }
+entailedBy[thesu|ref]:not([thesu|ref=""]) {
+    display: inline;
+    content: " " attr(thesu|ref) "";
+    color: blue;
+    -oxy-link: attr(thesu|ref)
+    }
+entailedBy[thesu|entailedAs=""]:after, entailedBy:not([thesu|entailedAs]):after {
+    content: " as " oxy_combobox(
+    edit, '@thesu:entailedAs', 
+    editable, false, 
+    values, ' , #inclusion, #consequence, #requirement, #actual-sense', 
+    labels, '(null), inclusion, consequence, requirement, actual sense',
+    columns, 12);
+    color: black
+    }
+entailedBy[thesu|entailedAs]:not([thesu|entailedAs=""]):after {
+    content: " as " oxy_xpath('if (contains(@thesu:entailedAs, "#")) then tokenize(@thesu:entailedAs, "#")[last()] else @thesu:entailedAs', evaluate, dynamic-once);
+    color: blue;
+    -oxy-link: attr(thesu|entailedAs)
+    }
+entailment {
+    display: block;
+    content: "Entailed by: ";
+    color: #545454;
+    text-indent: 4%
+    }
+exceptedPhases {
+    display: list-item;
+    list-style-type: diamond;
+    margin-left: 4%;
+    text-indent: -1%;
+    font-style: normal;
+    font-size: medium;
+    content: " except phases " oxy_textfield(
+edit, "@thesu:phasesRef", columns, 10) " of sequence " oxy_textfield(
+edit, "@thesu:sequenceRef", columns, 17);
+    color: black
+    }
+includedRef[thesu|implicit="true"] {
+    content: "(implicit): "
+    }
+includedRef * {
+    text-decoration: none
+    }
+includedRefsGroup {
+    display: block;
+    content: "References: ";
+    text-indent: 2.5%;
+    text-decoration: underline;
+    background-color: #f7f7f7;
+    margin: 2%;
+    padding: 0.5%
+    }
+interpretation > keywordTagRef:before {
+    content: "interpretation: ";
+    font-style: normal;
+    color: DarkOrchid;
+    font-weight: normal
+    }
+interpretation > keywordTagRef {
+    display: block;
+    padding-left: 4%;
+    text-indent: -1%
+    }
+interpretation microThemesGroup, interpretation microTheme {
+    display: inline;
+    margin-left: 0
+    }
+keyword:before {
+    content: "Keyword";
+    color: darkOrange;
+    font: bold;
+    text-decoration: underline;
+    font-size: large
+    }
+keyword {
+    display: block;
+    content: "  " oxy_textfield(
+edit, "@xml:id", columns, 15, fontInherit true) "  ";
+    font-size: x-small;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    width: 42%;
+    word-wrap: break-word;
+    border-style: groove;
+    border-width: thin;
+    padding: 1%;
+    margin: 2%;
+    background-color: white
+    }
+keyword:after {
+    font-size: large;
+    padding-left: 1rem
+    }
+keyword[thesu|namely=""]:after, keyword:not([thesu|namely]):after {
+    display: block;
+    content: "namely? " oxy_textfield(
+edit, "@thesu:namely", color, darkOrange, columns, 10, fontInherit true);
+    font-style: italic;
+    color: red
+    }
+keyword[thesu|namely]:not([thesu|namely=""]):after {
+    display: block;
+    content: "" oxy_xpath('if (contains(@thesu:namely, "#")) then tokenize(@thesu:namely, "#")[last()] else @thesu:namely', evaluate, dynamic-once) "";
+    -oxy-link: attr(thesu|namely);
+    font-weight: bold;
+    color: darkOrange
+    }
+keyword > text, lectio > text {
+    font-size: small
+    }
+keyword > text > textRef > segment[thesu|from=""] {
+    display: inline;
+    color: teal;
+    font-weight: bold;
+    font-size: medium;
+    content: "implicit"
+    }
+keyword > text > snippet:before, lectio > text > snippet:before {
+    color: #545454;
+    content: "snippet: ";
+    font-size: small
+    }
+keyword > text > snippet {
+    display: block;
+    font-size: large;
+    color: darkOrange
+    }
+keyword > microThemesGroup {
+    content: "microThemes: ";
+    color: #545454
+    }
+keywordSubRef {
+    content: "[kw " oxy_textfield(
+edit, "@thesu:keywordsInSequence", columns, 4) "]"
+    }
+keywordSubRef:before {
+    content: oxy_xpath('let $pos := number(@thesu:keywordsInSequence), $keywordRef := ancestor::*[self::THESIS or self::MISC or self::PROPOSITION][1]//thesu:keywordsGroup/keywordRef[position() = $pos] return if ($keywordRef/@thesu:namely != "") then (if (contains($keywordRef/@thesu:namely, "#")) then tokenize($keywordRef/@thesu:namely, "#")[last()] else $keywordRef/@thesu:namely) else if ($keywordRef/@thesu:ref) then (let $refId := if (starts-with($keywordRef/@thesu:ref, "#")) then substring-after($keywordRef/@thesu:ref, "#") else $keywordRef/@thesu:ref, $keywordElem := //keyword[@xml:id = $refId] return if ($keywordElem/@thesu:namely) then (if (contains($keywordElem/@thesu:namely, "#")) then tokenize($keywordElem/@thesu:namely, "#")[last()] else $keywordElem/@thesu:namely) else (if (contains($keywordRef/@thesu:ref, "#")) then tokenize($keywordRef/@thesu:ref, "#")[last()] else $keywordRef/@thesu:ref)) else "keyword not found"', evaluate, dynamic-once) " "
+    }
+lectio[thesu|accepted="true"]:before {
+    content: "Lectio ✔ (mss.)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio[thesu|accepted="true"][thesu|lacuna="true"]:before {
+    content: "Lectio ✔ (mss.) (lacuna)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio[thesu|accepted="true"][thesu|conjectural="true"]:before {
+    content: "Lectio ✔ (conjecture)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio[thesu|accepted="true"][thesu|conjectural="true"][thesu|lacuna="true"]:before {
+    content: "Lectio ✔ (conjecture) (lacuna)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio[thesu|accepted="true"][thesu|indirectTrad="true"]:before {
+    content: "Lectio ✔ (indirect trad.)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio[thesu|accepted="true"][thesu|indirectTrad="true"][thesu|lacuna="true"]:before {
+    content: "Lectio ✔ (indirect trad.) (lacuna)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio:not([thesu|accepted="true"]):before {
+    content: "Lectio ✘ (mss.)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio:not([thesu|accepted="true"])[thesu|lacuna="true"]:before {
+    content: "Lectio ✘ (mss.) (lacuna)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio:not([thesu|accepted="true"])[thesu|conjectural="true"]:before {
+    content: "Lectio ✘ (conjecture)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio:not([thesu|accepted="true"])[thesu|conjectural="true"][thesu|lacuna="true"]:before {
+    content: "Lectio ✘ (conjecture) (true)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio:not([thesu|accepted="true"])[thesu|indirectTrad="true"]:before {
+    content: "Lectio ✘ (indirect trad.)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio:not([thesu|accepted="true"])[thesu|indirectTrad="true"][thesu|lacuna="true"]:before {
+    content: "Lectio ✘ (indirect trad.) (lacuna)";
+    color: paleVioletRed;
+    font: bold;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: large
+    }
+lectio {
+    display: block;
+    content: "  " oxy_textfield(
+edit, "@xml:id", columns, 15, fontInherit true) "  ";
+    font-size: x-small;
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+    width: 87%;
+    word-wrap: break-word;
+    border-style: groove;
+    border-width: thin;
+    padding: 3%;
+    margin: 2%;
+    margin-left: 55%;
+    margin-right: 8%;
+    background-color: white
+    }
+lectio[thesu|variant=""]:after {
+    display: block;
+    content: "lege? " oxy_textfield(
+edit, "@thesu:variant", color, paleVioletRed, columns, 8, fontInherit true);
+    color: red;
+    font-size: large;
+    font-style: italic;
+    padding-left: 2.3rem
+    }
+lectio:not([thesu|variant=""]):after {
+    display: block;
+    content: "> " attr(thesu|variant) "";
+    color: paleVioletRed;
+    font-size: large;
+    padding-left: 2.3rem
+    }
+lectio > text > snippet {
+    display: block;
+    font-style: italic;
+    font-size: medium;
+    color: plum
+    }
+lectio > scholarPro:first-of-type:before {
+    content: "scholars: ";
+    color: #545454
+    }
+lectio > ref-fromOutside:first-of-type:before {
+    content: "see: ";
+    color: #545454
+    }
+limitation[thesu|weakened="false"][thesu|hyperbolic="false"][thesu|humorous="false"][thesu|hypothetic="false"][thesu|fictitious="false"] {
+    content: "choose " oxy_textfield(
+edit, "@thesu:valueTag", columns, 5);
+    color: red;
+    font-style: italic
+    }
+limitation:before, phasesGroup > macroThemesGroup:before {
+    content: "("
+    }
+limitation {
+    content: "limitation "
+    }
+limitation:after, phasesGroup > macroThemesGroup:after {
+    content: ")"
+    }
+limitationsGroup {
+    display: block;
+    margin-left: 4%;
+    text-indent: -2%;
+    content: "with limitations: ";
+    color: black;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal
+    }
+locusRef > locusLink[thesu|from=""] {
+    display: inline;
+    content: " /  ";
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink[thesu|from=""]:first-of-type {
+    display: inline;
+    content: " cf. /  ";
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|from=""]) {
+    display: inline;
+    content: " ";
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|from=""]):first-of-type {
+    display: inline;
+    content: " cf. ";
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|to]):not([thesu|from=""]) {
+    display: inline;
+    content: " only; ";
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|to]):not([thesu|from=""]):before {
+    display: inline;
+    content: "[this word]";
+    -oxy-link: attr(thesu|from);
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|to]):not([thesu|from=""]):first-of-type:before {
+    display: inline;
+    content: "cf. [this word]";
+    -oxy-link: attr(thesu|from);
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink[thesu|to]:not([thesu|from=""]) {
+    display: inline;
+    content: " to ";
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|from=""]):before {
+    display: inline;
+    content: "[first word]";
+    -oxy-link: attr(thesu|from);
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink:not([thesu|from=""]):first-of-type:before {
+    display: inline;
+    content: "cf. [first word]";
+    -oxy-link: attr(thesu|from);
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusLink[thesu|to]:not([thesu|from=""]):after {
+    display: inline;
+    content: "[last word]; ";
+    -oxy-link: attr(thesu|to);
+    color: #545454;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: normal
+    }
+locusRef > locusFree, proof locusRef locusFree {
+    display: inline-block;
+    font-style: italic;
+    color: #555;
+    margin-left: 0.3rem
+    }
+locusLink[thesu|from=""], textRef > segment[thesu|from=""] {
+    display: inline;
+    color: red;
+    content: "insert"
+    }
+locusLink:not([thesu|to]):not([thesu|from=""]), textRef > segment:not([thesu|to]):not([thesu|from=""]) {
+    display: inline;
+    color: black;
+    content: " only; "
+    }
+marker:before {
+    color: #545454;
+    content: "Marker: "
+    }
+measureAddition[thesu|approximative="true"]:after, objectMeasure[thesu|approximative="true"]:after {
+    content: " (ca.)";
+    font-style: italic;
+    font-size: small
+    }
+measureAddition {
+    display: inline;
+    content: " + ";
+    color: darkOrange;
+    margin-right: 0.5rem
+    }
+measureAddition[thesu|number]:not([thesu|number=""]) {
+    content: " + " attr(thesu|number);
+    color: black
+    }
+measureAddition[thesu|nonNumerical]:not([thesu|nonNumerical=""]) {
+    content: " + " attr(thesu|nonNumerical);
+    color: black;
+    font-style: italic
+    }
+measureAddition[thesu|measurementUnit]:not([thesu|measurementUnit=""]):after {
+    content: " " oxy_xpath('if (contains(@thesu:measurementUnit, "#")) then tokenize(@thesu:measurementUnit, "#")[last()] else @thesu:measurementUnit', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|measurementUnit);
+    color: #2a6099
+    }
+matchingProposition {
+    display: block;
+    margin: 0.5rem 0 0.5rem 2rem;
+    counter-increment: propositionCounter;
+    font-weight: normal;
+    clear: both;
+    }
+matchingProposition[thesu|propRef=""], matchingProposition:not([thesu|propRef]) {
+    content: "[" counter(propositionCounter) "] insert " oxy_textfield(
+edit, "@thesu:propRef", columns, 12);
+    color: red
+    }
+matchingProposition[thesu|propRef]:not([thesu|propRef=""]) {
+    content: "[" counter(propositionCounter) "] Prop. ";
+    color: purple;
+    display: inline-block;
+    font-weight: normal;
+    }
+matchingProposition[thesu|propRef]:not([thesu|propRef=""])[thesu|comment]:not([thesu|comment=""]):after {
+    -oxy-link: attr(thesu|propRef);
+    content: "" attr(thesu|propRef) " [" attr(thesu|comment) "]";
+    color: purple;
+    font-weight: normal
+    }
+matchingProposition[thesu|propRef]:not([thesu|propRef=""]):not([thesu|comment]):after, matchingProposition[thesu|propRef]:not([thesu|propRef=""])[thesu|comment=""]:after {
+    -oxy-link: attr(thesu|propRef);
+    content: "" attr(thesu|propRef) "";
+    color: purple;
+    font-weight: normal
+    }
+matchingPropositionPhases {
+    display: inline;
+    counter-increment: phaseCounter
+    }
+matchingPropositionPhases[thesu|phasesRef=""], matchingPropositionPhases:not([thesu|phasesRef]) {
+    content: "insert " oxy_textfield(
+edit, "@thesu:phasesRef", columns, 12);
+    color: red
+    }
+matchingPropositionPhases[thesu|phasesRef]:not([thesu|phasesRef=""]) {
+    content: "[" counter(phaseCounter) "] Ph. ";
+    color: purple
+    }
+matchingPropositionPhases[thesu|phasesRef]:not([thesu|phasesRef=""]):after {
+    content: "" attr(thesu|phasesRef) oxy_xpath('concat(if (@thesu:partial = "true") then " (par)" else "", if (@thesu:extended = "true") then " (ext)" else "", if (@thesu:specified = "true") then " (spe)" else "", if (@thesu:generalized = "true") then " (gen)" else "", if (@thesu:quoted = "true") then " (quo)" else "", if (@thesu:extracted = "true") then " (exr)" else "", if (@thesu:altered = "true") then " (alt)" else "")', evaluate, dynamic-once) "; ";
+    color: purple
+    }
+matchingPropositionSequence {
+    display: block;
+    margin: 0.5rem 0 0.5rem 2rem;
+    counter-increment: sequenceCounter
+    }
+matchingPropositionSequence[thesu|sequenceRef=""], matchingPropositionSequence:not([thesu|sequenceRef]) {
+    content: "[" counter(sequenceCounter) "] insert " oxy_textfield(
+edit, "@thesu:sequenceRef", columns, 12);
+    color: red
+    }
+matchingPropositionSequence[thesu|sequenceRef]:not([thesu|sequenceRef=""]) {
+    content: "[" counter(sequenceCounter) "] Seq. ";
+    color: purple;
+    display: inline-block
+    }
+matchingPropositionSequence[thesu|sequenceRef]:not([thesu|sequenceRef=""]):after {
+    -oxy-link: attr(thesu|sequenceRef);
+    content: "" attr(thesu|sequenceRef) " [" attr(thesu|comment) "]";
+    color: purple
+    }
+matchingPropositionsGroup:before {
+    content: "Instance of:";
+    display: block;
+    color: purple;
+    font-weight: bold;
+    font-size: small
+    }
+matchingPropositionsGroup {
+    counter-reset: propositionCounter;
+    display: block;
+    margin-left: 4%
+    }
+maySubstitute:before {
+    display: inline;
+    content: "may substitute";
+    color: DarkSlateBlue;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: underline
+    }
+maySubstitute {
+    display: block;
+    margin-left: 1.5%;
+    text-indent: -1%;
+    content: "  phases " oxy_textfield(
+edit, "@thesu:phasesRef", columns, 10) " of sequence " oxy_textfield(
+edit, "@thesu:sequenceRef", columns, 17)
+    }
+maySubstitute[thesu|sequenceRef]:not([thesu|sequenceRef=""]):after {
+    content: "(X)";
+    font-size: small;
+    -oxy-link: attr(thesu|sequenceRef)
+    }
+metaphorsGroup{
+    content: "metaphors: ";
+}
+metaphor:not([thesu|metonymy="true"]) {
+    display: list-item;
+    padding-left: 4%;
+    content: "metaphor";
+    color: DarkOrchid;
+    font-style: italic
+    }
+metaphor[thesu|metonymy="true"] {
+    display: list-item;
+    padding-left: 4%;
+    content: "metonymy";
+    color: DarkSlateBlue;
+    font-style: italic
+    }
+metaphorComponentsGroup:before {
+    content: " (comp: "
+    }
+metaphorComponentsGroup:after, metaphorConsciousness:after, metaphorRecognitionsGroup:after {
+    content: ") "
+    }
+metaphorConsciousness:before {
+    content: " (consc.: "
+    }
+metaphorRecognitionsGroup:before {
+    content: " (recogn.: "
+    }
+system:after, newPropositions:after {
+    display: block;
+    content: "——— new element up here ———";
+    color: white;
+    font: italic;
+    padding: 3%
+    }
+proof {
+    display: block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: small;
+    color: #555;
+    border-left: 1px dotted #aaa;
+    padding-left: 0.5rem;
+    vertical-align: top
+    }
+proof[thesu|comment]:not([thesu|comment=""]):before {
+    content: "Proof that " attr(thesu|comment) ":";
+    color: #666;
+    font-style: italic;
+    font-size: x-small;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 0.1rem;
+    font-weight: bold
+    }
+proof:not([thesu|comment]), proof[thesu|comment=""] {
+    content: "•";
+    font-style: italic;
+    color: #888
+    }
+proof > elementRef:before, proof > locusRef:before {
+    content: "cf. ";
+    font-style: italic;
+    color: #777
+    }
+proof > elementRef, proof > locusRef {
+    display: inline-block;
+    margin-left: 0.2rem;
+    font-style: normal
+    }
+proof > customElement {
+    display: inline-block;
+    margin-left: 0.2rem;
+    font-style: italic;
+    color: #777
+    }
+*:not(paraphrasis):not(supportFunction):not(supportForm) > proof {
+    display: inline-block
+    }
+proof externalRef, proof scholarContra, proof scholarPro {
+    display: block;
+    margin-left: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: x-small;
+    color: #666
+    }
+proof scholarPro::before {
+    content: "cf. positive scholarship:";
+    color: #008000;
+    font-style: italic;
+    font-weight: normal
+    }
+proof scholarPro[thesu|comment]:not([thesu|comment=""])::before {
+    content: "cf. positive scholarship [" attr(thesu|comment) "]:";
+    color: #008000;
+    font-style: italic;
+    font-weight: normal
+    }
+proof scholarContra::before {
+    content: "cf. negative scholarship:";
+    color: #a80000;
+    font-style: italic;
+    font-weight: normal
+    }
+proof scholarContra[thesu|comment]:not([thesu|comment=""])::before {
+    content: "cf. negative scholarship [" attr(thesu|comment) "]:";
+    color: #a80000;
+    font-style: italic;
+    font-weight: normal
+    }
+proof externalRef::before {
+    content: "cf.:";
+    color: #8B4513;
+    font-style: italic;
+    font-weight: normal
+    }
+proof externalRef[thesu|comment]:not([thesu|comment=""])::before {
+    content: "cf. [" attr(thesu|comment) "]:";
+    color: #8B4513;
+    font-style: italic;
+    font-weight: normal
+    }
+proof externalRef[thesu|bibliographyRef], proof scholarContra[thesu|bibliographyRef], proof scholarPro[thesu|bibliographyRef] {
+    display: inline-block;
+    margin-left: 0.3rem
+    }
+proof externalRef[thesu|biblLocusFree]::after, proof scholarContra[thesu|biblLocusFree]::after, proof scholarPro[thesu|biblLocusFree]::after {
+    content: " (" attr(thesu|biblLocusFree) ")";
+    font-style: normal
+    }
+proof locusRef locusLink {
+    display: inline;
+    color: #555
+    }
+proof locusRef locusLink::before {
+    content: " [" attr(thesu|from) "]";
+    font-style: italic
+    }
+proof locusRef locusLink[thesu|to]::after {
+    content: "-[" attr(thesu|to) "]";
+    font-style: italic
+    }
+proof customElement {
+    display: block;
+    font-style: italic;
+    color: #777;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    border-left: 1px dotted #aaa;
+    padding-left: 0.3rem
+    }
+proof scholarPro[thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo])::after, proof scholarContra[thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo])::after, proof externalRef[thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo])::after {
+    display: inline;
+    font-size: smaller;
+    content: " (p. " attr(thesu|biblLocusRefFrom) ")";
+    font-style: normal
+    }
+proof scholarPro[thesu|biblLocusRefFrom][thesu|biblLocusRefTo]::after, proof scholarContra[thesu|biblLocusRefFrom][thesu|biblLocusRefTo]::after, proof externalRef[thesu|biblLocusRefFrom][thesu|biblLocusRefTo]::after {
+    display: inline;
+    font-size: smaller;
+    content: " (pp. " attr(thesu|biblLocusRefFrom) "-" attr(thesu|biblLocusRefTo) ")";
+    font-style: normal
+    }
+propositionType, supportType, thesisType {
+    display: block;
+    content: "Type.";
+    color: black;
+    margin-left: 3%;
+    margin-right: 3%;
+    font: bold;
+    text-decoration: none
+    }
+definition:not([thesu|value=true]) {
+    content: "not a definition";
+    color: #545454;
+    font-style: italic;
+    font-size: small;
+    padding-top: 1%
+    }
+definition[thesu|value=true] {
+    content: "this is a definition ";
+    color: green;
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+    padding-top: 1%
+    }
+etiologiesGroup{
+    content: "etiological relations: ";
+}
+etiologiesGroup > etiology:before {
+    display: inline;
+    content: " Etiology";
+    color: darkGreen;
+    font-weight: bold
+    }
+etiologiesGroup > etiology > etiologyMember {
+    display: list-item;
+    list-style-type: none;
+    margin-left: 2%;
+    content: "member: "
+    }
+etiologiesGroup > etiology > etiologyMember[thesu|cause="true"]:before {
+    content: "cause ";
+    color: chocolate;
+    font-weight: bold
+    }
+etiologiesGroup > etiology > etiologyMember[thesu|end="true"]:before {
+    content: "end   ";
+    color: darkBlue;
+    font-weight: bold
+    }
+etiologiesGroup > etiology > etiologyMember[thesu|cause="false"][thesu|end="false"]:before {
+    content: "event ";
+    color: DarkOliveGreen;
+    font-weight: bold
+    }
+analogiesGroup, definition, etiologiesGroup, keywordsGroup, macroThemesGroup, metaphorsGroup, microThemesGroup, sequencesGroup {
+    display: block;
+    margin-left: 4%;
+    text-indent: -2%;
+    color: black;
+    font-weight: normal;
+    font-style: normal
+    }
+analogiesGroup{
+    content: "analogical relations: ";
+    padding-bottom: 2%;
+    }
+analogiesGroup > analogy > analogyMember snippet, analogiesGroup > analogy > marker *, analogiesGroup > analogy > marker snippet, etiologiesGroup > etiology > etiologyMember elementRef, etiologiesGroup > etiology > etiologyMember snippet, etiologiesGroup > etiology > etiologyMember textRef, etiologiesGroup > etiology > marker *, etiologiesGroup > etiology > marker snippet, etiologiesGroup > etiology > marker textRef, metaphorComponentsGroup, metaphorConsciousness, metaphorRecognitionsGroup, object > microThemedTextRef > textRef, object textRef {
+    display: inline
+    }
+analogiesGroup > analogy, etiologiesGroup > etiology {
+    display: list-item;
+    text-indent: -1%;
+    display: list-item;
+    content: " | textual marker: "
+    }
+analogiesGroup > analogy > analogyMember:after, etiologiesGroup > etiology > etiologyMember:after {
+    content: "   "
+    }
+analogiesGroup > analogy:before {
+    display: inline;
+    content: " Analogy";
+    color: SaddleBrown;
+    font-weight: bold
+    }
+analogiesGroup > analogy[thesu|comparison="true"]:before {
+    display: inline;
+    content: " Comparison";
+    color: SaddleBrown;
+    font-weight: bold
+    }
+analogiesGroup > analogy > analogyMember {
+    display: list-item;
+    list-style-type: none;
+    margin-left: 2%
+    }
+analogiesGroup > analogy[thesu|comparison=false] > analogyMember {
+    content: "member "
+    }
+analogiesGroup > analogy[thesu|comparison=true] > analogyMember {
+    content: "member " attr(thesu|rank) " "
+    }
+analogiesGroup > analogy > analogyMember[thesu|comparans="true"]:before {
+    content: "source ";
+    color: darkOrange;
+    font-weight: bold
+    }
+analogiesGroup > analogy > analogyMember[thesu|comparans="false"]:before {
+    content: "target ";
+    color: #96002d;
+    font-weight: bold
+    }
+analogiesGroup > analogy > proof, etiologiesGroup > etiology > proof, microThemesGroup > microTheme > proof, macroThemesGroup > macroTheme > proof {
+    border-left-style: dotted;
+    padding-left: 0.4rem;
+    margin-bottom: 0.3rem
+    }
+snippet:before {
+    content: "Snippet: ";
+    color: #545454;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal
+    }
+snippet, freeText {
+    display: block;
+    color: black;
+    text-indent: -4%;
+    padding-left: 7.5%;
+    text-decoration: none
+    }
+source {
+    display: block;
+    background-color: #e8e8e8;
+    border-style: groove;
+    border-width: thin;
+    padding: 0.5%;
+    -oxy-foldable: true
+    }
+sourceInfo {
+    display: block;
+    padding: 2%;
+    background-color: #fffced
+    }
+sourceInfo > title {
+    content: attr(thesu|string);
+    font-style: italic;
+    font-size: xx-large;
+    background-color: #fff8d6
+    }
+sourceInfo > authorsGroup {
+    margin-top: -2%;
+    padding-left: 2%;
+    background-color: #fff8d6
+    }
+sourceInfo > authorsGroup > author {
+    display: block;
+    -oxy-link: attr(thesu|name);
+    content: "" oxy_xpath('if (contains(@thesu:name, "#")) then tokenize(@thesu:name, "#")[last()] else @thesu:name', evaluate, dynamic-once) "";
+    font-size: large
+    }
+sourceInfo > authorsGroup > author:not(:last-child):after {
+    content: ", "
+    }
+sourceInfo author {
+    display: block;
+    -oxy-link: attr(thesu|name);
+    content: "" oxy_xpath('if (contains(@thesu:name, "#")) then tokenize(@thesu:name, "#")[last()] else @thesu:name', evaluate, dynamic-once) "";
+    margin-top: -2%;
+    padding-left: 2%;
+    font-size: large;
+    background-color: #fff8d6
+    }
+supportForm:first-of-type:before {
+    display: block;
+    content: "Form: ";
+    font-weight: normal;
+    text-indent: -2%;
+    padding-top: 1%;
+    font-size: medium;
+    color: black;
+    font-style: normal
+    }
+supportForm {
+    display: block;
+    margin-left: 5%;
+    padding-bottom: 1%;
+    font-size: large
+    }
+supportForm[thesu|formTag=""], supportForm:not([thesu|formTag]) {
+    content: "insert " oxy_combobox(
+edit, '@thesu:formTag', 
+editable, false, 
+values, ' , #deductive-premise, #particular-illustration, #authority, #consequence-of-acceptance, #consequence-of-refusal, #reasonableness, #experience, #analogy, #example-of-analogous-behaviour, #contrast, #affirmation, #intensification, #only-possibility, #problem, #insufficiency, #methodology, #ad-hominem, #denigration-of-statement, #definition, #generalization, #specification, #uncertain', 
+labels, '(null), deductive premise, particular illustration, authority, consequence of acceptance, consequence of refusal, reasonableness, experience, analogy, example of analogous behaviour, contrast, affirmation, intensification, only possibility, problem, insufficiency, methodology, ad hominem, denigration of statement, definition, generalization, specification, uncertain', 
+columns, 25
+ color, DarkSlateGray);
+    font-style: italic;
+    font-weight: normal
+    }
+supportForm[thesu|formTag]:not([thesu|formTag=""]) {
+    display: inline;
+    content: oxy_xpath('if (contains(@thesu:formTag, "#")) then tokenize(@thesu:formTag, "#")[last()] else @thesu:formTag', evaluate, dynamic-once);
+    color: DarkSlateGray;
+    -oxy-link: attr(thesu|formTag)
+    }
+supportForm > proof {
+    font-size: medium;
+    padding-left: 20%
+    }
+supportFunction:before {
+    display: table-caption;
+    content: "Function: "
+    }
+supportFunction {
+    display: table;
+    font-weight: normal;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%
+    }
+supportFunction > supportFunctionsGroup {
+    display: table-row;
+    height: auto;
+    overflow: auto
+    }
+supportFunction > supportFunctionsGroup > * {
+    content: "" attr(thesu|rank) "";
+    display: table-cell;
+    text-align: center;
+    font-size: large;
+    width: 25%
+    }
+supportFunction proof {
+    display: block;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 15%;
+    text-indent: -15%;
+    font-size: small
+    }
+supportFunctionsGroup > *[thesu|rank="1"] {
+    color: #00005b;
+    font-weight: 900;
+    text-decoration: underline
+    }
+supportFunctionsGroup > *[thesu|rank="2"] {
+    color: darkBlue;
+    font-weight: 600
+    }
+supportFunctionsGroup > *[thesu|rank="3"] {
+    font-style: italic;
+    color: #0000b7
+    }
+supportFunctionsGroup > *[thesu|rank="4"] {
+    font-style: italic;
+    color: gray
+    }
+supportFunctionsGroup > proof, supportFunctionsGroup proof {
+    display: block !important;
+    clear: both;
+    }
+argumentation:before{
+    content: "Justification";
+}
+exposition:before{
+    content: "Exposition";
+}
+expansion:before{
+    content: "Expansion";
+}
+contextualization:before{
+    content: "Contextualization";
+}
+supportType, SUPPORT > speakersGroup {
+    background-color: #f7faff;
+    margin-left: 2%;
+    margin-right: 2%
+    }
+target {
+    display: list-item;
+    list-style: hyphen
+    }
+target[thesu|ref=""], target:not([thesu|ref]) {
+    content: "insert " oxy_textfield(
+edit, "@thesu:ref", columns, 12);
+    color: red
+    }
+target[thesu|ref]:not([thesu|ref=""]) {
+    content: "" attr(thesu|ref) " ";
+    -oxy-link: attr(thesu|ref);
+    color: darkBlue
+    }
+text {
+    display: block;
+    content: "Text.";
+    color: #545454;
+    text-indent: 2.5%;
+    text-decoration: underline;
+    background-color: #f7f7f7;
+    margin: 2%;
+    padding: 0.5%
+    }
+text > differences {
+    text-indent: -4%;
+    padding-left: 7.5%;
+    content: "Text is different from base ed.: ";
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold
+    }
+text > differences > lectioRef[thesu|ref=""] {
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    color: red;
+    content: "insert ref " oxy_textfield(
+edit, "@thesu:ref", columns, 12)
+    }
+text > differences > lectioRef:not([thesu|ref=""]) {
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    -oxy-link: attr(thesu|ref);
+    content: "here; ";
+    color: paleVioletRed
+    }
+text > uncertainties {
+    text-indent: -4%;
+    padding-left: 7.5%;
+    content: "The text is uncertain";
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold
+    }
+text > uncertainties > lectioRef[thesu|ref=""] {
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    color: red;
+    content: ", insert ref " oxy_textfield(
+edit, "@thesu:ref", columns, 12)
+    }
+text > uncertainties > lectioRef:not([thesu|ref=""]) {
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    -oxy-link: attr(thesu|ref);
+    content: " see here;";
+    color: paleVioletRed
+    }
+textRef, themedTextRef {
+    display: block;
+    content: "Ref: ";
+    color: #545454;
+    text-indent: -4%;
+    padding-left: 7.5%;
+    text-decoration: none
+    }
+textRef > segment:not([thesu|to]):not([thesu|from=""]):before, locusLink:not([thesu|to]):not([thesu|from=""]):before {
+    display: inline;
+    color: black;
+    content: "[This word]";
+    -oxy-link: attr(thesu|from)
+    }
+textRef > segment[thesu|to][thesu|from]:not([thesu|from=""]), locusLink[thesu|to][thesu|from]:not([thesu|from=""]) {
+    display: inline;
+    color: black;
+    content: oxy_xpath('if (@thesu:to = @thesu:from) then " only; " else " to "', evaluate, dynamic-once)
+    }
+textRef > segment[thesu|from]:not([thesu|from=""]):before, locusLink[thesu|from]:not([thesu|from=""]):before {
+    display: inline;
+    color: black;
+    content: oxy_xpath('if (@thesu:to = @thesu:from) then "[This word]" else "[First word]"', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|from)
+    }
+textRef > segment[thesu|to]:not([thesu|from=""]):after, locusLink[thesu|to]:not([thesu|from=""]):after {
+    display: inline;
+    color: black;
+    content: oxy_xpath('if (@thesu:to = @thesu:from) then "" else "[Last word]; "', evaluate, dynamic-once);
+    -oxy-link: attr(thesu|to)
+    }
+textRef > segment[thesu|to][thesu|from]:not([thesu|from=""]):after, locusLink[thesu|to][thesu|from]:not([thesu|from=""]):after {
+    display: oxy_xpath('if (@thesu:to = @thesu:from) then "none" else "inline"', evaluate, dynamic-once)
+    }
+textRef > segment[thesu|to]:not([thesu|from=""]) {
+    display: inline;
+    color: black;
+    content: " to "
+    }
+textRef > segment:not([thesu|from=""]):before {
+    display: inline;
+    color: black;
+    content: "[first word]";
+    -oxy-link: attr(thesu|from)
+    }
+scholarPro:not([thesu|bibliographyRef=""]), scholarContra:not([thesu|bibliographyRef=""]) {
+    display: inline;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: normal;
+    content: "" attr(thesu|bibliographyRef) " ";
+    -oxy-link: attr(thesu|bibliographyRef)
+    }
+scholarPro[thesu|bibliographyRef=""], scholarContra[thesu|bibliographyRef=""] {
+    display: inline;
+    font-size: x-small;
+    font-weight: normal;
+    font-style: italic;
+    content: "insert scholar " oxy_textfield(
+edit, "@thesu:bibliographyRef", columns, 10) " "
+    }
+scholarPro {
+    color: darkGreen
+    }
+.show-both-bibllocus scholarPro[thesu|biblLocusFree][thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo]):after, .show-both-bibllocus scholarContra[thesu|biblLocusFree][thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo]):after, .show-both-bibllocus externalRef[thesu|biblLocusFree][thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo]):after {
+    content: " (" attr(thesu|biblLocusFree) ", p. " attr(thesu|biblLocusRefFrom) ")"
+    }
+.show-both-bibllocus scholarPro[thesu|biblLocusFree][thesu|biblLocusRefFrom][thesu|biblLocusRefTo]:after, .show-both-bibllocus scholarContra[thesu|biblLocusFree][thesu|biblLocusRefFrom][thesu|biblLocusRefTo]:after, .show-both-bibllocus externalRef[thesu|biblLocusFree][thesu|biblLocusRefFrom][thesu|biblLocusRefTo]:after {
+    content: " (" attr(thesu|biblLocusFree) ", pp. " attr(thesu|biblLocusRefFrom) "-" attr(thesu|biblLocusRefTo) ")"
+    }
+scholarPro[thesu|biblLocusRefTo], scholarContra[thesu|biblLocusRefTo], externalRef[thesu|biblLocusRefTo] {
+    -oxy-link: attr(thesu|biblLocusRefTo)
+    }
+scholarPro, scholarContra, externalRef {
+    display: inline-block;
+    font-size: smaller;
+    color: #666
+    }
+scholarPro[thesu|bibliographyRef]:not([thesu|bibliographyRef=""]), scholarContra[thesu|bibliographyRef]:not([thesu|bibliographyRef=""]), externalRef[thesu|bibliographyRef]:not([thesu|bibliographyRef=""]) {
+    content: attr(thesu|bibliographyRef);
+    -oxy-link: attr(thesu|bibliographyRef)
+    }
+changesInTemporality {
+    padding-left: 1.5%;
+    margin-left: 1%;
+    text-indent: -1%;
+    content: "temporality ";
+    display: list-item;
+    list-style-type: check;
+    font-weight: bold
+    }
+changesInObjects:before {
+    content: "objects ";
+    font-weight: bold
+    }
+changesInObjects {
+    padding-left: 1.5%;
+    margin-left: 1%;
+    text-indent: -1%;
+    content: "changes: ";
+    display: list-item;
+    list-style-type: check
+    }
+changedObject:after {
+    display: inline;
+    margin-left: 0;
+    content: "... in phases " oxy_textfield(
+edit, "@thesu:phasesSubRange", columns, 4) " of groups " oxy_textfield(
+edit, "@thesu:phasesGroups", columns, 4) " of sequence " oxy_textfield(
+edit, "@thesu:sequenceRef", columns, 14);
+    color: black
+    }
+changedObjectFunction:after {
+    content: ") ";
+    color: black;
+    font-style: normal
+    }
+addedObjects {
+    display: block;
+    margin-left: 4%;
+    text-indent: -1%;
+    content: "added: "
+    }
+themedFreeText {
+    display: block;
+    content: "Free text: ";
+    color: #545454;
+    text-indent: -4%;
+    padding-left: 7.5%;
+    text-decoration: none
+    }
+scholarPro[thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo])::after, scholarContra[thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo])::after, externalRef[thesu|biblLocusRefFrom]:not([thesu|biblLocusRefTo])::after {
+    display: inline;
+    font-size: smaller;
+    content: " (p. " attr(thesu|biblLocusRefFrom) ")"
+    }
+scholarPro[thesu|biblLocusRefFrom][thesu|biblLocusRefTo]::after, scholarContra[thesu|biblLocusRefFrom][thesu|biblLocusRefTo]::after, externalRef[thesu|biblLocusRefFrom][thesu|biblLocusRefTo]::after {
+    display: inline;
+    font-size: smaller;
+    content: " (pp. " attr(thesu|biblLocusRefFrom) "-" attr(thesu|biblLocusRefTo) ")"
+    }
+externalRef[thesu|comment]:not([thesu|comment=""])::before, scholarContra[thesu|comment]:not([thesu|comment=""])::before, scholarPro[thesu|comment]:not([thesu|comment=""])::before {
+    content: "[" attr(thesu|comment) "]: "
+    }
+scholarPro[thesu|biblLocusFree]::after, scholarContra[thesu|biblLocusFree]::after, externalRef[thesu|biblLocusFree]::after {
+    content: " (" attr(thesu|biblLocusFree) ")";
+    font-style: normal;
+    font-size: smaller;
+    display: inline
+    }
+scholarPro::before {
+    content: "Pro: "
+    }
+scholarContra::before {
+    content: "Contra: "
+    }
+externalRef::before {
+    content: "Cf. "
+    }

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<people>
+
+    <vague>
+        <name xml:id="everybody"/>
+        <name xml:id="most-people" parents="##unspecified-plural"/>
+        <name xml:id="many-people" parents="#unspecified-plural"/>
+        <name xml:id="some-people" parents="#unspecified-plural"/>
+        <name xml:id="few-people" parents="#unspecified-plural"/>
+        <name xml:id="unspecified-singular" parents="#unspecified"/>
+        <name xml:id="unspecified-plural" parents="#unspecified"/>
+        <name xml:id="unspecified"/>
+    </vague>
+
+    <ancient>
+        <properNames>
+            <name xml:id="Dioscorides-Pedanius" groups="#physicians"/>
+            <name xml:id="Menexenus"/>
+            <name xml:id="Plato" groups="#philosophers"/>
+            <name xml:id="Plutarchus" groups="#philosophers #Platonists"/>
+            <name xml:id="Socrates" groups="#philosophers"/>
+            <name xml:id="Theophrastus" groups="#philosophers #Peripatetics"/>
+        </properNames>
+        
+        <groups>
+            <name xml:id="Aristotelians" parents="#philosophers"/>
+            <name xml:id="Peripatetics" parents="#Aristotelians"/>
+            <name xml:id="philosophers"/>
+            <name xml:id="Platonists" parents="#philosophers"/>
+            <name xml:id="physicians"/>
+            <name xml:id="pigment-grinders"/>
+        </groups>
+        
+    </ancient>
+
+    <entities>
+
+    </entities>
+
+    <modern>
+        <properNames>
+            <name xml:id="Caley-Earle-R."/>
+            <name xml:id="Katsaros-T."/>
+            <name xml:id="Laskaris-N."/>
+            <name xml:id="Liritzis-Ioannis"/>
+            <name xml:id="Richards-John-F."/>
+        </properNames>
+        
+        <groups>
+
+        </groups>
+        
+    </modern>
+
+</people>

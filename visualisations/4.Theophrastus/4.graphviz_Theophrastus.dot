@@ -1,0 +1,163 @@
+digraph G {
+compound=true;
+newrank=true;
+
+rankdir="TB";
+splines=curved;
+
+subgraph source_tlg0093_tlg004 {
+label="tlg0093_tlg004";
+
+"tlg0093_tlg004.S162445" [label=<<b>impl. SUPPORT</b><br/>         Theophrastus         <br/>55<br/><i>form: unspecified</i><br/><font point-size="12">"κύανος ὁ μὲν ... δὲ πεπυρωμένου"</font>>, gephi_label="SUPP", text="κύανος ὁ μὲν αὐτοφυὴς ὁ δὲ σκευαστὸς ὥσπερ ἐν Αἰγύπτῳ. γένη δὲ κυάνου τρία, ὁ αἰγύπτιος καὶ σκύθης καὶ τρίτος ὁ κύπριος. βέλτιστος δʼ ὁ αἰγύπτιος εἰς τὰ ἄκρατα λειώματα ὁ δὲ σκύθης εἰς τὰ ὑδαρέστερα. σκευαστὸς δʼ ὁ αἰγύπτιος. καὶ οἱ γράφοντες τὰ περὶ τοὺς βασιλεῖς καὶ τοῦτο γράφουσι, τίς πρῶτος βασιλεύς ἐποίησε χυτὸν κύανον μιμησάμενος τὸν αὐτοφυῆ, δῶρά τε πέμπεσθαι παρʼ ἄλλων τε καὶ ἐκ Φοινίκης φόρον κυάνου, τοῦ μὲν ἀπύρου τοῦ δὲ πεπυρωμένου", locus="55", speaker="Theophrastus", form="None", paraphrasis="( [omitted] CONTEXT) \"The four colours made by kyanos from itself come about by technical means\" ) ", manifestation="implicit", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S162445_func" [label="CONTEXTUALIZES", gephi_label="(con)", gephi_omitted="false", fontsize="11", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse"];
+
+"tlg0093_tlg004.S162445_func" -> "tlg0093_tlg004.T183406" [color="#b3a89a", style="dashed,filled"];
+
+"tlg0093_tlg004.S162445_to_omitted_THESIS_1" [label=<<b>THESIS</b><br/><i>(omitted)</i>>, gephi_label="THES", gephi_omitted="true", fontsize="11", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S162445_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0093_tlg004.S162445_to_omitted_THESIS_1" -> "tlg0093_tlg004.S162445_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.T183406" [label=<<b>THESIS</b><br/>       pigment-grinders       <br/>55<br/><i>The four colours made by kyanos from itself come<br/>about by technical means<br/></i><font point-size="12">"τὸν μὲν κύανον ... τέχνῃ γίνεται"</font>>, gephi_label="THES", locus="55", speaker="pigment-grinders", text="τὸν μὲν κύανον ἐξ ἑαυτοῦ ποιεῖν χρώματα τέτταρα ... ταῦτά τε δὴ τέχνῃ γίνεται", paraphrasis="The four colours made by kyanos from itself come about by technical means ", manifestation="explicit", source="tlg0093_tlg004", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S183406" [label=<<b>SUPPORT</b><br/>         Theophrastus         <br/>55<br/><i>form: analogy</i><br/><font point-size="12">"τὸν μὲν κύανον ... καὶ ἔτι"</font>>, gephi_label="SUPP", text="τὸν μὲν κύανον ἐξ ἑαυτοῦ ποιεῖν χρώματα τέτταρα ... ταῦτά τε δὴ τέχνῃ γίνεται καὶ ἔτι", locus="55", speaker="Theophrastus", form="analogy", paraphrasis="\"The four colours made by kyanos from itself come about by technical means\" CONTEXT) \"Lead white comes about by technical means\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S183406_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0093_tlg004.S183406_func" -> "tlg0093_tlg004.T170246" [color="#b39c84", style="filled"];
+
+"tlg0093_tlg004.S183406_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0093_tlg004.T183406" -> "tlg0093_tlg004.S183406_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.T170246" [label=<<b>THESIS</b><br/>         Theophrastus         <br/>55<br/><i>Lead white comes about by technical means<br/></i><font point-size="12">"τέχνῃ γίνεται ... τὸ ψιμύθιον"</font>>, gephi_label="THES", locus="55", speaker="Theophrastus", text="τέχνῃ γίνεται ... τὸ ψιμύθιον", paraphrasis="Lead white comes about by technical means ", manifestation="explicit", source="tlg0093_tlg004", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S150529" [label=<<b>impl. SUPPORT</b><br/>         Theophrastus         <br/>55<br/><i>form: generalization</i><br/><font point-size="12">"τέχνῃ γίνεται ... τὸ ψιμύθιον. ... γὰρ"</font>>, gephi_label="SUPP", text="τέχνῃ γίνεται ... τὸ ψιμύθιον. ... γὰρ", locus="55", speaker="Theophrastus", form="generalization", paraphrasis="( \"Lead white comes about by technical means\" CONTEXT) \".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white\" ) ", manifestation="implicit", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S150529_func" [label="CONTEXTUALIZES", gephi_label="(con)", gephi_omitted="false", fontsize="11", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse"];
+
+"tlg0093_tlg004.S150529_func" -> "tlg0093_tlg004.T151115" [color="#b3a89a", style="dashed,filled"];
+
+"tlg0093_tlg004.S150529_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0093_tlg004.T170246" -> "tlg0093_tlg004.S150529_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.T151115" [label=<<b>THESIS</b><br/>         Theophrastus         <br/>55<br/><i>.Lead the size of a brick is placed over vinegar<br/>in (closed) jars, .They wait for lead to acquire<br/>thickness{, which happens in a maximum of 10<br/>days}, .They open the jars, .They scrape away from<br/>the lead something {resembling a mold}, repeating<br/>this until they have consumed it completely, .They<br/>rub what has been scraped away in a grinding-bowl,<br/>.They always filter off what is being rubbed, .The<br/>final precipitate is lead white<br/></i><font point-size="12">"τίθεται γὰρ μόλυβδος ... τὸ ψιμύθιον"</font>>, gephi_label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον", paraphrasis=".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white ", manifestation="explicit", source="tlg0093_tlg004", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.T151115_to_tlg0093_tlg004.T180430_1" [label=<by inclusion,<br/>ENTAILS>, fontsize="11", style="rounded,filled", fillcolor="#f0faf0", color="#82b366", shape="house"];
+
+"tlg0093_tlg004.T151115_analogy_to_tlg0093_tlg004.T154708_1" [label=<<i>as source</i>,<br/>COMPARED IN>, fontsize="11", style="rounded,filled", fillcolor="#ffffd0", color="#d4d400", shape="diamond"];
+
+subgraph cluster_tlg0093_tlg004_T151115_tlg0093_tlg004_Q151115 {
+label=<<font color='#82b366'>Sequence</font>>;
+
+peripheries=1;
+
+"tlg0093_tlg004.q151115001" [label=<<b>1</b><br/><i>Lead the size of a brick is<br/>placed over vinegar in<br/>(closed) jars<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="Lead the size of a brick is placed over vinegar in (closed) jars ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115002" [label=<<b>2</b><br/><i>They wait for lead to acquire<br/>thickness {, which happens in<br/>a maximum of 10 days}<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="They wait for lead to acquire thickness {, which happens in a maximum of 10 days} ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115003" [label=<<b>3</b><br/><i>They open the jars<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="They open the jars ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115004" [label=<<b>4</b><br/><i>They scrape away from the lead<br/>something {resembling a mold},<br/>repeating this until they have<br/>consumed it completely<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115005" [label=<<b>5</b><br/><i>They rub what has been scraped<br/>away in a grinding-bowl<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="They rub what has been scraped away in a grinding-bowl ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115006" [label=<<b>6</b><br/><i>They always filter off what is<br/>being rubbed<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="They always filter off what is being rubbed ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115007" [label=<<b>7</b><br/><i>The final precipitate is lead<br/>white<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="The final precipitate is lead white ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115001" -> "tlg0093_tlg004.q151115002" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115002" -> "tlg0093_tlg004.q151115003" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115003" -> "tlg0093_tlg004.q151115004" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115004" -> "tlg0093_tlg004.q151115005" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115005" -> "tlg0093_tlg004.q151115006" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115006" -> "tlg0093_tlg004.q151115007" [dir=none, color="#82b366", style="solid"];
+}
+
+subgraph cluster_tlg0093_tlg004_T180430_ENTAILED {
+label=<<font color="#82b366">Entailed</font>>
+style="dotted";
+
+"tlg0093_tlg004.T180430" [label=<<b>THESIS</b><br/>         Theophrastus         <br/>55<br/><i>Lead the size of a brick placed over vinegar in<br/>(closed) jars acquires thickness in a maximum of<br/>10 days<br/></i><font point-size="12">"τίθεται γὰρ μόλυβδος ... ἡμέραις δέκα"</font>>, gephi_label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα", paraphrasis="Lead the size of a brick placed over vinegar in (closed) jars acquires thickness in a maximum of 10 days ", manifestation="explicit", source="tlg0093_tlg004", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+}
+
+"tlg0093_tlg004.S181431" [label=<<b>SUPPORT</b><br/>         Theophrastus         <br/>56<br/><i>form: specification</i><br/><font point-size="12">"λαμβάνει δὲ μάλιστα ... ἡμέραις δέκα"</font>>, gephi_label="SUPP", text="λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα", locus="56", speaker="Theophrastus", form="specification", paraphrasis="\"Lead the size of a brick placed over vinegar in (closed) jars acquires thickness in a maximum of 10 days\" EXPLAINS) \" […] .They wait for lead to acquire thickness […]\" ", manifestation="explicit", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S181431_func" [label="EXPLAINS", gephi_label="exp", gephi_omitted="false", fontsize="11", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse"];
+
+"tlg0093_tlg004.S181431_func" -> "tlg0093_tlg004.q151115002" [color="#927b89", style="filled"];
+
+"tlg0093_tlg004.S181431_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0093_tlg004.T180430" -> "tlg0093_tlg004.S181431_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.S153946" [label=<<b>SUPPORT</b><br/>         Theophrastus         <br/>55<br/><i>form: particular-illustration</i><br/><font point-size="12">"τίθεται γὰρ μόλυβδος ... τὸ ψιμύθιον"</font>>, gephi_label="SUPP", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον", locus="55", speaker="Theophrastus", form="particular-illustration", paraphrasis="\".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white\" EXPLAINS/justifies) \" Lead white comes about by technical means\" ", manifestation="explicit", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S153946_func" [label="EXPLAINS", gephi_label="exp", gephi_omitted="false", fontsize="11", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse"];
+
+"tlg0093_tlg004.S153946_func" -> "tlg0093_tlg004.T170246" [color="#927b89", style="filled", dir="back"];
+
+"tlg0093_tlg004.S153946_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.S153946_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.T154708" [label=<<b>THESIS</b><br/>         Theophrastus         <br/>55<br/><i>Copper rust comes about by a (technical) process<br/>very similar to lead white's<br/></i><font point-size="12">"τίθεται γὰρ μόλυβδος ... ἰὸς γίνεται"</font>>, gephi_label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον. παραπλησίως δὲ καὶ ὁ ἰὸς γίνεται", paraphrasis="Copper rust comes about by a (technical) process very similar to lead white's ", manifestation="explicit", source="tlg0093_tlg004", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S160706" [label=<<b>impl. SUPPORT</b><br/>         Theophrastus         <br/>56<br/><i>form: generalization</i><br/><font point-size="12">"παραπλησίως δὲ καὶ ... γίνεται ·"</font>>, gephi_label="SUPP", text="παραπλησίως δὲ καὶ ὁ ἰὸς γίνεται ·", locus="56", speaker="Theophrastus", form="generalization", paraphrasis="( \"Copper rust comes about by a (technical) process very similar to lead white's\" CONTEXT) [omitted] ) ", manifestation="implicit", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S160706_to_omitted_TARGET_THESIS_1" [label=<<b>THESIS</b><br/><i>(omitted)</i>>, gephi_label="THES", gephi_omitted="true", fontsize="11", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S160706_func" [label="CONTEXTUALIZES", gephi_label="(con)", gephi_omitted="false", fontsize="11", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse"];
+
+"tlg0093_tlg004.S160706_func" -> "tlg0093_tlg004.S160706_to_omitted_TARGET_THESIS_1" [color="#b3a89a", style="dashed,filled"];
+
+"tlg0093_tlg004.S160706_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0093_tlg004.T154708" -> "tlg0093_tlg004.S160706_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.S162445" -> "tlg0093_tlg004.S162445_func" [dir=none, color="#b3a89a", style="dashed,filled"];
+
+"tlg0093_tlg004.S162445_employed" -> "tlg0093_tlg004.S162445" [color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.S183406" -> "tlg0093_tlg004.S183406_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0093_tlg004.S183406_employed" -> "tlg0093_tlg004.S183406" [color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.S150529" -> "tlg0093_tlg004.S150529_func" [dir=none, color="#b3a89a", style="dashed,filled"];
+
+"tlg0093_tlg004.S150529_employed" -> "tlg0093_tlg004.S150529" [color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.q151115001" [dir=none, lhead="cluster_tlg0093_tlg004_T151115_tlg0093_tlg004_Q151115", color="#82b366"];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.T151115_to_tlg0093_tlg004.T180430_1" [dir=none, color="#82b366"];
+
+"tlg0093_tlg004.T151115_to_tlg0093_tlg004.T180430_1" -> "tlg0093_tlg004.T180430" [color="#82b366"];
+
+"tlg0093_tlg004.S181431" -> "tlg0093_tlg004.S181431_func" [dir=none, color="#927b89", style="filled"];
+
+"tlg0093_tlg004.S181431_employed" -> "tlg0093_tlg004.S181431" [color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.S153946" -> "tlg0093_tlg004.S153946_func" [dir=none, color="#927b89", style="filled"];
+
+"tlg0093_tlg004.S153946_employed" -> "tlg0093_tlg004.S153946" [color="#d79c02", style="solid"];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.T151115_analogy_to_tlg0093_tlg004.T154708_1" [dir=none, color="#d4d400"];
+
+"tlg0093_tlg004.T151115_analogy_to_tlg0093_tlg004.T154708_1" -> "tlg0093_tlg004.T154708" [color="#d4d400"];
+
+"tlg0093_tlg004.S160706" -> "tlg0093_tlg004.S160706_func" [dir=none, color="#b3a89a", style="dashed,filled"];
+
+"tlg0093_tlg004.S160706_employed" -> "tlg0093_tlg004.S160706" [color="#d79c02", style="solid"];
+}
+
+// Ensuring all proposition nodes and related elements are included
+
+}

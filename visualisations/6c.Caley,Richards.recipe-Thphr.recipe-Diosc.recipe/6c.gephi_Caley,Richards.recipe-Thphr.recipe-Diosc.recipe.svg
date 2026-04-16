@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="614.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-307.000000 -309.000000 614.000000 615.000000" height="615.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928001 id_caley_richards_1956.q163717001"
+              d="M -14.560513,52.982014 A 87.145548,87.145548 0,0 1,77.515816,75.257469"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928003 id_caley_richards_1956.q163717001"
+              d="M 120.584404,177.328308 A 91.646540,91.646540 0,0 1,80.317581,85.634979"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928006 id_caley_richards_1956.q163717008"
+              d="M -268.900391,-115.994080 A 89.957844,89.957844 0,0 1,-171.366257,-105.336876"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928007 id_caley_richards_1956.q163717008"
+              d="M -100.535217,-26.625105 A 87.330281,87.330281 0,0 1,-165.949829,-95.453293"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116001 id_caley_richards_1956.q163717001"
+              d="M 9.469020,-77.742157 A 148.347137,148.347137 0,0 1,82.531326,73.841736"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116002 id_caley_richards_1956.q163717002"
+              d="M -113.419640,-269.921051 A 94.563722,94.563722 0,0 1,-77.801796,-172.579941"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116004 id_caley_richards_1956.q163717003"
+              d="M 128.184570,-144.593552 A 96.920149,96.920149 0,0 1,197.688416,-63.918476"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116006 id_caley_richards_1956.q163717005"
+              d="M 207.086472,-220.475845 A 95.031188,95.031188 0,0 1,271.746033,-138.745255"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116007 id_caley_richards_1956.q163717008"
+              d="M -204.142532,-208.517166 A 98.576275,98.576275 0,0 1,-165.380600,-107.202110"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717007 id_caley_richards_1956.T212135"
+              d="M 295.777313,-7.374912 A 172.656129,172.656129 0,0 1,101.946098,-18.809092"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928001 id_tlg0656_tlg001.P213927"
+              d="M -23.074238,60.400837 A 91.665690,91.665690 0,0 1,-106.742638,104.663597"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928004 id_tlg0656_tlg001.P213927"
+              d="M -218.677216,181.690231 A 109.714720,109.714720 0,0 1,-131.572052,104.476738"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928003 id_tlg0656_tlg001.P213927"
+              d="M 120.022675,182.352966 A 213.982052,213.982052 0,0 1,-111.575546,113.061928"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928008 id_tlg0656_tlg001.P213927"
+              d="M 92.285690,285.809906 A 236.876822,236.876822 0,0 1,-116.008621,115.215233"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717006 id_caley_richards_1956.T212135"
+              d="M 277.224487,108.159187 A 192.704473,192.704473 0,0 1,97.530891,-15.706453"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116001 id_tlg0093_tlg004.P151115"
+              d="M 1.622381,-86.028824 A 98.744045,98.744045 0,0 1,15.645123,-188.258621"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116007 id_tlg0093_tlg004.P151115"
+              d="M -204.056732,-215.085510 A 194.773628,194.773628 0,0 1,14.388335,-205.204193"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928006 id_tlg0656_tlg001.P213927"
+              d="M -268.464508,-111.229843 A 221.709866,221.709866 0,0 1,-119.229912,90.615746"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717001 id_caley_richards_1956.T212135"
+              d="M 78.674225,74.453690 A 88.045416,88.045416 0,0 1,87.704552,-17.534836"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116004 id_tlg0093_tlg004.P151115"
+              d="M 116.416870,-145.287842 A 92.350327,92.350327 0,0 1,30.298107,-186.520172"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116002 id_tlg0093_tlg004.P151115"
+              d="M -112.395409,-274.136871 A 134.562741,134.562741 0,0 1,18.342327,-208.473007"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717009 id_caley_richards_1956.T212135"
+              d="M 215.631683,205.894562 A 221.519233,221.519233 0,0 1,92.970657,-15.212310"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717002 id_caley_richards_1956.T212135"
+              d="M -73.359825,-166.440796 A 186.681994,186.681994 0,0 1,91.539101,-34.775059"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717004 id_caley_richards_1956.T212135"
+              d="M 186.766144,61.881607 A 109.910948,109.910948 0,0 1,96.633354,-15.436211"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928002 id_tlg0656_tlg001.P213927"
+              d="M -24.095398,297.711548 A 184.498932,184.498932 0,0 1,-120.878197,115.494919"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928012 id_tlg0656_tlg001.P213927"
+              d="M -294.835480,-8.231233 A 177.360197,177.360197 0,0 1,-124.181412,91.674370"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717008 id_caley_richards_1956.T212135"
+              d="M -161.207153,-103.420486 A 226.634309,226.634309 0,0 1,88.030174,-33.004227"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116005 id_tlg0093_tlg004.P151115"
+              d="M 104.269043,-275.797089 A 97.446450,97.446450 0,0 1,36.342522,-200.210709"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928009 id_tlg0656_tlg001.P213927"
+              d="M -192.152145,25.452221 A 92.873423,92.873423 0,0 1,-121.760086,90.891769"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717005 id_caley_richards_1956.T212135"
+              d="M 269.750671,-127.230019 A 173.257096,173.257096 0,0 1,104.177315,-24.431131"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928007 id_tlg0656_tlg001.P213927"
+              d="M -92.168053,-19.963734 A 109.042329,109.042329 0,0 1,-110.405136,94.180122"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_caley_richards_1956.q163717003 id_caley_richards_1956.T212135"
+              d="M 194.624664,-53.188938 A 90.938736,90.938736 0,0 1,103.804161,-22.342918"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928011 id_tlg0656_tlg001.P213927"
+              d="M -275.266357,101.503227 A 134.140454,134.140454 0,0 1,-129.568832,96.214523"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116006 id_tlg0093_tlg004.P151115"
+              d="M 196.996902,-218.045364 A 149.083538,149.083538 0,0 1,35.346558,-191.831009"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928013 id_tlg0656_tlg001.P213927"
+              d="M -149.164352,269.151947 A 144.637903,144.637903 0,0 1,-127.743347,112.189743"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928005 id_tlg0656_tlg001.P213927"
+              d="M -89.876091,192.845474 A 82.707262,82.707262 0,0 1,-121.828629,115.324295"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928010 id_tlg0656_tlg001.P213927"
+              d="M 11.219032,185.489014 A 132.541804,132.541804 0,0 1,-113.894852,114.458794"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116003 id_tlg0093_tlg004.P151115"
+              d="M -6.371053,-299.393524 A 92.761933,92.761933 0,0 1,27.287395,-209.512131"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.P213927 id_caley_richards_1956.T212135"
+              d="M -114.093102,91.682434 A 207.441601,207.441601 0,0 1,84.232719,-25.916798"
+              stroke="#4b0082" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.P151115 id_caley_richards_1956.T212135"
+              d="M 34.606087,-190.543839 A 154.973037,154.973037 0,0 1,96.433960,-34.883965"
+              stroke="#4b0082" stroke-width="0.8" stroke-opacity="0.4"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928001 id_caley_richards_1956.q163717001"
+                  points="77.515816,75.257462 77.515816,75.257462 77.515816,75.257462"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928003 id_caley_richards_1956.q163717001"
+                  points="80.317581,85.634979 80.317581,85.634979 80.317581,85.634979"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928006 id_caley_richards_1956.q163717008"
+                  points="-171.366257,-105.336876 -171.366257,-105.336876 -171.366257,-105.336876"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928007 id_caley_richards_1956.q163717008"
+                  points="-165.949829,-95.453293 -165.949829,-95.453293 -165.949829,-95.453293"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116001 id_caley_richards_1956.q163717001"
+                  points="82.531326,73.841736 82.531326,73.841736 82.531326,73.841736"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116002 id_caley_richards_1956.q163717002"
+                  points="-77.801796,-172.579941 -77.801796,-172.579941 -77.801796,-172.579941"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116004 id_caley_richards_1956.q163717003"
+                  points="197.688416,-63.918476 197.688416,-63.918476 197.688416,-63.918476"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116006 id_caley_richards_1956.q163717005"
+                  points="271.746033,-138.745255 271.746033,-138.745255 271.746033,-138.745255"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116007 id_caley_richards_1956.q163717008"
+                  points="-165.380600,-107.202110 -165.380600,-107.202110 -165.380600,-107.202110"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717007 id_caley_richards_1956.T212135"
+                  points="101.946098,-18.809092 101.946098,-18.809092 101.946098,-18.809092"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928001 id_tlg0656_tlg001.P213927"
+                  points="-106.742638,104.663597 -106.742638,104.663597 -106.742638,104.663597"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928004 id_tlg0656_tlg001.P213927"
+                  points="-131.572052,104.476738 -131.572052,104.476738 -131.572052,104.476738"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928003 id_tlg0656_tlg001.P213927"
+                  points="-111.575546,113.061928 -111.575546,113.061928 -111.575546,113.061928"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928008 id_tlg0656_tlg001.P213927"
+                  points="-116.008621,115.215225 -116.008621,115.215225 -116.008621,115.215225"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717006 id_caley_richards_1956.T212135"
+                  points="97.530891,-15.706454 97.530891,-15.706454 97.530891,-15.706454"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116001 id_tlg0093_tlg004.P151115"
+                  points="15.645123,-188.258621 15.645123,-188.258621 15.645123,-188.258621"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116007 id_tlg0093_tlg004.P151115"
+                  points="14.388335,-205.204193 14.388335,-205.204193 14.388335,-205.204193"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928006 id_tlg0656_tlg001.P213927"
+                  points="-119.229912,90.615738 -119.229912,90.615738 -119.229912,90.615738"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717001 id_caley_richards_1956.T212135"
+                  points="87.704552,-17.534836 87.704552,-17.534836 87.704552,-17.534836"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116004 id_tlg0093_tlg004.P151115"
+                  points="30.298107,-186.520172 30.298107,-186.520172 30.298107,-186.520172"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116002 id_tlg0093_tlg004.P151115"
+                  points="18.342327,-208.473007 18.342327,-208.473007 18.342327,-208.473007"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717009 id_caley_richards_1956.T212135"
+                  points="92.970657,-15.212310 92.970657,-15.212310 92.970657,-15.212310"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717002 id_caley_richards_1956.T212135"
+                  points="91.539101,-34.775059 91.539101,-34.775059 91.539101,-34.775059"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717004 id_caley_richards_1956.T212135"
+                  points="96.633354,-15.436211 96.633354,-15.436211 96.633354,-15.436211"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928002 id_tlg0656_tlg001.P213927"
+                  points="-120.878197,115.494919 -120.878197,115.494919 -120.878197,115.494919"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928012 id_tlg0656_tlg001.P213927"
+                  points="-124.181412,91.674370 -124.181412,91.674370 -124.181412,91.674370"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717008 id_caley_richards_1956.T212135"
+                  points="88.030174,-33.004227 88.030174,-33.004227 88.030174,-33.004227"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116005 id_tlg0093_tlg004.P151115"
+                  points="36.342522,-200.210709 36.342522,-200.210709 36.342522,-200.210709"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928009 id_tlg0656_tlg001.P213927"
+                  points="-121.760086,90.891769 -121.760086,90.891769 -121.760086,90.891769"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717005 id_caley_richards_1956.T212135"
+                  points="104.177315,-24.431131 104.177315,-24.431131 104.177315,-24.431131"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928007 id_tlg0656_tlg001.P213927"
+                  points="-110.405136,94.180122 -110.405136,94.180122 -110.405136,94.180122"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_caley_richards_1956.q163717003 id_caley_richards_1956.T212135"
+                  points="103.804161,-22.342918 103.804161,-22.342918 103.804161,-22.342918"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928011 id_tlg0656_tlg001.P213927"
+                  points="-129.568832,96.214523 -129.568832,96.214523 -129.568832,96.214523"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116006 id_tlg0093_tlg004.P151115"
+                  points="35.346558,-191.831009 35.346558,-191.831009 35.346558,-191.831009"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928013 id_tlg0656_tlg001.P213927"
+                  points="-127.743347,112.189743 -127.743347,112.189743 -127.743347,112.189743"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928005 id_tlg0656_tlg001.P213927"
+                  points="-121.828629,115.324295 -121.828629,115.324295 -121.828629,115.324295"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928010 id_tlg0656_tlg001.P213927"
+                  points="-113.894852,114.458794 -113.894852,114.458794 -113.894852,114.458794"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116003 id_tlg0093_tlg004.P151115"
+                  points="27.287394,-209.512131 27.287394,-209.512131 27.287394,-209.512131"
+                  stroke="none"/>
+        <polyline fill="#4b0082" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.P213927 id_caley_richards_1956.T212135"
+                  points="84.232719,-25.916798 84.232719,-25.916798 84.232719,-25.916798"
+                  stroke="none"/>
+        <polyline fill="#4b0082" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.P151115 id_caley_richards_1956.T212135"
+                  points="96.433960,-34.883965 96.433960,-34.883965 96.433960,-34.883965"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="11.5" cx="-119.1464"
+                class="id_tlg0656_tlg001.P213927" cy="103.11546"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="2.0"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-20.150768"
+                class="id_tlg0656_tlg001.q213928001" cy="55.161243"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-18.753967"
+                class="id_tlg0656_tlg001.q213928002" cy="300.44452"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="125.711296"
+                class="id_tlg0656_tlg001.q213928003" cy="180.44519"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-220.21402"
+                class="id_tlg0656_tlg001.q213928004" cy="187.49008"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-84.965"
+                class="id_tlg0656_tlg001.q213928005" cy="196.29239"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-274.1621"
+                class="id_tlg0656_tlg001.q213928006" cy="-113.11063"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-94.65683"
+                class="id_tlg0656_tlg001.q213928007" cy="-25.42322"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="98.27137"
+                class="id_tlg0656_tlg001.q213928008" cy="286.22424"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-198.06279"
+                class="id_tlg0656_tlg001.q213928009" cy="24.42058"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="17.199852"
+                class="id_tlg0656_tlg001.q213928010" cy="185.00964"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-280.10327"
+                class="id_tlg0656_tlg001.q213928011" cy="105.053474"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-300.81696"
+                class="id_tlg0656_tlg001.q213928012" cy="-7.7599993"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-146.47574"
+                class="id_tlg0656_tlg001.q213928013" cy="274.51584"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="81.49177"
+                class="id_caley_richards_1956.q163717001" cy="79.75099"
+                stroke="#6aaf6a" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="-166.8514"
+                class="id_caley_richards_1956.q163717008" cy="-101.38517"
+                stroke="#6aaf6a" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="9.2" cx="94.2022"
+                class="id_caley_richards_1956.T212135" cy="-25.136185"
+                stroke="#6aaf6a" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#66cdaa" r="5.52" cx="-79.35005"
+                class="id_caley_richards_1956.q163717002" cy="-166.78314"
+                stroke="#478f76" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#66cdaa" r="5.52" cx="198.2791"
+                class="id_caley_richards_1956.q163717003" cy="-57.94762"
+                stroke="#478f76" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="192.7292"
+                class="id_caley_richards_1956.q163717004" cy="62.54638"
+                stroke="#648364" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#66cdaa" r="5.52" cx="272.09015"
+                class="id_caley_richards_1956.q163717005" cy="-132.75513"
+                stroke="#478f76" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="283.2239"
+                class="id_caley_richards_1956.q163717006" cy="108.075005"
+                stroke="#648364" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="300.87476"
+                class="id_caley_richards_1956.q163717007" cy="-10.539707"
+                stroke="#648364" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="221.05153"
+                class="id_caley_richards_1956.q163717009" cy="208.46852"
+                stroke="#648364" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="11.5" cx="24.160421"
+                class="id_tlg0093_tlg004.P151115" cy="-197.40956"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="2.0"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="4.1988754"
+                class="id_tlg0093_tlg004.q151116001" cy="-80.61018"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-118.34354"
+                class="id_tlg0093_tlg004.q151116002" cy="-273.34964"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-11.196454"
+                class="id_tlg0093_tlg004.q151116003" cy="-302.9594"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="122.36683"
+                class="id_tlg0093_tlg004.q151116004" cy="-146.06113"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="105.182014"
+                class="id_tlg0093_tlg004.q151116005" cy="-281.72723"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="201.33626"
+                class="id_tlg0093_tlg004.q151116006" cy="-222.18903"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-209.12039"
+                class="id_tlg0093_tlg004.q151116007" cy="-211.86693"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="15" x="-119.1464" y="105.89378"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.P213927"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.8125px">
+            PROP
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-20.150768" y="56.419056"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928001"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            1
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-18.753967" y="301.70233"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928002"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            2
+        </text>
+        <text stroke-linecap="round" font-size="7" x="125.711296" y="181.72522"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928003"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-220.21402" y="188.74277"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928004"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            4
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-84.965" y="197.54964"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928005"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            5
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-274.1621" y="-111.83117"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928006"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            6
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-94.65683" y="-24.186485"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928007"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="7" x="98.27137" y="287.5037"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928008"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            8
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-198.06279" y="25.700039"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928009"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            9
+        </text>
+        <text stroke-linecap="round" font-size="7" x="17.199852" y="186.28911"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928010"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            10
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-280.10327" y="106.31129"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928011"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            11
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-300.81696" y="-6.502187"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928012"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            12
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-146.47574" y="275.79587"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928013"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            13
+        </text>
+        <text stroke-linecap="round" font-size="7" x="81.49177" y="81.008804"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717001"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            1
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-166.8514" y="-100.10571"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717008"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            8
+        </text>
+        <text stroke-linecap="round" font-size="12" x="94.2022" y="-22.914505"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.T212135"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.25px">
+            THES
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-79.35005" y="-165.52533"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717002"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            2
+        </text>
+        <text stroke-linecap="round" font-size="7" x="198.2791" y="-56.66759"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717003"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="7" x="192.7292" y="63.799065"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717004"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            4
+        </text>
+        <text stroke-linecap="round" font-size="7" x="272.09015" y="-131.49788"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717005"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            5
+        </text>
+        <text stroke-linecap="round" font-size="7" x="283.2239" y="109.35446"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717006"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            6
+        </text>
+        <text stroke-linecap="round" font-size="7" x="300.87476" y="-9.302972"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717007"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="7" x="221.05153" y="209.74799"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717009"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            9
+        </text>
+        <text stroke-linecap="round" font-size="15" x="24.160421" y="-194.63124"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.P151115"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.8125px">
+            PROP
+        </text>
+        <text stroke-linecap="round" font-size="7" x="4.1988754" y="-79.35237"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116001"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            1
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-118.34354" y="-272.09183"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116002"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            2
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-11.196454" y="-301.67938"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116003"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="7" x="122.36683" y="-144.80844"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116004"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            4
+        </text>
+        <text stroke-linecap="round" font-size="7" x="105.182014" y="-280.47"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116005"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            5
+        </text>
+        <text stroke-linecap="round" font-size="7" x="201.33626" y="-220.90956"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116006"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            6
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-209.12039" y="-210.63019"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116007"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="5" x="34.76879" y="50.515694"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_83" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            is p...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="86.81917" y="137.46802"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_84" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            is p...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-218.5525" y="-125.13302"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_85" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            is p...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-143.41444" y="-51.371765"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_86" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            is p...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="69.57218" y="-13.311745"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_87" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-81.08571" y="-226.5653"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_88" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            exte...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="175.00854" y="-114.65642"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_89" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            alters
+        </text>
+        <text stroke-linecap="round" font-size="5" x="251.61885" y="-189.26439"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_90" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            alters
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-169.57227" y="-163.67088"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_91" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            alters
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-33.847374" y="3.431537"
+              fill="#4b0082" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_121" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            is p...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="87.89354" y="-122.9465"
+              fill="#4b0082" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_123" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            exte...
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="15" x="-119.1464" y="105.89378" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.P213927">
+            PROP
+        </text>
+        <text font-size="7" x="-20.150768" y="56.419056" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928001">
+            1
+        </text>
+        <text font-size="7" x="-18.753967" y="301.70233" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928002">
+            2
+        </text>
+        <text font-size="7" x="125.711296" y="181.72522" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928003">
+            3
+        </text>
+        <text font-size="7" x="-220.21402" y="188.74277" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928004">
+            4
+        </text>
+        <text font-size="7" x="-84.965" y="197.54964" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928005">
+            5
+        </text>
+        <text font-size="7" x="-274.1621" y="-111.83117" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928006">
+            6
+        </text>
+        <text font-size="7" x="-94.65683" y="-24.186485" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928007">
+            7
+        </text>
+        <text font-size="7" x="98.27137" y="287.5037" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928008">
+            8
+        </text>
+        <text font-size="7" x="-198.06279" y="25.700039" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928009">
+            9
+        </text>
+        <text font-size="7" x="17.199852" y="186.28911" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928010">
+            10
+        </text>
+        <text font-size="7" x="-280.10327" y="106.31129" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928011">
+            11
+        </text>
+        <text font-size="7" x="-300.81696" y="-6.502187" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928012">
+            12
+        </text>
+        <text font-size="7" x="-146.47574" y="275.79587" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928013">
+            13
+        </text>
+        <text font-size="7" x="81.49177" y="81.008804" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717001">
+            1
+        </text>
+        <text font-size="7" x="-166.8514" y="-100.10571" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717008">
+            8
+        </text>
+        <text font-size="12" x="94.2022" y="-22.914505" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.T212135">
+            THES
+        </text>
+        <text font-size="7" x="-79.35005" y="-165.52533" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717002">
+            2
+        </text>
+        <text font-size="7" x="198.2791" y="-56.66759" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717003">
+            3
+        </text>
+        <text font-size="7" x="192.7292" y="63.799065" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717004">
+            4
+        </text>
+        <text font-size="7" x="272.09015" y="-131.49788" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717005">
+            5
+        </text>
+        <text font-size="7" x="283.2239" y="109.35446" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717006">
+            6
+        </text>
+        <text font-size="7" x="300.87476" y="-9.302972" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717007">
+            7
+        </text>
+        <text font-size="7" x="221.05153" y="209.74799" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_caley_richards_1956.q163717009">
+            9
+        </text>
+        <text font-size="15" x="24.160421" y="-194.63124" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.P151115">
+            PROP
+        </text>
+        <text font-size="7" x="4.1988754" y="-79.35237" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116001">
+            1
+        </text>
+        <text font-size="7" x="-118.34354" y="-272.09183" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116002">
+            2
+        </text>
+        <text font-size="7" x="-11.196454" y="-301.67938" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116003">
+            3
+        </text>
+        <text font-size="7" x="122.36683" y="-144.80844" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116004">
+            4
+        </text>
+        <text font-size="7" x="105.182014" y="-280.47" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116005">
+            5
+        </text>
+        <text font-size="7" x="201.33626" y="-220.90956" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116006">
+            6
+        </text>
+        <text font-size="7" x="-209.12039" y="-210.63019" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116007">
+            7
+        </text>
+    </g>
+    <g id="edge-labels">
+        <text font-size="5" x="34.76879" y="50.515694" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_83">
+            is p...
+        </text>
+        <text font-size="5" x="86.81917" y="137.46802" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_84">
+            is p...
+        </text>
+        <text font-size="5" x="-218.5525" y="-125.13302" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_85">
+            is p...
+        </text>
+        <text font-size="5" x="-143.41444" y="-51.371765" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_86">
+            is p...
+        </text>
+        <text font-size="5" x="69.57218" y="-13.311745" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_87">
+            gene...
+        </text>
+        <text font-size="5" x="-81.08571" y="-226.5653" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_88">
+            exte...
+        </text>
+        <text font-size="5" x="175.00854" y="-114.65642" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_89">
+            alters
+        </text>
+        <text font-size="5" x="251.61885" y="-189.26439" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_90">
+            alters
+        </text>
+        <text font-size="5" x="-169.57227" y="-163.67088" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_91">
+            alters
+        </text>
+        <text font-size="5" x="-33.847374" y="3.431537" fill="#4b0082"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_121">
+            is p...
+        </text>
+        <text font-size="5" x="87.89354" y="-122.9465" fill="#4b0082"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_123">
+            exte...
+        </text>
+    </g>
+</svg>

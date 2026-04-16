@@ -1,0 +1,161 @@
+digraph G {
+"katsaros_liritzis_laskaris_2010" [label="SOURCE", source_id="katsaros_liritzis_laskaris_2010", is_source_node="true", shape="diamond", style="filled", color="thistle", fillcolor="thistle", fontcolor="black", fontsize="16", fontname="bold", width="1.5", height="1.5", penwidth="2", margin="0.2,0.1"];
+
+
+"katsaros_liritzis_laskaris_2010.T201850" [label="THES", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="The report of Theophrastus ... The recipe on the preparation of Lead White ... was incomplete", paraphrasis="Theophrastus's recipe for lead white is incomplete ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.T202024" [label="THES", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="The report of Theophrastus ... The recipe on the preparation of Lead White ... lack of the exact description of the jar and its cover", paraphrasis="Theophrastus's recipe for lead white lacks an exact description of the jar and its cover ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.S202202" [label="SUPP", text="because of the lack of the exact description of the jar and its cover", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="particular-illustration", paraphrasis="\"Theophrastus's recipe for lead white lacks an exact description of the jar and its cover\" JUSTIFIES) \"Theophrastus's recipe for lead white is incomplete\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.T201040" [label="THES", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="The report of Theophrastus ... The recipe on the preparation of Lead White ... We have synthe- sised the recipe from the text of Dioscorides Materia Medica V", paraphrasis="We combined Theophrastus's recipe for lead white with Dioscorides's recipe ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.S201544" [label="SUPP", text="We have synthe- sised the recipe from the text of Dioscorides Materia Medica V", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="None", paraphrasis="( \"We combined Theophrastus's recipe for lead white with Dioscorides's recipe\" CONTEXT) \"{Replication of Theophrastus's recipe for lead white}\" ) ", manifestation="implicit", color="linen", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.T202644" [label="THES", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="The report of Theophrastus ... The recipe on the preparation of Lead White ... We have synthe- sised the recipe from the text of Dioscorides Materia Medica V ... We have synthe- sised the recipe from the text of Dioscorides Materia Medica V. Both of the two texts describe a complete method for Lead White preparation", paraphrasis="( Our combining Theophrastus's recipe for lead white with Dioscorides's recipe was a methodologically good choice ) ", manifestation="implicit", source="katsaros_liritzis_laskaris_2010", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.T203426" [label="THES", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="The report of Theophrastus ... The recipe on the preparation of Lead White ... We have synthe- sised the recipe from the text of Dioscorides Materia Medica V ... We have synthe- sised the recipe from the text of Dioscorides Materia Medica V. Both of the two texts describe a complete method for Lead White preparation", paraphrasis="The combination of Theophrastus's recipe for lead white with Dioscorides's recipe provides a complete method for the preparation of lead white ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.S203157" [label="SUPP", text="Both of the two texts describe a complete method for Lead White preparation", locus="p. 70", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="particular-illustration", paraphrasis="( \"Theophrastus's recipe for lead white is incomplete\" + \"The combination of Theophrastus's recipe for lead white with Dioscorides's recipe provides a complete method for the preparation of lead white\" JUSTIFIES) \"( Our combining Theophrastus's recipe for lead white with Dioscorides's recipe was a methodologically good choice )\" ) ", manifestation="implicit", color="ghostwhite", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.T124253" [label="THES", locus="p. 71", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Sample PSI- 1 is the reproduced in laboratory white pow- der following Theophrastus ancient recipe On Stones. (ref. On Stones§ 56 above) . Ccommercial metallic lead cut in the shape of a brick approx. 10 cm length by 5 cm width and 2 cm thickness, hanged over within a ceramic ... out. A white powdered layer on its surface was removed by scratch, then washed in a marble mortar and ground down with marble pestle to a fine powder, following a dry out under the sun. Subsequently it was applied on a prepared wooden surface with a gypsum or calcite support", paraphrasis="We reproduced in laboratory the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white): .We cut commercial metallic lead in the shape of a brick {approx. 10 cm length by 5 cm width by 2 cm thickness}, .We placed vinegar on the bottom of a ceramic vessel, .We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel, .We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes), .We placed the vessel under the sun, .We waited {for 10 days}, {at temperatures of average 30 °C and a range of 27-55 degrees}, .We removed the skin cover, .We took the brick-shaped lead out, .We removed the white powdered layer (thus formed) on the surface of the lead by scratching, .In a marble mortar, we washed and ground down to a fine powder the white powdered layer using a marble pestle, .We waited for it to dry out under the sun, ( .We obtained the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white) ), .We applied it on a prepared wooden surface with a gypsum OR calcite support ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.q131226001" [label="ph.", phase_number="1", paraphrasis="We cut commercial metallic lead in the shape of a brick {approx. 10 cm length by 5 cm width by 2 cm thickness} ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226002" [label="ph.", phase_number="2", paraphrasis="We placed vinegar on the bottom of a ceramic vessel ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226003" [label="ph.", phase_number="3", paraphrasis="We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226004" [label="ph.", phase_number="4", paraphrasis="We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes) ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226005" [label="ph.", phase_number="5", paraphrasis="We placed the vessel under the sun ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226006" [label="ph.", phase_number="6", paraphrasis="We waited {for 10 days}, {at temperatures of average 30 °C and a range of 27-55 degrees} ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226007" [label="ph.", phase_number="7", paraphrasis="We removed the skin cover ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226008" [label="ph.", phase_number="8", paraphrasis="We took the brick-shaped lead out ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226009" [label="ph.", phase_number="9", paraphrasis="We removed the white powdered layer (thus formed) on the surface of the lead by scratching ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226010" [label="ph.", phase_number="10", paraphrasis="In a marble mortar, we washed and ground down to a fine powder the white powdered layer using a marble pestle ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226011" [label="ph.", phase_number="11", paraphrasis="We waited for it to dry out under the sun ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226012" [label="ph.", phase_number="12", paraphrasis="( We obtained the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white) ) ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226013" [label="ph.", phase_number="13", paraphrasis="We applied it on a prepared wooden surface with a gypsum support ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.S164615" [label="SUPP", text="(i. e. it breaths)", locus="p. 71", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="reformulation", paraphrasis="{text} EXPLAINS) \"[…] .We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air […]\" ", manifestation="explicit", color="lightgoldenrodyellow", label_color="grey", style="filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.T181703" [label="THES", locus="p. 73", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Figure 2 b: X- ray Diffraction spectrum of sample PSI- 1. Experimental reproduction of the Theophrastus’“ psimythion” identified as Crussite and Hydrocerussite", paraphrasis="X-Ray Diffraction spectrum of sample PSI-1, from our experimental replication of Theophrastus's recipe for lead white, identified in it cerussite and hydrocerussite ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.S182059" [label="SUPP", text="Figure 2 b: X- ray Diffraction spectrum of sample PSI- 1. Experimental reproduction of the Theophrastus’“ psimythion” identified as Crussite and Hydrocerussite", locus="p. 73", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="empirical-measurement", paraphrasis="( \"( X-Ray Diffraction spectrum of sample PSI-1, from our experimental replication of Theophrastus's recipe for lead white, identified in it cerussite and hydrocerussite )\" JUSTIFIES) \"The sample PSI-1 is composed of pure cerusssite and a phase of hydrocerussite\" ) ", manifestation="implicit", color="ghostwhite", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.T182730" [label="THES", locus="p. 73", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Crussite and Hydrocerussite, the two components of Lead White", paraphrasis="Cerussite and hydrocerussite are the two components of lead white ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.S183202" [label="SUPP", text="Figure 2 b: X- ray Diffraction spectrum of sample PSI- 1. Experimental reproduction of the Theophrastus’“ psimythion” identified as Crussite and Hydrocerussite, the two components of Lead White", locus="p. 73", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="definition", paraphrasis="( \"( The sample PSI-1 is composed of cerussite and hydrocerussite )\" + \"Cerussite and hydrocerussite are the two components of lead white\" JUSTIFIES) \"( The sample PSI-1 is lead white )\" ) ", manifestation="implicit", color="ghostwhite", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.T182853" [label="THES", locus="p. 73", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Figure 2 b: X- ray Diffraction spectrum of sample PSI- 1. Experimental reproduction of the Theophrastus’“ psimythion” identified as Crussite and Hydrocerussite, the two components of Lead White", paraphrasis="( The sample PSI-1 is lead white ) ", manifestation="implicit", source="katsaros_liritzis_laskaris_2010", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.T181538" [label="THES", locus="p. 75", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Sample PSI- 1(modern) has a phase of hydrocerussite in addition to pure cerusssite", paraphrasis="The sample PSI-1 is composed of pure cerusssite and a phase of hydrocerussite ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.S190032" [label="SUPP", text="Figure 8: Reconstruction of the apparatus according to Theophrastus in his text“ On Stones” for the preparation of the psimythion(lead white) .", locus="p. 77", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", form="visualization", paraphrasis="{text} EXPLAINS) \"[…] .We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel, .We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes) […]\" ", manifestation="explicit", color="lightgoldenrodyellow", label_color="grey", style="filled", shape="ellipse", margin="0.05,0.02", source="katsaros_liritzis_laskaris_2010"];
+
+"katsaros_liritzis_laskaris_2010.q131226013" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226005" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226010" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226001" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226009" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226006" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226012" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226003" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226008" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226007" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226011" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226002" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226004" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.S182059" -> "katsaros_liritzis_laskaris_2010.T181538" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.T201040" -> "katsaros_liritzis_laskaris_2010.T202644" [label="REFERENCED IN", color="olivedrab", fontcolor="olivedrab", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T182730" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.S202202" -> "katsaros_liritzis_laskaris_2010.T201850" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T202644" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.T181703" -> "katsaros_liritzis_laskaris_2010.S182059" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.T181538" -> "katsaros_liritzis_laskaris_2010.S183202" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S203157" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S201544" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T181703" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.S190032" -> "katsaros_liritzis_laskaris_2010.q131226003" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.S190032" -> "katsaros_liritzis_laskaris_2010.T124253" [label="REFERENCED IN", color="olivedrab", fontcolor="olivedrab", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T201040" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.S203157" -> "katsaros_liritzis_laskaris_2010.T202644" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T124253" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.T201040" -> "katsaros_liritzis_laskaris_2010.S201544" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.S201544" -> "katsaros_liritzis_laskaris_2010.T124253" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S190032" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S182059" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.S183202" -> "katsaros_liritzis_laskaris_2010.T182853" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.T203426" -> "katsaros_liritzis_laskaris_2010.S203157" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S202202" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T181538" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.T202024" -> "katsaros_liritzis_laskaris_2010.S202202" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.S190032" -> "katsaros_liritzis_laskaris_2010.q131226004" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010.T124253" -> "katsaros_liritzis_laskaris_2010.T181703" [label="REFERENCED IN", color="olivedrab", fontcolor="olivedrab", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T201850" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.S164615" -> "katsaros_liritzis_laskaris_2010.q131226004" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T203426" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S164615" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.S183202" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.T182730" -> "katsaros_liritzis_laskaris_2010.S183202" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T182853" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T202024" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"katsaros_liritzis_laskaris_2010.T201850" -> "katsaros_liritzis_laskaris_2010.S203157" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+}

@@ -1,0 +1,253 @@
+digraph G {
+"tlg0059_tlg020" [label="SOURCE", source_id="tlg0059_tlg020", is_source_node="true", shape="diamond", style="filled", color="thistle", fillcolor="thistle", fontcolor="black", fontsize="16", fontname="bold", width="1.5", height="1.5", penwidth="2", margin="0.2,0.1"];
+
+
+"tlg0059_tlg020.S182137" [label="SUPP", text="οὐ γὰρ δή γε κακὸν γεγονὸς ἔτι ἄν τι τοῦ ἀγαθοῦ οὗ ἐπιθυμοῖ καὶ φίλον εἴη · ἀδύνατον γὰρ ἔφαμεν κακὸν ἀγαθῷ φίλον εἶναι. — ἀδύνατον γάρ. — σκέψασθε δὴ ὃ λέγω. λέγω γὰρ ὅτι", locus="217b", speaker="", form="None", paraphrasis="[omitted] CONTEXT) \"Some things are also themselves of such a sort as whatever may be present (in/to them); others are not\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S182137_to_omitted_ELEMENTS_unspecified" [label="ELEM", gephi_omitted="true", gephi_unspecified="true", fontsize="11", color="whitesmoke", label_color="darkgrey", style="dotted,filled,rounded", shape="box", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T181551" [label="THES", locus="217c", speaker="Socrates", text="ἔνια μέν, οἷον ἂν ᾖ τὸ παρόν, τοιαῦτά ἐστι καὶ αὐτά, ἔνια δὲ οὔ", paraphrasis="Some things are also themselves of such a sort as whatever may be present (in/to them); others are not ", manifestation="explicit", source="tlg0059_tlg020", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.T182513" [label="THES", locus="217c", speaker="Socrates", text="εἰ ἐθέλοι τις χρώματί τῳ ὁτιοῦν τι ἀλεῖψαι, πάρεστίν που τῷ ἀλειφθέντι τὸ ἐπαλειφθέν", paraphrasis="If someone dyes anything a certain colour, that which is smeared on is present to the thing that has been dyed ", manifestation="explicit", source="tlg0059_tlg020", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S183707" [label="SUPP", text="ὥσπερ εἰ ἐθέλοι τις χρώματί τῳ ὁτιοῦν τι ἀλεῖψαι, πάρεστίν που τῷ ἀλειφθέντι τὸ ἐπαλειφθέν", locus="217c", speaker="Socrates", form="particular-illustration", paraphrasis="\"If someone dyes anything a certain colour, that which is smeared on is present to the thing that has been dyed\" EXPLAINS) \"Some things are also themselves of such a sort as whatever may be present (in/to them); others are not\" ", manifestation="explicit", color="lightgoldenrodyellow", label_color="grey", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S183901" [label="SUPP", text="πάνυ γε", locus="217c", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"If someone dyes anything a certain colour, that which is smeared on is present to the thing that has been dyed\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T184302" [label="THES", locus="217c", speaker="Socrates", text="ἆρʼ οὖν καὶ ἔστιν τότε τοιοῦτον τὴν χρόαν τὸ ἀλειφθέν, οἷον τὸ ἐπόν;", paraphrasis="( If someone dyes anything a certain colour, that which is smeared on being thus present to the thing that has been dyed, the colour of the thing that has been dyed is not the same as that of what is present to it ) ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S185420" [label="SUPP", text="οὐ μανθάνω, ἦ δʼ ὅς", locus="217d", speaker="Plato", form="None", paraphrasis="( {text} CONTEXT) \"\"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[they would be white] )\" + \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it \" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[the hair would be white], not[the hair would be black]\" EXPLAINS/justifies) \"( If someone dyes anything a certain colour, that which is smeared on being thus present to the thing that has been dyed, the colour of the thing that has been dyed is not the same as that of what is present to it )\"\" ) ", manifestation="implicit", color="linen", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S184918" [label="SUPP", text="ἀλλʼ ὧδε ... εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν; ... καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω, ἀλλὰ παρούσης λευκότητος οὔτε τι λευκαὶ οὔτε μέλαιναί εἰσιν ... ἀλλʼ ὅταν δή, ὦ φίλε, τὸ γῆρας αὐταῖς ταὐτὸν τοῦτο χρῶμα ἐπαγάγῃ, τότε ἐγένοντο οἷόνπερ τὸ παρόν, λευκοῦ παρουσίᾳ λευκαί", locus="217d", speaker="Socrates", form="particular-illustration", paraphrasis="\"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[they would be white] )\" + \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it \" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[the hair would be white], not[the hair would be black]\" EXPLAINS/justifies) \"( If someone dyes anything a certain colour, that which is smeared on being thus present to the thing that has been dyed, the colour of the thing that has been dyed is not the same as that of what is present to it )\" ", manifestation="explicit", color="lightgoldenrodyellow", label_color="grey", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T185739" [label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν;", paraphrasis="( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[they would be white] ) ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S191355" [label="SUPP", text="πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[they would be white] )\" (CONTRAST) \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T191259" [label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν;", paraphrasis="( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white ) ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S193431" [label="SUPP", text="φαίνοιντʼ ἄν, ἦ δʼ ὅς", locus="217d", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[they would be white] )\" + \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T193646" [label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν ... καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης", paraphrasis="If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it ", manifestation="explicit", source="tlg0059_tlg020", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S194343" [label="SUPP", text="ναί", locus="217d", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S194528" [label="SUPP", text="καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it\" CONTRAST) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before]\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T194743" [label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν ... οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω ... εἰσιν", paraphrasis="If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before] ", manifestation="explicit", source="tlg0059_tlg020", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S195654" [label="SUPP", text="οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω, ἀλλὰ", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before]\" CONTRAST) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[the hair would be white], not[the hair would be black]\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T195224" [label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν ... παρούσης λευκότητος οὔτε τι λευκαὶ οὔτε μέλαιναί εἰσιν", paraphrasis="If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[the hair would be white], not[the hair would be black] ", manifestation="explicit", source="tlg0059_tlg020", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S200229" [label="SUPP", text="ἀληθῆ", locus="217d", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[the hair would be white], not[the hair would be black]\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S201741" [label="SUPP", text="καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[the hair would be in any way whiter than it was before]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[the hair would be white], not[the hair would be black]\" CONTRAST) \"When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T200422" [label="THES", locus="217d", speaker="Socrates", text="ὅταν δή, ὦ φίλε, τὸ γῆρας αὐταῖς ταὐτὸν τοῦτο χρῶμα ἐπαγάγῃ, τότε ἐγένοντο οἷόνπερ τὸ παρόν, λευκοῦ παρουσίᾳ λευκαί", paraphrasis="When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white ", manifestation="explicit", source="tlg0059_tlg020", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S202031" [label="SUPP", text="πῶς γὰρ οὔ;", locus="217e", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S202941" [label="SUPP", text="ἀλλʼ ὧδε ... εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν; ... καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω, ἀλλὰ παρούσης λευκότητος οὔτε τι λευκαὶ οὔτε μέλαιναί εἰσιν ... τοῦτο τοίνυν ἐρωτῶ νῦν δή", locus="217d", speaker="Socrates", form="particular-illustration", paraphrasis="\"{hair dyeing examples}\" JUSTIFIES/explains) \"( When something is present, not[that which possesses (what is present to it) is such as what is present] )\" + \"( When something is present, if this is present not in a certain way, not[that which possesses (what is present to it) is such as what is present] )\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S135633" [label="SUPP", text="ἀλλʼ ὅταν δή, ὦ φίλε, τὸ γῆρας αὐταῖς ταὐτὸν τοῦτο χρῶμα ἐπαγάγῃ, τότε ἐγένοντο οἷόνπερ τὸ παρόν, λευκοῦ παρουσίᾳ λευκαί ... τοῦτο τοίνυν ἐρωτῶ νῦν δή", locus="217d", speaker="Socrates", form="particular-illustration", paraphrasis="\"When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white\" JUSTIFIES/explains) \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T203834" [label="THES", locus="217e", speaker="Socrates", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ;", paraphrasis="( When something is present, not[that which possesses (what is present to it) is such as what is present] ) ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S204930" [label="SUPP", text="εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ", locus="217e", speaker="Socrates", form="contrast", paraphrasis="\"( When something is present, not[that which possesses (what is present to it) is such as what is present] )\" (CONTRAST) \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[that which possesses (what is present to it) is such as what is present] )\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T204411" [label="THES", locus="217e", speaker="Socrates", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ;", paraphrasis="( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present ) ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S205149" [label="SUPP", text="ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ", locus="217e", speaker="Socrates", form="contrast", paraphrasis="\"( When something is present, not[that which possesses (what is present to it) is such as what is present] )\" (CONTRAST) \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[that which possesses (what is present to it) is such as what is present] )\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T204708" [label="THES", locus="217e", speaker="Socrates", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ;", paraphrasis="( When something is present, if this is present not in a certain way, not[that which possesses (what is present to it) is such as what is present] ) ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S205319" [label="SUPP", text="οὕτω μᾶλλον", locus="217e", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"( When something is present, not[that which possesses (what is present to it) is such as what is present] )\" + \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[that which possesses (what is present to it) is such as what is present] )\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S210605" [label="SUPP", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ; ... ἄρα", locus="217e", speaker="Socrates", form="general-to-particular", paraphrasis="\"( When something is present, not[that which possesses (what is present to it) is such as what is present] )\" + \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[that which possesses (what is present to it) is such as what is present] )\" JUSTIFIES/explains) \"There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.T210154" [label="THES", locus="217e", speaker="Socrates", text="τὸ μήτε κακὸν ἄρα μήτʼ ἀγαθὸν ἐνίοτε κακοῦ παρόντος οὔπω κακόν ἐστιν, ἔστιν δʼ ὅτε ἤδη τὸ τοιοῦτον γέγονεν", paraphrasis="There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad ", manifestation="implicit", source="tlg0059_tlg020", color="white", label_color="dimgrey", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S211034" [label="SUPP", text="πάνυ γε", locus="217e", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad\" ", manifestation="explicit", color="lightsteelblue", label_color="steelblue", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S210904" [label="SUPP", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ; ... ἄρα", locus="217e", speaker="Socrates", form="None", paraphrasis="\"There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad\" CONTEXT) [omitted] ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S210904_to_omitted_ELEMENTS_unspecified" [label="ELEM", gephi_omitted="true", gephi_unspecified="true", fontsize="11", color="whitesmoke", label_color="darkgrey", style="dotted,filled,rounded", shape="box", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S202941" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T204411" -> "tlg0059_tlg020.S210605" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S200229" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S194343" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S193431" -> "tlg0059_tlg020.T185739" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.S204930" -> "tlg0059_tlg020.T204411" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S183901" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S201741" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S182137_to_omitted_ELEMENTS_unspecified" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T182513" -> "tlg0059_tlg020.T184302" [label="IN ETIOLOGY", relation_type="CORRELATED", color="darkcyan", fontcolor="darkcyan", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T204708" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T191259" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S191355" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S194528" -> "tlg0059_tlg020.T194743" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S195654" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T182513" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S183901" -> "tlg0059_tlg020.T182513" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T195224" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S205319" -> "tlg0059_tlg020.T203834" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T200422" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T185739" -> "tlg0059_tlg020.S202941" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T195224" -> "tlg0059_tlg020.S202941" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S210605" -> "tlg0059_tlg020.T210154" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S210904" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S202031" -> "tlg0059_tlg020.T200422" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T182513" -> "tlg0059_tlg020.S183707" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S184918" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S182137" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T185739" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T193646" -> "tlg0059_tlg020.S194528" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T210154" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S200229" -> "tlg0059_tlg020.T195224" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S193431" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S211034" -> "tlg0059_tlg020.T210154" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T210154" -> "tlg0059_tlg020.S210904" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T185739" -> "tlg0059_tlg020.S191355" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T184302" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S194343" -> "tlg0059_tlg020.T193646" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S185420" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T204411" -> "tlg0059_tlg020.S205149" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S202031" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S191355" -> "tlg0059_tlg020.T191259" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T204708" -> "tlg0059_tlg020.S210605" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T200422" -> "tlg0059_tlg020.S135633" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T203834" -> "tlg0059_tlg020.S210605" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S211034" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T195224" -> "tlg0059_tlg020.S201741" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S205149" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S202941" -> "tlg0059_tlg020.T204708" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T193646" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S205149" -> "tlg0059_tlg020.T204708" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.S185420" -> "tlg0059_tlg020.S184918" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T195224" -> "tlg0059_tlg020.S184918" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T194743" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T204411" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S202941" -> "tlg0059_tlg020.T203834" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S204930" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S184918" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T185739" -> "tlg0059_tlg020.S184918" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T191259" -> "tlg0059_tlg020.S184918" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S182137_to_omitted_ELEMENTS_unspecified" -> "tlg0059_tlg020.S182137" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S193431" -> "tlg0059_tlg020.T191259" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S183707" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S184918" -> "tlg0059_tlg020.T184302" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.S200229" -> "tlg0059_tlg020.T194743" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T181551" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S205319" -> "tlg0059_tlg020.T204708" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.S210904" -> "tlg0059_tlg020.S210904_to_omitted_ELEMENTS_unspecified" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T193646" -> "tlg0059_tlg020.S184918" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.T203834" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S183707" -> "tlg0059_tlg020.T181551" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S135633" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.S135633" -> "tlg0059_tlg020.T204411" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.S205319" -> "tlg0059_tlg020.T204411" [label="JUSTIFIES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S201741" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S204930" -> "tlg0059_tlg020.T204708" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S202941" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S182137" -> "tlg0059_tlg020.T181551" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S205319" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S195654" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.T191259" -> "tlg0059_tlg020.S202941" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S195654" -> "tlg0059_tlg020.T195224" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S194528" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T203834" -> "tlg0059_tlg020.S204930" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020.S201741" -> "tlg0059_tlg020.T200422" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S210605" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0059_tlg020.T193646" -> "tlg0059_tlg020.S202941" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0059_tlg020" -> "tlg0059_tlg020.S210904_to_omitted_ELEMENTS_unspecified" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+}

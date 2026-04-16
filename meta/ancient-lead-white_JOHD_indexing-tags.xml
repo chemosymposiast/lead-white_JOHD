@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../css/TheSu_tags/TheSu_tags.css"?>
+<tags xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../schema/TheSu_tags.xsd">
+
+    <sharedTags>
+        <tag id="null"/>
+    </sharedTags>
+
+
+
+    <macroThemeTags>
+        <tag id="axiological"/>
+        <tag id="historical"/>
+        <tag id="physical"/>
+        <tag id="physical-historical">
+            <parent ref="#physical"/>
+            <parent ref="#historical"/>
+        </tag>
+        <tag id="metatextual"/>
+        <tag id="methodological"/>
+    </macroThemeTags>
+
+
+
+    <microThemeTags>
+        <tag id="anatomy"/>
+        <tag id="architecture"/>
+        <tag id="biology"/>
+        <tag id="botany"/>
+        <tag id="carpentry"/>
+        <tag id="chemical-mechanics"/>
+        <tag id="chemistry"/>
+        <tag id="chromatology"/>
+        <tag id="cosmetics"/>
+        <tag id="cosmology"/>
+        <tag id="cuisine"/>
+        <tag id="dyeing"/>
+        <tag id="engineering"/>
+        <tag id="ethics"/>
+        <tag id="handiwork"/>
+        <tag id="hunting"/>
+        <tag id="masonry"/>
+        <tag id="medicine"/>
+        <tag id="metallurgy"/>
+        <tag id="metaphysics"/>
+        <tag id="meteorology"/>
+        <tag id="mineralogy"/>
+        <tag id="painting"/>
+        <tag id="pathology"/>
+        <tag id="pharmacology"/>
+        <tag id="physiology"/>
+        <tag id="pottery"/>
+        <tag id="stonework"/>
+        <tag id="zooanatomy"/>
+    </microThemeTags>
+
+
+
+    <keywordTags>
+        <!--Cosmological-->
+        <tag id="nature"/>
+        <!--Meteorological-->
+        <tag id="sun"/>
+        <tag id="summer"/>
+        <tag id="winter"/>
+        <!--Chemical bodies-->
+        <tag id="fluid_n"/>
+        <tag id="heat"/>
+        <tag id="powder"/>
+        <tag id="powdered">
+            <parent ref="#powder"/>
+        </tag>
+        <tag id="water"/>
+        <!--Chemical properties-->
+        <tag id=" adhesive-malleability-inducing"/>
+        <tag id="black"/>
+        <tag id="blond"/>
+        <tag id="cold_a">
+            <parent ref="#coldness"/>
+        </tag>
+        <tag id="cold_n">
+            <parent ref="#cold_a"/>
+        </tag>
+        <tag id="coldness"/>
+        <tag id="colour"/>
+        <tag id="cooling_a"/>
+        <tag id="effective_pharmacologically"/>
+        <tag id="fatty"/>
+        <tag id="pungent"/>
+        <tag id="softening_a"/>
+        <tag id="solid_fast"/>
+        <tag id="sour"/>
+        <tag id="thin_a"/>
+        <tag id="thinning_a">
+            <parent ref="#thin_v"/>
+        </tag>
+        <tag id="viscous"/>
+        <tag id="weak_chemically">
+            <parent ref="#weakness_chemical"/>
+        </tag>
+        <tag id="weakness_chemical"/>
+        <tag id="white"/>
+        <tag id="whiteness">
+            <parent ref="#white"/>
+        </tag>
+        <!--Chemical phenomena-->
+        <tag id="dominate_chemically"/>
+        <tag id="thin_v">
+            <parent ref="#thin_a"/>
+        </tag>
+        <!--Metals-->
+        <tag id="corrosion_of-metal"/>
+        <tag id="lead"/>
+        <tag id="leaden">
+            <parent ref="#lead"/>
+        </tag>
+        <tag id="metallic"/>
+        <!--Minerals-->
+        <tag id="basic-lead-carbonate">
+            <parent ref="#lead-carbonate"/>
+        </tag>
+        <tag id="calcite_a"/>
+        <tag id="ceramic_a">
+            <parent ref="#clay_a"/>
+        </tag>
+        <tag id="cerussite">
+            <parent ref="#lead-white"/>
+            <parent ref="#lead-carbonate"/>
+        </tag>
+        <tag id="clay_a"/>
+        <tag id="copper-rust"/>
+        <tag id="glass"/>
+        <tag id="gypsum_a"/>
+        <tag id="hydrocerussite">
+            <parent ref="#cerussite"/>
+        </tag>
+        <tag id="lead-acetate">
+            <parent ref="#lead"/>
+            <parent ref="#lead-white"/>
+        </tag>
+        <tag id="lead-carbonate">
+            <parent ref="#lead"/>
+        </tag>
+        <tag id="lead-dross">
+            <parent ref="#lead"/>
+        </tag>
+        <tag id="lead-white">
+            <parent ref="#lead"/>
+        </tag>
+        <tag id="marble_a"/>
+        <tag id="pebble">
+            <parent ref="#stone_n"/>
+        </tag>
+        <tag id="stone_n"/>
+        <tag id="washed-lead">
+            <parent ref="#lead"/>
+        </tag>
+        <!--Other chemical keywords-->
+        <tag id="acetic-acid-solution">
+            <parent ref="#vinegar"/>
+        </tag>
+        <tag id="carbon-dioxide"/>
+        <tag id="colour_pigment"/>
+        <tag id="dye_v"/>
+        <tag id="mould_growth"/>
+        <tag id="smear_v"/>
+        <tag id="vinegar"/>
+        <!--Containers and pottery-->
+        <tag id="brick"/>
+        <tag id="clay-container">
+            <parent ref="#clay_a"/>
+        </tag>
+        <tag id="grinding-bowl"/>
+        <tag id="jar"/>
+        <tag id="lid_for-vessels"/>
+        <tag id="pot-bellied-jar">
+            <parent ref="#jar"/>
+        </tag>
+        <tag id="vessel"/>
+        <!--Miscellaneous objects-->
+        <tag id="bath_building"/>
+        <tag id="covering_n"/>
+        <tag id="furnace"/>
+        <tag id="furnace_architectural"/>
+        <tag id="hand-mill"/>
+        <tag id="lattice"/>
+        <tag id="lattice-of-reeds">
+            <parent ref="#lattice"/>
+        </tag>
+        <tag id="leather_n"/>
+        <tag id="pestle"/>
+        <tag id="quince"/>
+        <tag id="skin-cover">
+            <parent ref="#covering_n"/>
+            <parent ref="#leather"/>
+        </tag>
+        <tag id="wood_piece-of">
+            <parent ref="#wood_n"/>
+        </tag>
+        <!--Biological keywords-->
+        <tag id="hair"/>
+        <tag id="old-age"/>
+        <tag id="wood_n"/>
+        <tag id="wooden">
+            <parent ref="#wood_n"/>
+        </tag>
+        <!--Medical keywords-->
+        <tag id="cerate_n"/>
+        <tag id="cicatrising"/>
+        <tag id="destructive-substances"/>
+        <tag id="drug"/>
+        <tag id="eye-related"/>
+        <tag id="filling_a"/>
+        <tag id="excrescence_medical"/>
+        <tag id="lozenge"/>
+        <tag id="plaster_medical"/>
+        <tag id="property_pharmaceutical-effect"/>
+    </keywordTags>
+    <timeUnitTags>
+        <tag id="day"/>
+        <tag id="season"/>
+    </timeUnitTags>
+    
+    
+    <objectDetailsTags>
+        <!--measurementType tags-->
+        <tag id="concentration"/>
+        <tag id="length"/>
+        <tag id="shape"/>  
+        <tag id="size"/>
+        <tag id="thickness"/>
+        <tag id="width"/>
+        <!--measurementUnit tags-->
+        <tag id="centimetre"/>
+        <tag id="millimetre"/>
+        <tag id="percent"/>
+</objectDetailsTags>
+    
+</tags>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace"
+        schemaLocation="http://www.w3.org/2005/08/xml.xsd"/>
+    <xs:import namespace="http://www.w3.org/1999/xlink"
+        schemaLocation="http://www.w3.org/XML/2008/06/xlink.xsd"/>
+
+
+    <xs:element name="tags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="sharedTags" minOccurs="0"/>
+                <xs:element ref="supportFormTags" minOccurs="0"/>
+                <xs:element ref="entailmentTags" minOccurs="0"/>
+                <xs:element ref="oppositionTags" minOccurs="0"/>
+                <xs:element ref="macroThemeTags" minOccurs="0"/>
+                <xs:element ref="historyTags" minOccurs="0"/>
+                <xs:element ref="microThemeTags" minOccurs="0"/>
+                <xs:element ref="keywordTags" minOccurs="0"/>
+                <xs:element ref="timeUnitTags" minOccurs="0"/>
+                <xs:element ref="objectDetailsTags" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="xml:base"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="supportFormTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="entailmentTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="historyTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="macroThemeTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="microThemeTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="keywordTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="timeUnitTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="objectDetailsTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="oppositionTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="sharedTags">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="tag" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="tag">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="definition" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                <xs:attribute name="source" type="xs:string"/>
+                                <xs:attribute name="lang" type="xs:language"/>
+                            </xs:extension>
+                        </xs:simpleContent>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="parent" minOccurs="0" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:complexContent>
+                            <xs:restriction base="xs:anyType">
+                                <xs:attribute ref="ref" use="required"/>
+                            </xs:restriction>
+                        </xs:complexContent>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:ID" use="required"/>
+            <xs:attribute name="transl" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:attribute name="ref" type="xlink:hrefType"/>
+</xs:schema>

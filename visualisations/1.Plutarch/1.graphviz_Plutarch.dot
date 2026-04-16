@@ -1,0 +1,281 @@
+digraph G {
+compound=true;
+newrank=true;
+
+rankdir="TB";
+splines=curved;
+
+subgraph source_tlg0007_tlg112 {
+label="tlg0007_tlg112";
+
+"tlg0007_tlg112.S202335" [label=<<b>SUPPORT</b><br/>          Plutarchus          <br/>690f<br/><i>form: contrast</i><br/><font point-size="12">"πρῶτον οὐ οὖν ... δὲ τρόπον"</font>>, gephi_label="SUPP", text="πρῶτον οὐ οὖν οὐ? δοκεῖ σοι περιψύχεσθαι R: προψύχεσθαι μὲν ὑπὸ τοῦ ἀέρος τὸ ὕδωρ ἔξωθεν ἐμπίπτοντος Anonymus: ἐκπίπτοντος, ὁ δʼ ἀὴρ μᾶλλον ἰσχύειν ib. W: ἰσχύει πρὸς τοὺς λίθους καὶ τοὺς ἄκμονας τοὺς ἄκμονας] τὰς μολιβδίδας Psellus. τὰς ἀκόνας S ἀπερειδόμενος; οὐ γὰρ ἐῶσιν αὐτόν, ὥσπερ τὰ χαλκᾶ *: ... διʼ ὅλου καὶ καὶ] prius om. Psellus ἰσχυρὰν γίγνεσθαι γίνεσθαι idem: γενέσθαι τὴν περίψυξιν. διὸ καὶ χειμῶνος οἱ ποταμοὶ ψυχρότεροι γίγνονται τῆς θαλάττης · ἰσχύει γὰρ ἐν αὐτοῖς ὁ ψυχρὸς ἀὴρ ἀνακλώμενος Doehnerus ex Psello: ἀναλώμενος, ἐν δὲ τῇ θαλάττῃ διὰ βάθος ἐκλύεται πρὸς μηδὲν ἀντερείδων. κατʼ ἄλλον δὲ τρόπον", locus="690f", speaker="Plutarchus", form="contrast", paraphrasis="[omitted] CONTEXT) \"{It is likely that} thinner waters are cooled more (intensely) by the surrounding cold\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S202335_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0007_tlg112.S202335_func" -> "tlg0007_tlg112.T150609" [color="#b39c84", style="filled"];
+
+"tlg0007_tlg112.S202335_to_omitted_ELEMENTS_unspecified" [label=<<b>ELEMENTS</b><br/><i>(unspecified,<br/>omitted,<br/>one or more)</i>>, gephi_label="ELEM", gephi_omitted="true", gephi_unspecified="true", fontsize="11", fillcolor="#f5f5f5", color="#a0a0a0", style="dotted,filled,rounded", shape="box", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S202335_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.S202335_to_omitted_ELEMENTS_unspecified" -> "tlg0007_tlg112.S202335_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T150609" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691a<br/><i>{It is likely that} thinner waters are cooled more<br/>(intensely) by the surrounding cold<br/></i><font point-size="12">"εἰκός ἐστι τὰ ... τοῦ ψυχροῦ"</font>>, gephi_label="THES", locus="691a", speaker="Plutarchus", text="εἰκός ἐστι τὰ λεπτότερα τῶν ὑδάτων περιψύχεσθαι μᾶλλον ... ὑπὸ τοῦ ψυχροῦ", paraphrasis="{It is likely that} thinner waters are cooled more (intensely) by the surrounding cold ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T151258" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691a<br/><i>{It is likely that} thinner waters are dominated<br/>(by the cold) because of their weakness<br/></i><font point-size="12">"εἰκός ἐστι τὰ ... διʼ ἀσθένειαν"</font>>, gephi_label="THES", locus="691a", speaker="Plutarchus", text="εἰκός ἐστι τὰ λεπτότερα τῶν ὑδάτων ... ὑπὸ τοῦ ψυχροῦ · κρατεῖται γὰρ διʼ ἀσθένειαν", paraphrasis="{It is likely that} thinner waters are dominated (by the cold) because of their weakness ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T151258_to_tlg0007_tlg112.T181906_1" [label=<by requirement,<br/>ENTAILS>, fontsize="11", style="rounded,filled,dashed", fillcolor="#fcfffd", color="#666666", shape="house"];
+
+subgraph cluster_tlg0007_tlg112_T181906_ENTAILED {
+label=<<font color="#666666">Entailed</font>>
+style="dotted";
+
+"tlg0007_tlg112.T181906" [label=<<b>impl. THESIS</b><br/>          Plutarchus          <br/>691a<br/><i>( {It is likely that} thinner waters have more<br/>weakness )<br/></i><font point-size="12">"εἰκός ἐστι τὰ ... διʼ ἀσθένειαν"</font>>, gephi_label="THES", locus="691a", speaker="Plutarchus", text="εἰκός ἐστι τὰ λεπτότερα τῶν ὑδάτων ... ὑπὸ τοῦ ψυχροῦ · κρατεῖται γὰρ διʼ ἀσθένειαν", paraphrasis="( {It is likely that} thinner waters have more weakness ) ", manifestation="implicit", source="tlg0007_tlg112", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+}
+
+"tlg0007_tlg112.S152106" [label=<<b>SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: from-cause-to-effect</i><br/><font point-size="12">"κρατεῖται γὰρ διʼ ἀσθένειαν"</font>>, gephi_label="SUPP", text="κρατεῖται γὰρ διʼ ἀσθένειαν", locus="691b", speaker="Plutarchus", form="from-cause-to-effect", paraphrasis="\"{It is likely that} thinner waters are dominated (by the cold) because of their weakness\" JUSTIFIES) \"{It is likely that} thinner waters are cooled more (intensely) by the surrounding cold\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S152106_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0007_tlg112.S152106_func" -> "tlg0007_tlg112.T150609" [color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S152106_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T151258" -> "tlg0007_tlg112.S152106_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T174946" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>(Leaden) 'whetstones' and pebbles thin the water<br/>(contained in the vessels in which they are<br/>plunged)<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... τὸ ὕδωρ"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ", paraphrasis="(Leaden) 'whetstones' and pebbles thin the water (contained in the vessels in which they are plunged) ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T174946_in_etiology_in_tlg0007_tlg112.T152959_1" [label=<ITS CAUSE<br/>in etiology>, fontsize="11", style="rounded,filled", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.T174946_in_etiology_in_tlg0007_tlg112.T174153_1" [label=<ITS EFFECT<br/>in etiology>, fontsize="11", style="rounded,filled", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.T152959" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>(Leaden) 'whetstones' and pebbles thin the water<br/>(contained in the vessels in which they are<br/>plunged) by gathering and drawing down from it the<br/>turbid and earthy parts that have become mixed<br/>with it<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... ἀπʼ αὐτοῦ"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ, ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ", paraphrasis="(Leaden) 'whetstones' and pebbles thin the water (contained in the vessels in which they are plunged) by gathering and drawing down from it the turbid and earthy parts that have become mixed with it ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T184712" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>(Leaden) 'whetstones' and pebbles gather and draw<br/>down from the water (contained in the vessels in<br/>which they are plunged) the turbid and earthy<br/>parts that have become mixed with it<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... ἀπʼ αὐτοῦ"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες ... τὸ ὕδωρ, ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ", paraphrasis="(Leaden) 'whetstones' and pebbles gather and draw down from the water (contained in the vessels in which they are plunged) the turbid and earthy parts that have become mixed with it ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T184712_in_etiology_in_tlg0007_tlg112.T152959_1" [label=<ITS EFFECT<br/>in etiology>, fontsize="11", style="rounded,filled", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.T184712_in_etiology_in_tlg0007_tlg112.T185715_1" [label=<ITS CAUSE<br/>in etiology>, fontsize="11", style="rounded,filled,dashed", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.S184328" [label=<<b>impl. SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: from-cause-to-effect</i><br/><font point-size="12">"ὅ τι θολερὸν ... ἀπʼ αὐτοῦ"</font>>, gephi_label="SUPP", text="ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ", locus="691b", speaker="Plutarchus", form="from-cause-to-effect", paraphrasis="( \"(Leaden) 'whetstones' and pebbles gather and draw down from the water (contained in the vessels in which they are plunged) the turbid and earthy parts that have become mixed with it\" + \"(Leaden) 'whetstones' and pebbles thin the water (contained in the vessels in which they are plunged) by gathering and drawing down from it the turbid and earthy parts that have become mixed with it\" JUSTIFIES) \"(Leaden) 'whetstones' and pebbles thin the water (contained in the vessels in which they are plunged)\" ) ", manifestation="implicit", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S184328_func" [label="JUSTIFIES", gephi_label="(jus)", gephi_omitted="false", fontsize="11", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse"];
+
+"tlg0007_tlg112.S184328_func" -> "tlg0007_tlg112.T174946" [color="#949ebf", style="dashed,filled", dir="back"];
+
+"tlg0007_tlg112.S184328_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T184712" -> "tlg0007_tlg112.S184328_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T152959" -> "tlg0007_tlg112.S184328_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T174153" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>As a result of (leaden) 'whetstones' and pebbles<br/>thinning the water (contained in the vessels in<br/>which they are plunged), the water becomes thinner<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... ὕδωρ γενόμενον"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ ... ὥστε λεπτότερον ... τὸ ὕδωρ γενόμενον", paraphrasis="As a result of (leaden) 'whetstones' and pebbles thinning the water (contained in the vessels in which they are plunged), the water becomes thinner ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T174153_in_etiology_in_tlg0007_tlg112.T175820_1" [label=<ITS EFFECT<br/>in etiology>, fontsize="11", style="rounded,filled,dashed", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.T174153_in_etiology_in_tlg0007_tlg112.T181116_1" [label=<ITS EFFECT<br/>in etiology>, fontsize="11", style="rounded,filled", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.S181621" [label=<<b>impl. SUPPORT</b><br/>          Plutarchus          <br/>691a<br/><i>form: general-to-particular</i><br/><font point-size="12">"εἰκός ἐστι τὰ ... διʼ ἀσθένειαν"</font>>, gephi_label="SUPP", text="εἰκός ἐστι τὰ λεπτότερα τῶν ὑδάτων ... ὑπὸ τοῦ ψυχροῦ · κρατεῖται γὰρ διʼ ἀσθένειαν", locus="691a", speaker="Plutarchus", form="general-to-particular", paraphrasis="( \"( {It is likely that} thinner waters have more weakness )\" JUSTIFIES) \"( As a result of the water (contained in vessels) becoming thinner as caused by (leaden) 'whetstones' and pebbles thinning it, the water becomes weaker )\" ) ", manifestation="implicit", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S181621_func" [label="JUSTIFIES", gephi_label="(jus)", gephi_omitted="false", fontsize="11", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse"];
+
+"tlg0007_tlg112.S181621_func" -> "tlg0007_tlg112.T175820" [color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S181621_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T181906" -> "tlg0007_tlg112.S181621_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T175820" [label=<<b>impl. THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>( As a result of the water (contained in vessels)<br/>becoming thinner as caused by (leaden)<br/>'whetstones' and pebbles thinning it, the water<br/>becomes weaker )<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... ὕδωρ γενόμενον"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ ... ὥστε λεπτότερον καὶ ἀσθενέστερον τὸ ὕδωρ γενόμενον", paraphrasis="( As a result of the water (contained in vessels) becoming thinner as caused by (leaden) 'whetstones' and pebbles thinning it, the water becomes weaker ) ", manifestation="implicit", source="tlg0007_tlg112", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T175820_in_etiology_in_tlg0007_tlg112.T181116_1" [label=<ITS EFFECT<br/>in etiology>, fontsize="11", style="rounded,filled", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.S182325" [label=<<b>impl. SUPPORT</b><br/>          Plutarchus          <br/>691a<br/><i>form: general-to-particular</i><br/><font point-size="12">"εἰκός ἐστι τὰ ... ὕδωρ γενόμενον"</font>>, gephi_label="SUPP", text="εἰκός ἐστι τὰ λεπτότερα τῶν ὑδάτων περιψύχεσθαι μᾶλλον ... ὑπὸ τοῦ ψυχροῦ · κρατεῖται γὰρ διʼ ἀσθένειαν ... αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ ... ὥστε λεπτότερον καὶ ἀσθενέστερον τὸ ὕδωρ γενόμενον", locus="691a", speaker="Plutarchus", form="general-to-particular", paraphrasis="( \"{It is likely that} thinner waters are cooled more (intensely) by the surrounding cold\" JUSTIFIES) \"As a result of the water (contained in vessels) becoming thinner and weaker as caused by (leaden) 'whetstones' and pebbles thinning it, the water is more effectively dominated by environmental cooling\" ) ", manifestation="implicit", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S182325_func" [label="JUSTIFIES", gephi_label="(jus)", gephi_omitted="false", fontsize="11", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse"];
+
+"tlg0007_tlg112.S182325_func" -> "tlg0007_tlg112.T181116" [color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S182325_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T150609" -> "tlg0007_tlg112.S182325_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T181116" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>As a result of the water (contained in vessels)<br/>becoming thinner and weaker as caused by (leaden)<br/>'whetstones' and pebbles thinning it, the water is<br/>more effectively dominated by environmental<br/>cooling<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... περιψύξεως κρατεῖσθαι"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ ... ὥστε λεπτότερον καὶ ἀσθενέστερον τὸ ὕδωρ γενόμενον μᾶλλον ὑπὸ περιψύξεως κρατεῖσθαι", paraphrasis="As a result of the water (contained in vessels) becoming thinner and weaker as caused by (leaden) 'whetstones' and pebbles thinning it, the water is more effectively dominated by environmental cooling ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.S144521" [label=<<b>impl. SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: particular-illustration</i><br/><font point-size="12">"αἱ δʼ ἀκόναι ... περιψύξεως κρατεῖσθαι"</font>>, gephi_label="SUPP", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες λεπτύνουσι τὸ ὕδωρ, ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ, ὥστε λεπτότερον καὶ ἀσθενέστερον τὸ ὕδωρ γενόμενον μᾶλλον ὑπὸ περιψύξεως κρατεῖσθαι", locus="691b", speaker="Plutarchus", form="particular-illustration", paraphrasis="( \"As a result of the water (contained in vessels) becoming thinner and weaker as caused by (leaden) 'whetstones' and pebbles thinning it, the water is more effectively dominated by environmental cooling\" JUSTIFIES) \"{It is not strange if} both stone and lead, 'exerting counter-pressure against' {= supporting} the coldness (of the water contained in vessels in which they are plunged), 'tighten' {= intensify} it\" ) ", manifestation="implicit", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S144521_func" [label="JUSTIFIES", gephi_label="(jus)", gephi_omitted="false", fontsize="11", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse"];
+
+"tlg0007_tlg112.S144521_func" -> "tlg0007_tlg112.T143745" [color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S144521_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T181116" -> "tlg0007_tlg112.S144521_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T185715" [label=<<b>impl. THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>( Leaden 'whetstones' and pebbles gather and draw<br/>down from the water contained in the vessels in<br/>which they are plunged the turbid and earthy parts<br/>that have become mixed with it because they are<br/>cold or produce cold )<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... τε χάλικες"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες ... τὸ ὕδωρ, ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ ... καὶ μὴν ὅ τε μόλιβδος τῶν φύσει ψυχρῶν ἐστιν ... οἵ τε χάλικες", paraphrasis="( Leaden 'whetstones' and pebbles gather and draw down from the water contained in the vessels in which they are plunged the turbid and earthy parts that have become mixed with it because they are cold or produce cold ) ", manifestation="implicit", source="tlg0007_tlg112", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T190127" [label=<<b>impl. THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>( Leaden 'whetstones' and pebbles are cold or<br/>produce cold )<br/></i><font point-size="12">"αἱ δʼ ἀκόναι ... τε χάλικες"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες ... τὸ ὕδωρ, ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ ... καὶ μὴν ὅ τε μόλιβδος τῶν φύσει ψυχρῶν ἐστιν ... οἵ τε χάλικες", paraphrasis="( Leaden 'whetstones' and pebbles are cold or produce cold ) ", manifestation="implicit", source="tlg0007_tlg112", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T190127_in_etiology_in_tlg0007_tlg112.T185715_1" [label=<ITS EFFECT<br/>in etiology>, fontsize="11", style="rounded,filled,dashed", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0007_tlg112.S190452" [label=<<b>impl. SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: from-cause-to-effect</i><br/><font point-size="12">"αἱ δʼ ἀκόναι ... τε χάλικες"</font>>, gephi_label="SUPP", text="αἱ δʼ ἀκόναι καὶ οἱ χάλικες ... τὸ ὕδωρ, ὅ τι θολερὸν καὶ γεῶδες ἀναμέμικται, τοῦτο συνάγοντες καὶ κατασπῶντες ἀπʼ αὐτοῦ ... καὶ μὴν ὅ τε μόλιβδος τῶν φύσει ψυχρῶν ἐστιν ... οἵ τε χάλικες", locus="691b", speaker="Plutarchus", form="from-cause-to-effect", paraphrasis="( \"( Leaden 'whetstones' and pebbles gather and draw down from the water contained in the vessels in which they are plunged the turbid and earthy parts that have become mixed with it because they have a cooling effect )\" + \"( Leaden 'whetstones' and pebbles are cold or produce cold )\" JUSTIFIES) \"(Leaden) 'whetstones' and pebbles gather and draw down from the water (contained in the vessels in which they are plunged) the turbid and earthy parts that have become mixed with it\" ) ", manifestation="implicit", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S190452_func" [label="JUSTIFIES", gephi_label="(jus)", gephi_omitted="false", fontsize="11", fillcolor="#f5f8fd", color="#949ebf", style="dashed,filled", shape="ellipse"];
+
+"tlg0007_tlg112.S190452_func" -> "tlg0007_tlg112.T184712" [color="#949ebf", style="dashed,filled", dir="back"];
+
+"tlg0007_tlg112.S190452_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T185715" -> "tlg0007_tlg112.S190452_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T190127" -> "tlg0007_tlg112.S190452_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T133442" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>Lead is among the naturally cold (substances)<br/></i><font point-size="12">"ὅ τε μόλιβδος ... ψυχρῶν ἐστιν"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="ὅ τε μόλιβδος τῶν φύσει ψυχρῶν ἐστιν", paraphrasis="Lead is among the naturally cold (substances) ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.S191342" [label=<<b>SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: general-to-particular</i><br/><font point-size="12">"καὶ μὴν ὅ ... βάθους ποιοῦσι"</font>>, gephi_label="SUPP", text="καὶ μὴν ὅ τε μόλιβδος τῶν φύσει ψυχρῶν ἐστιν ... οἵ τε χάλικες τῆ ... πυκνότητι τὸ ψυχρὸν διὰ βάθους ποιοῦσι", locus="691b", speaker="Plutarchus", form="general-to-particular", paraphrasis="\"Lead is among the naturally cold (substances)\" + [omitted] JUSTIFIES) \"( Leaden 'whetstones' and pebbles are cold or produce cold )\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S191342_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0007_tlg112.S191342_func" -> "tlg0007_tlg112.T190127" [color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S191342_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T133442" -> "tlg0007_tlg112.S191342_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S191342_to_omitted_THESIS_1" -> "tlg0007_tlg112.S191342_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S191342_to_omitted_THESIS_1" [label=<<b>THESIS</b><br/><i>(omitted)</i>>, gephi_label="THES", gephi_omitted="true", fontsize="11", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.T141553" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>When rubbed with vinegar, lead sends forth the<br/>most cooling of deadly drugs, i.e., lead white<br/></i><font point-size="12">"ὅ τε μόλιβδος ... ἐξανίησι ψιμύθιον"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="ὅ τε μόλιβδος ... ὅς γε τριβόμενος ὄξει τὸ ψυκτικώτατον τῶν θανασίμων φαρμάκων ἐξανίησι ψιμύθιον", paraphrasis="When rubbed with vinegar, lead sends forth the most cooling of deadly drugs, i.e., lead white ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.T141553_to_tlg0007_tlg112.T145739_1" [label=<by inclusion,<br/>ENTAILS>, fontsize="11", style="rounded,filled", fillcolor="#f0faf0", color="#82b366", shape="house"];
+
+"tlg0007_tlg112.T141553_to_tlg0007_tlg112.T143932_1" [label=<by requirement,<br/>ENTAILS>, fontsize="11", style="rounded,filled,dashed", fillcolor="#fcfffd", color="#666666", shape="house"];
+
+subgraph cluster_tlg0007_tlg112_T145739_ENTAILED {
+label=<<font color="#82b366">Entailed</font>>
+style="dotted";
+
+"tlg0007_tlg112.T145739" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>Lead white is the most cooling of deadly drugs<br/></i><font point-size="12">"τὸ ψυκτικώτατον τῶν ... φαρμάκων ... ψιμύθιον"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="τὸ ψυκτικώτατον τῶν θανασίμων φαρμάκων ... ψιμύθιον", paraphrasis="Lead white is the most cooling of deadly drugs ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+}
+
+subgraph cluster_tlg0007_tlg112_T143932_ENTAILED {
+label=<<font color="#666666">Entailed</font>>
+style="dotted";
+
+"tlg0007_tlg112.T143932" [label=<<b>impl. THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>( Lead can produce the most cooling of deadly<br/>drugs )<br/></i><font point-size="12">"ὅ τε μόλιβδος ... φαρμάκων ἐξανίησι"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="ὅ τε μόλιβδος ... ὅς γε τριβόμενος ὄξει τὸ ψυκτικώτατον τῶν θανασίμων φαρμάκων ἐξανίησι", paraphrasis="( Lead can produce the most cooling of deadly drugs ) ", manifestation="implicit", source="tlg0007_tlg112", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+}
+
+"tlg0007_tlg112.S143800" [label=<<b>SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: particular-illustration</i><br/><font point-size="12">"ὅς γε τριβόμενος ... φαρμάκων ἐξανίησι"</font>>, gephi_label="SUPP", text="ὅς γε τριβόμενος ὄξει τὸ ψυκτικώτατον τῶν θανασίμων φαρμάκων ἐξανίησι", locus="691b", speaker="Plutarchus", form="particular-illustration", paraphrasis="\"( Lead can produce the most cooling of deadly drugs )\" JUSTIFIES) \"Lead is among the naturally cold (substances)\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S143800_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0007_tlg112.S143800_func" -> "tlg0007_tlg112.T133442" [color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S143800_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T143932" -> "tlg0007_tlg112.S143800_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S201630" [label=<<b>SUPPORT</b><br/>          Plutarchus          <br/>691b<br/><i>form: cause-to-effect</i><br/><font point-size="12">"καὶ μὴν ὅ ... ποιοῦσι ... ὥστʼ"</font>>, gephi_label="SUPP", text="καὶ μὴν ὅ τε μόλιβδος τῶν φύσει ψυχρῶν ἐστιν ... οἵ τε χάλικες τῆ ... πυκνότητι τὸ ψυχρὸν διὰ βάθους ποιοῦσι ... ὥστʼ", locus="691b", speaker="Plutarchus", form="cause-to-effect", paraphrasis="\"Lead is among the naturally cold (substances)\" + [omitted] JUSTIFIES) \"{It is not strange if} both stone and lead, 'exerting counter-pressure against' {= supporting} the coldness (of the water contained in vessels in which they are plunged), 'tighten' {= intensify} it\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.S201630_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0007_tlg112.S201630_func" -> "tlg0007_tlg112.T143745" [color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S201630_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0007_tlg112.T133442" -> "tlg0007_tlg112.S201630_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S201630_to_omitted_THESIS_1" -> "tlg0007_tlg112.S201630_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S201630_to_omitted_THESIS_1" [label=<<b>THESIS</b><br/><i>(omitted)</i>>, gephi_label="THES", gephi_omitted="true", fontsize="11", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", source="tlg0007_tlg112"];
+
+"tlg0007_tlg112.T143745" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691c<br/><i>{It is not strange if} both stone and lead,<br/>'exerting counter-pressure against' {= supporting}<br/>the coldness (of the water contained in vessels in<br/>which they are plunged), 'tighten' {= intensify}<br/>it<br/></i><font point-size="12">"οὐκ ἄτοπον, εἰ ... ὁ μόλιβδος"</font>>, gephi_label="THES", locus="691c", speaker="Plutarchus", text="οὐκ ἄτοπον, εἰ τὴν ψυχρότητα τοῦ ὕδατος ἀντερείδων συνεπιτείνει καὶ ὁ λίθος καὶ ὁ μόλιβδος", paraphrasis="{It is not strange if} both stone and lead, 'exerting counter-pressure against' {= supporting} the coldness (of the water contained in vessels in which they are plunged), 'tighten' {= intensify} it ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0007_tlg112.S202335" -> "tlg0007_tlg112.S202335_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0007_tlg112.S202335_employed" -> "tlg0007_tlg112.S202335" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T151258" -> "tlg0007_tlg112.T151258_to_tlg0007_tlg112.T181906_1" [dir=none, color="#666666"];
+
+"tlg0007_tlg112.T151258_to_tlg0007_tlg112.T181906_1" -> "tlg0007_tlg112.T181906" [color="#666666"];
+
+"tlg0007_tlg112.S152106" -> "tlg0007_tlg112.S152106_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S152106_employed" -> "tlg0007_tlg112.S152106" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T174946" -> "tlg0007_tlg112.T174946_in_etiology_in_tlg0007_tlg112.T152959_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T174946_in_etiology_in_tlg0007_tlg112.T152959_1" -> "tlg0007_tlg112.T152959" [color="#008b8b"];
+
+"tlg0007_tlg112.T184712" -> "tlg0007_tlg112.T184712_in_etiology_in_tlg0007_tlg112.T152959_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T184712_in_etiology_in_tlg0007_tlg112.T152959_1" -> "tlg0007_tlg112.T152959" [color="#008b8b"];
+
+"tlg0007_tlg112.S184328" -> "tlg0007_tlg112.S184328_func" [dir=none, color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S184328_employed" -> "tlg0007_tlg112.S184328" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T174946" -> "tlg0007_tlg112.T174946_in_etiology_in_tlg0007_tlg112.T174153_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T174946_in_etiology_in_tlg0007_tlg112.T174153_1" -> "tlg0007_tlg112.T174153" [color="#008b8b"];
+
+"tlg0007_tlg112.S181621" -> "tlg0007_tlg112.S181621_func" [dir=none, color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S181621_employed" -> "tlg0007_tlg112.S181621" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T174153" -> "tlg0007_tlg112.T174153_in_etiology_in_tlg0007_tlg112.T175820_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T174153_in_etiology_in_tlg0007_tlg112.T175820_1" -> "tlg0007_tlg112.T175820" [color="#008b8b"];
+
+"tlg0007_tlg112.S182325" -> "tlg0007_tlg112.S182325_func" [dir=none, color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S182325_employed" -> "tlg0007_tlg112.S182325" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T174153" -> "tlg0007_tlg112.T174153_in_etiology_in_tlg0007_tlg112.T181116_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T174153_in_etiology_in_tlg0007_tlg112.T181116_1" -> "tlg0007_tlg112.T181116" [color="#008b8b"];
+
+"tlg0007_tlg112.T175820" -> "tlg0007_tlg112.T175820_in_etiology_in_tlg0007_tlg112.T181116_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T175820_in_etiology_in_tlg0007_tlg112.T181116_1" -> "tlg0007_tlg112.T181116" [color="#008b8b"];
+
+"tlg0007_tlg112.S144521" -> "tlg0007_tlg112.S144521_func" [dir=none, color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S144521_employed" -> "tlg0007_tlg112.S144521" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T184712" -> "tlg0007_tlg112.T184712_in_etiology_in_tlg0007_tlg112.T185715_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T184712_in_etiology_in_tlg0007_tlg112.T185715_1" -> "tlg0007_tlg112.T185715" [color="#008b8b"];
+
+"tlg0007_tlg112.T190127" -> "tlg0007_tlg112.T190127_in_etiology_in_tlg0007_tlg112.T185715_1" [dir=none, color="#008b8b"];
+
+"tlg0007_tlg112.T190127_in_etiology_in_tlg0007_tlg112.T185715_1" -> "tlg0007_tlg112.T185715" [color="#008b8b"];
+
+"tlg0007_tlg112.S190452" -> "tlg0007_tlg112.S190452_func" [dir=none, color="#949ebf", style="dashed,filled"];
+
+"tlg0007_tlg112.S190452_employed" -> "tlg0007_tlg112.S190452" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S191342" -> "tlg0007_tlg112.S191342_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S191342_employed" -> "tlg0007_tlg112.S191342" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.T141553" -> "tlg0007_tlg112.T141553_to_tlg0007_tlg112.T145739_1" [dir=none, color="#82b366"];
+
+"tlg0007_tlg112.T141553_to_tlg0007_tlg112.T145739_1" -> "tlg0007_tlg112.T145739" [color="#82b366"];
+
+"tlg0007_tlg112.T141553" -> "tlg0007_tlg112.T141553_to_tlg0007_tlg112.T143932_1" [dir=none, color="#666666"];
+
+"tlg0007_tlg112.T141553_to_tlg0007_tlg112.T143932_1" -> "tlg0007_tlg112.T143932" [color="#666666"];
+
+"tlg0007_tlg112.S143800" -> "tlg0007_tlg112.S143800_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S143800_employed" -> "tlg0007_tlg112.S143800" [color="#d79c02", style="solid"];
+
+"tlg0007_tlg112.S201630" -> "tlg0007_tlg112.S201630_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0007_tlg112.S201630_employed" -> "tlg0007_tlg112.S201630" [color="#d79c02", style="solid"];
+}
+
+// Ensuring all proposition nodes and related elements are included
+
+}

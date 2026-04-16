@@ -1,0 +1,175 @@
+digraph G {
+"katsaros_liritzis_laskaris_2010" [label="SOURCE", source_id="katsaros_liritzis_laskaris_2010", is_source_node="true", shape="diamond", style="filled", color="thistle", fillcolor="thistle", fontcolor="black", fontsize="16", fontname="bold", width="1.5", height="1.5", penwidth="2", margin="0.2,0.1"];
+
+
+"tlg0656_tlg001.P213927" [label="PROP", shape="doubleoctagon", style="rounded,filled", color="ghostwhite", label_color="lightslategrey", paraphrasis="{1st Dioscorides recipe} To produce white and effective lead white in the best variety, as well as in worse varieties: .Pour most pungent vinegar into a jar, .Place a piece of lead on a lattice, .Lay the lattice with the lead onto the mouth of the jar, .Above, throw over covers, .Wait until the lead, crumbling down, has strained through the lattice, .Decant away the clean fluid that floats on top of the vinegar, .Pour the remaining viscous fluid into a vessel, .Let the viscous fluid dry under the sun, .Grind the dried substance, .Sift the ground substance, .The substance that is sifted away is the better variety of white and effective lead white, .Grind and sift what remains above the sieve of the solid substance {, repeat, and do it again a third and fourth time}, .The substances that are sifted away at each repeated grinding and sifting are progressively worse varieties of white and effective lead white "];
+
+"tlg0656_tlg001.q213928001" [label="ph.", phase_number="1", paraphrasis="Pour most pungent vinegar into a jar ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928002" [label="ph.", phase_number="2", paraphrasis="Place a piece of lead on a lattice ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928003" [label="ph.", phase_number="3", paraphrasis="Lay the lattice with the lead onto the mouth of the jar ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928004" [label="ph.", phase_number="4", paraphrasis="Above, throw over covers ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928005" [label="ph.", phase_number="5", paraphrasis="Wait until the lead, crumbling down, has strained through the lattice ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928006" [label="ph.", phase_number="6", paraphrasis="Decant away the clean fluid that floats on top of the vinegar ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928007" [label="ph.", phase_number="7", paraphrasis="Pour the remaining viscous fluid into a vessel ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928008" [label="ph.", phase_number="8", paraphrasis="Let the viscous fluid dry under the sun ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928009" [label="ph.", phase_number="9", paraphrasis="Grind the dried substance ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928010" [label="ph.", phase_number="10", paraphrasis="Sift the ground substance ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928011" [label="ph.", phase_number="11", paraphrasis="The substance that is sifted away is the better variety of white and effective lead white ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928012" [label="ph.", phase_number="12", paraphrasis="Grind and sift what remains above the sieve of the solid substance {, repeat, and do it again a third and fourth time} ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928013" [label="ph.", phase_number="13", paraphrasis="The substances that are sifted away at each repeated grinding and sifting are progressively worse varieties of white and effective lead white ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0656_tlg001.q213928001" -> "katsaros_liritzis_laskaris_2010.q131226002" [label="generalizes, specifies", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213928003" -> "katsaros_liritzis_laskaris_2010.q131226003" [label="alters", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213928004" -> "katsaros_liritzis_laskaris_2010.q131226004" [label="generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213928005" -> "katsaros_liritzis_laskaris_2010.q131226006" [label="generalizes, specifies", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213928008" -> "katsaros_liritzis_laskaris_2010.q131226011" [label="alters", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213928009" -> "katsaros_liritzis_laskaris_2010.q131226010" [label="generalizes, alters", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"katsaros_liritzis_laskaris_2010.T124253" [label="THES", locus="p. 71", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Sample PSI- 1 is the reproduced in laboratory white pow- der following Theophrastus ancient recipe On Stones. (ref. On Stones§ 56 above) . Ccommercial metallic lead cut in the shape of a brick approx. 10 cm length by 5 cm width and 2 cm thickness, hanged over within a ceramic ... out. A white powdered layer on its surface was removed by scratch, then washed in a marble mortar and ground down with marble pestle to a fine powder, following a dry out under the sun. Subsequently it was applied on a prepared wooden surface with a gypsum or calcite support", paraphrasis="We reproduced in laboratory the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white): .We cut commercial metallic lead in the shape of a brick {approx. 10 cm length by 5 cm width by 2 cm thickness}, .We placed vinegar on the bottom of a ceramic vessel, .We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel, .We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes), .We placed the vessel under the sun, .We waited {for 10 days}, {at temperatures of average 30 °C and a range of 27-55 degrees}, .We removed the skin cover, .We took the brick-shaped lead out, .We removed the white powdered layer (thus formed) on the surface of the lead by scratching, .In a marble mortar, we washed and ground down to a fine powder the white powdered layer using a marble pestle, .We waited for it to dry out under the sun, ( .We obtained the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white) ), .We applied it on a prepared wooden surface with a gypsum OR calcite support ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"katsaros_liritzis_laskaris_2010.q131226001" [label="ph.", phase_number="1", paraphrasis="We cut commercial metallic lead in the shape of a brick {approx. 10 cm length by 5 cm width by 2 cm thickness} ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226002" [label="ph.", phase_number="2", paraphrasis="We placed vinegar on the bottom of a ceramic vessel ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226003" [label="ph.", phase_number="3", paraphrasis="We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226004" [label="ph.", phase_number="4", paraphrasis="We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes) ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226005" [label="ph.", phase_number="5", paraphrasis="We placed the vessel under the sun ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226006" [label="ph.", phase_number="6", paraphrasis="We waited {for 10 days}, {at temperatures of average 30 °C and a range of 27-55 degrees} ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226007" [label="ph.", phase_number="7", paraphrasis="We removed the skin cover ", shape="box", color="mediumaquamarine", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226008" [label="ph.", phase_number="8", paraphrasis="We took the brick-shaped lead out ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226009" [label="ph.", phase_number="9", paraphrasis="We removed the white powdered layer (thus formed) on the surface of the lead by scratching ", shape="box", color="mediumaquamarine", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226010" [label="ph.", phase_number="10", paraphrasis="In a marble mortar, we washed and ground down to a fine powder the white powdered layer using a marble pestle ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226011" [label="ph.", phase_number="11", paraphrasis="We waited for it to dry out under the sun ", shape="box", color="mediumaquamarine", label_color="darkseagreen", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226012" [label="ph.", phase_number="12", paraphrasis="( We obtained the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white) ) ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226013" [label="ph.", phase_number="13", paraphrasis="We applied it on a prepared wooden surface with a gypsum support ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0093_tlg004.P151115" [label="PROP", shape="doubleoctagon", style="rounded,filled", color="ghostwhite", label_color="lightslategrey", paraphrasis="{Theophrastus recipe} To produce lead white: . Place a piece of lead over vinegar in closed jars, .Wait for lead to acquire thickness .Open the jars, .Scrape away from the lead the substance that has formed on its surface, repeating this until you have consumed it completely, .Grind what you have scraped away, .Filter off what you are grinding, .The final precipitate is lead white "];
+
+"tlg0093_tlg004.q151116001" [label="ph.", phase_number="1", paraphrasis="Place a piece of lead over vinegar in closed jars ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116002" [label="ph.", phase_number="2", paraphrasis="Wait for lead to acquire thickness ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116003" [label="ph.", phase_number="3", paraphrasis="Open the jars ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116004" [label="ph.", phase_number="4", paraphrasis="Scrape away from the lead the substance that has formed on its surface, repeating this until you have consumed it completely ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116005" [label="ph.", phase_number="5", paraphrasis="Grind what you have scraped away ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116006" [label="ph.", phase_number="6", paraphrasis="Filter off what you are grinding ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116007" [label="ph.", phase_number="7", paraphrasis="The final precipitate is lead white ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116001" -> "katsaros_liritzis_laskaris_2010.q131226002" [label="extends, generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116001" -> "katsaros_liritzis_laskaris_2010.q131226003" [label="generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116001" -> "katsaros_liritzis_laskaris_2010.q131226004" [label="extends, generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116002" -> "katsaros_liritzis_laskaris_2010.q131226006" [label="generalizes, specifies", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116003" -> "katsaros_liritzis_laskaris_2010.q131226007" [label="generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116004" -> "katsaros_liritzis_laskaris_2010.q131226009" [label="specifies", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116005" -> "katsaros_liritzis_laskaris_2010.q131226010" [label="generalizes, alters", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213928011" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226003" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226008" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226011" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928006" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226012" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928013" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226007" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226005" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226013" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226004" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226010" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226006" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928010" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116002" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116003" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928001" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928008" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928003" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226001" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116007" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116005" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116006" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226002" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116004" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928004" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928007" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928012" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116001" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928005" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928009" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213928002" -> "tlg0656_tlg001.P213927" [style="dashed", color="gray"];
+
+"katsaros_liritzis_laskaris_2010.q131226009" -> "katsaros_liritzis_laskaris_2010.T124253" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.P151115" -> "katsaros_liritzis_laskaris_2010.T124253" [label="extends, generalizes, specifies, alters", color="indigo", fontcolor="indigo", penwidth=1.5];
+
+"katsaros_liritzis_laskaris_2010" -> "katsaros_liritzis_laskaris_2010.T124253" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0656_tlg001.P213927" -> "katsaros_liritzis_laskaris_2010.T124253" [label="generalizes, specifies, alters", color="indigo", fontcolor="indigo", penwidth=1.5];
+
+}

@@ -1,0 +1,113 @@
+digraph G {
+"tlg0093_tlg004" [label="SOURCE", source_id="tlg0093_tlg004", is_source_node="true", shape="diamond", style="filled", color="thistle", fillcolor="thistle", fontcolor="black", fontsize="16", fontname="bold", width="1.5", height="1.5", penwidth="2", margin="0.2,0.1"];
+
+
+"tlg0093_tlg004.S162445" [label="SUPP", text="κύανος ὁ μὲν αὐτοφυὴς ὁ δὲ σκευαστὸς ὥσπερ ἐν Αἰγύπτῳ. γένη δὲ κυάνου τρία, ὁ αἰγύπτιος καὶ σκύθης καὶ τρίτος ὁ κύπριος. βέλτιστος δʼ ὁ αἰγύπτιος εἰς τὰ ἄκρατα λειώματα ὁ δὲ σκύθης εἰς τὰ ὑδαρέστερα. σκευαστὸς δʼ ὁ αἰγύπτιος. καὶ οἱ γράφοντες τὰ περὶ τοὺς βασιλεῖς καὶ τοῦτο γράφουσι, τίς πρῶτος βασιλεύς ἐποίησε χυτὸν κύανον μιμησάμενος τὸν αὐτοφυῆ, δῶρά τε πέμπεσθαι παρʼ ἄλλων τε καὶ ἐκ Φοινίκης φόρον κυάνου, τοῦ μὲν ἀπύρου τοῦ δὲ πεπυρωμένου", locus="55", speaker="Theophrastus", form="None", paraphrasis="( [omitted] CONTEXT) \"The four colours made by kyanos from itself come about by technical means\" ) ", manifestation="implicit", color="linen", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S162445_to_omitted_THESIS_1" [label="THES", gephi_omitted="true", fontsize="11", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.T183406" [label="THES", locus="55", speaker="pigment-grinders", text="τὸν μὲν κύανον ἐξ ἑαυτοῦ ποιεῖν χρώματα τέτταρα ... ταῦτά τε δὴ τέχνῃ γίνεται", paraphrasis="The four colours made by kyanos from itself come about by technical means ", manifestation="explicit", source="tlg0093_tlg004", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S183406" [label="SUPP", text="τὸν μὲν κύανον ἐξ ἑαυτοῦ ποιεῖν χρώματα τέτταρα ... ταῦτά τε δὴ τέχνῃ γίνεται καὶ ἔτι", locus="55", speaker="Theophrastus", form="analogy", paraphrasis="\"The four colours made by kyanos from itself come about by technical means\" CONTEXT) \"Lead white comes about by technical means\" ", manifestation="explicit", color="wheat", label_color="rosybrown", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.T170246" [label="THES", locus="55", speaker="Theophrastus", text="τέχνῃ γίνεται ... τὸ ψιμύθιον", paraphrasis="Lead white comes about by technical means ", manifestation="explicit", source="tlg0093_tlg004", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S150529" [label="SUPP", text="τέχνῃ γίνεται ... τὸ ψιμύθιον. ... γὰρ", locus="55", speaker="Theophrastus", form="generalization", paraphrasis="( \"Lead white comes about by technical means\" CONTEXT) \".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white\" ) ", manifestation="implicit", color="linen", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.T151115" [label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον", paraphrasis=".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white ", manifestation="explicit", source="tlg0093_tlg004", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.q151115001" [label="ph.", phase_number="1", paraphrasis="Lead the size of a brick is placed over vinegar in (closed) jars ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115002" [label="ph.", phase_number="2", paraphrasis="They wait for lead to acquire thickness {, which happens in a maximum of 10 days} ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115003" [label="ph.", phase_number="3", paraphrasis="They open the jars ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115004" [label="ph.", phase_number="4", paraphrasis="They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115005" [label="ph.", phase_number="5", paraphrasis="They rub what has been scraped away in a grinding-bowl ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115006" [label="ph.", phase_number="6", paraphrasis="They always filter off what is being rubbed ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115007" [label="ph.", phase_number="7", paraphrasis="The final precipitate is lead white ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0093_tlg004.T180430" [label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα", paraphrasis="Lead the size of a brick placed over vinegar in (closed) jars acquires thickness in a maximum of 10 days ", manifestation="explicit", source="tlg0093_tlg004", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S181431" [label="SUPP", text="λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα", locus="56", speaker="Theophrastus", form="specification", paraphrasis="\"Lead the size of a brick placed over vinegar in (closed) jars acquires thickness in a maximum of 10 days\" EXPLAINS) \" […] .They wait for lead to acquire thickness […]\" ", manifestation="explicit", color="lightgoldenrodyellow", label_color="grey", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S153946" [label="SUPP", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον", locus="55", speaker="Theophrastus", form="particular-illustration", paraphrasis="\".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white\" EXPLAINS/justifies) \" Lead white comes about by technical means\" ", manifestation="explicit", color="lightgoldenrodyellow", label_color="grey", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.T154708" [label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον. παραπλησίως δὲ καὶ ὁ ἰὸς γίνεται", paraphrasis="Copper rust comes about by a (technical) process very similar to lead white's ", manifestation="explicit", source="tlg0093_tlg004", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0093_tlg004.S160706" [label="SUPP", text="παραπλησίως δὲ καὶ ὁ ἰὸς γίνεται ·", locus="56", speaker="Theophrastus", form="generalization", paraphrasis="( \"Copper rust comes about by a (technical) process very similar to lead white's\" CONTEXT) [omitted] ) ", manifestation="implicit", color="linen", label_color="darkgrey", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.S160706_to_omitted_TARGET_THESIS_1" [label="THES", gephi_omitted="true", fontsize="11", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", source="tlg0093_tlg004"];
+
+"tlg0093_tlg004.q151115003" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151115005" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151115001" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151115007" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151115002" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151115004" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151115006" -> "tlg0093_tlg004.T151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S162445" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S150529" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S183406" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004.S162445_to_omitted_THESIS_1" -> "tlg0093_tlg004.S162445" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0093_tlg004.T170246" -> "tlg0093_tlg004.S150529" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0093_tlg004.S181431" -> "tlg0093_tlg004.q151115002" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S181431" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S162445_to_omitted_THESIS_1" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.T183406" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S160706_to_omitted_TARGET_THESIS_1" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.T154708" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.T170246" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.S153946" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.T180430" [label="ENTAILS", entailment_type="inclusion", color="dimgray", fontcolor="dimgray", penwidth=1.5];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S153946" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004.T183406" -> "tlg0093_tlg004.S183406" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0093_tlg004.T180430" -> "tlg0093_tlg004.S181431" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0093_tlg004.T154708" -> "tlg0093_tlg004.S160706" [label="in", color="darkgoldenrod", fontcolor="darkgoldenrod", penwidth=1.5];
+
+"tlg0093_tlg004.S162445" -> "tlg0093_tlg004.T183406" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0093_tlg004.S160706" -> "tlg0093_tlg004.S160706_to_omitted_TARGET_THESIS_1" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0093_tlg004.S183406" -> "tlg0093_tlg004.T170246" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.S160706" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.T180430" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004" -> "tlg0093_tlg004.T151115" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004.S153946" -> "tlg0093_tlg004.T170246" [label="EXPLAINS", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0093_tlg004.S150529" -> "tlg0093_tlg004.T151115" [label="CONTEXTUALIZES", color="steelblue", fontcolor="steelblue", penwidth=1.5];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.T154708" [label="COMPARED IN", comparans="true", color="darkslateblue", fontcolor="darkslateblue", penwidth=1.5];
+
+}

@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="407.0"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-183.000000 -226.000000 407.000000 484.000000" height="484.0"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928001 id_katsaros_liritzis_laskaris_2010.q131226002"
+              d="M 55.603321,-63.292702 A 74.264733,74.264733 0,0 1,5.759094,-1.699802"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928003 id_katsaros_liritzis_laskaris_2010.q131226003"
+              d="M 134.883865,-28.983841 A 82.689142,82.689142 0,0 1,66.231003,28.236362"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928004 id_katsaros_liritzis_laskaris_2010.q131226004"
+              d="M 86.227211,-29.050982 A 80.319376,80.319376 0,0 1,24.271612,31.342661"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928005 id_katsaros_liritzis_laskaris_2010.q131226006"
+              d="M 29.471521,-106.438721 A 76.012596,76.012596 0,0 1,-21.034101,-42.680401"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928008 id_katsaros_liritzis_laskaris_2010.q131226011"
+              d="M 13.280989,-165.825607 A 70.556250,70.556250 0,0 1,-48.139759,-123.186989"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928009 id_katsaros_liritzis_laskaris_2010.q131226010"
+              d="M 139.809357,21.140692 A 91.293465,91.293465 0,0 1,74.591377,96.578362"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116001 id_katsaros_liritzis_laskaris_2010.q131226002"
+              d="M 8.455800,82.678253 A 73.318377,73.318377 0,0 1,-2.657435,5.377528"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116001 id_katsaros_liritzis_laskaris_2010.q131226003"
+              d="M 13.065035,81.111649 A 62.804582,62.804582 0,0 1,54.503304,30.472868"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116001 id_katsaros_liritzis_laskaris_2010.q131226004"
+              d="M 9.797214,81.743355 A 45.883145,45.883145 0,0 1,14.562523,36.986763"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116002 id_katsaros_liritzis_laskaris_2010.q131226006"
+              d="M -56.200024,87.357651 A 113.718918,113.718918 0,0 1,-31.143118,-36.815571"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116003 id_katsaros_liritzis_laskaris_2010.q131226007"
+              d="M -175.610352,151.234329 A 58.146112,58.146112 0,0 1,-179.754715,91.561417"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116004 id_katsaros_liritzis_laskaris_2010.q131226009"
+              d="M -138.487854,180.040253 A 62.499330,62.499330 0,0 1,-136.068054,115.020592"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116005 id_katsaros_liritzis_laskaris_2010.q131226010"
+              d="M 27.856581,172.501251 A 74.857455,74.857455 0,0 1,63.522751,100.949692"
+              stroke="#778899" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928011 id_tlg0656_tlg001.P213927"
+              d="M 160.440475,-187.386505 A 62.250256,62.250256 0,0 1,135.673889,-133.714188"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226003 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M 54.850273,31.368933 A 114.432826,114.432826 0,0 1,-67.942635,12.785596"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226008 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -107.165520,-61.478107 A 66.193146,66.193146 0,0 1,-74.354935,-4.126845"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226011 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -51.505184,-117.761154 A 108.910277,108.910277 0,0 1,-68.257614,-1.413206"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928006 id_tlg0656_tlg001.P213927"
+              d="M 194.353485,-191.051468 A 82.599592,82.599592 0,0 1,137.192993,-129.884491"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226012 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -132.589783,-25.146143 A 58.473000,58.473000 0,0 1,-80.531982,-2.578961"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928013 id_tlg0656_tlg001.P213927"
+              d="M 188.802811,-156.028641 A 62.418884,62.418884 0,0 1,137.440994,-126.359276"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226007 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -175.073227,80.604141 A 108.045269,108.045269 0,0 1,-85.112724,6.570241"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226005 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -166.312210,-13.741883 A 81.765566,81.765566 0,0 1,-82.406860,-1.026556"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226013 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -145.348053,-56.578396 A 82.341992,82.341992 0,0 1,-78.072960,-3.717636"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226004 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M 12.678912,34.282970 A 80.979516,80.979516 0,0 1,-68.598686,13.406807"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226010 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M 62.782219,98.362679 A 142.431025,142.431025 0,0 1,-71.313332,15.081526"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226006 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -28.035620,-35.060028 A 56.066937,56.066937 0,0 1,-65.368164,3.714933"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928010 id_tlg0656_tlg001.P213927"
+              d="M 195.919708,-101.902252 A 66.850672,66.850672 0,0 1,133.239990,-117.877548"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116002 id_tlg0093_tlg004.P151115"
+              d="M -51.129189,98.231384 A 72.176059,72.176059 0,0 1,-58.377514,168.987396"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116003 id_tlg0093_tlg004.P151115"
+              d="M -166.398300,153.636063 A 89.867054,89.867054 0,0 1,-75.315109,169.684509"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928001 id_tlg0656_tlg001.P213927"
+              d="M 57.654079,-75.060944 A 75.044610,75.044610 0,0 1,112.594215,-125.517006"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928008 id_tlg0656_tlg001.P213927"
+              d="M 21.253862,-172.800812 A 98.445234,98.445234 0,0 1,117.837646,-137.516785"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928003 id_tlg0656_tlg001.P213927"
+              d="M 132.482086,-39.245014 A 77.664773,77.664773 0,0 1,119.657974,-115.939713"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226001 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -145.478439,17.433435 A 63.477456,63.477456 0,0 1,-84.519005,2.375335"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116007 id_tlg0093_tlg004.P151115"
+              d="M -93.703171,245.140060 A 64.050329,64.050329 0,0 1,-76.157951,186.412689"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116005 id_tlg0093_tlg004.P151115"
+              d="M 23.769644,181.861389 A 79.306885,79.306885 0,0 1,-55.903355,185.195969"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116006 id_tlg0093_tlg004.P151115"
+              d="M -52.867928,247.719254 A 62.844541,62.844541 0,0 1,-70.187248,190.449585"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226002 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -4.685502,3.742069 A 62.809223,62.809223 0,0 1,-66.298225,10.515284"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116004 id_tlg0093_tlg004.P151115"
+              d="M -130.671310,181.322983 A 57.631605,57.631605 0,0 1,-77.782883,173.201935"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928004 id_tlg0656_tlg001.P213927"
+              d="M 86.059525,-40.795334 A 83.063962,83.063962 0,0 1,114.769196,-120.033188"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928007 id_tlg0656_tlg001.P213927"
+              d="M 213.241058,-134.771332 A 77.880812,77.880812 0,0 1,136.284180,-121.932945"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928012 id_tlg0656_tlg001.P213927"
+              d="M 107.394417,-199.906342 A 66.358901,66.358901 0,0 1,128.265717,-139.311966"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.q151116001 id_tlg0093_tlg004.P151115"
+              d="M 11.933009,93.058022 A 100.689051,100.689051 0,0 1,-54.444462,175.099060"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928005 id_tlg0656_tlg001.P213927"
+              d="M 34.212578,-116.562500 A 80.212730,80.212730 0,0 1,113.513214,-132.245712"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928009 id_tlg0656_tlg001.P213927"
+              d="M 136.436523,10.686656 A 119.384036,119.384036 0,0 1,119.166672,-116.183823"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.q213928002 id_tlg0656_tlg001.P213927"
+              d="M 140.520004,-214.524185 A 77.928387,77.928387 0,0 1,133.035339,-136.805878"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_katsaros_liritzis_laskaris_2010.q131226009 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -133.181641,104.218491 A 99.230788,99.230788 0,0 1,-84.032616,10.414878"
+              stroke="#808080" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0093_tlg004.P151115 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M -74.036118,168.566635 A 144.075642,144.075642 0,0 1,-80.439392,14.322237"
+              stroke="#4b0082" stroke-width="0.8" stroke-opacity="0.4"/>
+        <path stroke-linecap="round" fill="none"
+              class="id_tlg0656_tlg001.P213927 id_katsaros_liritzis_laskaris_2010.T124253"
+              d="M 120.434349,-115.606522 A 200.276545,200.276545 0,0 1,-65.144249,6.158418"
+              stroke="#4b0082" stroke-width="0.8" stroke-opacity="0.4"/>
+    </g>
+    <g id="arrows">
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928001 id_katsaros_liritzis_laskaris_2010.q131226002"
+                  points="5.759094,-1.699802 5.759094,-1.699802 5.759094,-1.699802"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928003 id_katsaros_liritzis_laskaris_2010.q131226003"
+                  points="66.231003,28.236361 66.231003,28.236361 66.231003,28.236361"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928004 id_katsaros_liritzis_laskaris_2010.q131226004"
+                  points="24.271612,31.342661 24.271612,31.342661 24.271612,31.342661"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928005 id_katsaros_liritzis_laskaris_2010.q131226006"
+                  points="-21.034101,-42.680401 -21.034101,-42.680401 -21.034101,-42.680401"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928008 id_katsaros_liritzis_laskaris_2010.q131226011"
+                  points="-48.139759,-123.186989 -48.139759,-123.186989 -48.139759,-123.186989"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928009 id_katsaros_liritzis_laskaris_2010.q131226010"
+                  points="74.591377,96.578362 74.591377,96.578362 74.591377,96.578362"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116001 id_katsaros_liritzis_laskaris_2010.q131226002"
+                  points="-2.657434,5.377528 -2.657434,5.377528 -2.657434,5.377528"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116001 id_katsaros_liritzis_laskaris_2010.q131226003"
+                  points="54.503304,30.472870 54.503304,30.472870 54.503304,30.472870"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116001 id_katsaros_liritzis_laskaris_2010.q131226004"
+                  points="14.562523,36.986763 14.562523,36.986763 14.562523,36.986763"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116002 id_katsaros_liritzis_laskaris_2010.q131226006"
+                  points="-31.143118,-36.815571 -31.143118,-36.815571 -31.143118,-36.815571"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116003 id_katsaros_liritzis_laskaris_2010.q131226007"
+                  points="-179.754715,91.561417 -179.754715,91.561417 -179.754715,91.561417"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116004 id_katsaros_liritzis_laskaris_2010.q131226009"
+                  points="-136.068054,115.020592 -136.068054,115.020592 -136.068054,115.020592"
+                  stroke="none"/>
+        <polyline fill="#778899" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116005 id_katsaros_liritzis_laskaris_2010.q131226010"
+                  points="63.522751,100.949692 63.522751,100.949692 63.522751,100.949692"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928011 id_tlg0656_tlg001.P213927"
+                  points="135.673889,-133.714188 135.673889,-133.714188 135.673889,-133.714188"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226003 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-67.942635,12.785596 -67.942635,12.785596 -67.942635,12.785596"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226008 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-74.354935,-4.126844 -74.354935,-4.126844 -74.354935,-4.126844"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226011 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-68.257614,-1.413207 -68.257614,-1.413207 -68.257614,-1.413207"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928006 id_tlg0656_tlg001.P213927"
+                  points="137.192993,-129.884491 137.192993,-129.884491 137.192993,-129.884491"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226012 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-80.531982,-2.578961 -80.531982,-2.578961 -80.531982,-2.578961"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928013 id_tlg0656_tlg001.P213927"
+                  points="137.440994,-126.359276 137.440994,-126.359276 137.440994,-126.359276"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226007 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-85.112724,6.570242 -85.112724,6.570242 -85.112724,6.570242"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226005 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-82.406860,-1.026556 -82.406860,-1.026556 -82.406860,-1.026556"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226013 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-78.072960,-3.717636 -78.072960,-3.717636 -78.072960,-3.717636"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226004 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-68.598686,13.406807 -68.598686,13.406807 -68.598686,13.406807"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226010 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-71.313332,15.081526 -71.313332,15.081526 -71.313332,15.081526"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226006 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-65.368164,3.714932 -65.368164,3.714932 -65.368164,3.714932"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928010 id_tlg0656_tlg001.P213927"
+                  points="133.239990,-117.877548 133.239990,-117.877548 133.239990,-117.877548"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116002 id_tlg0093_tlg004.P151115"
+                  points="-58.377514,168.987396 -58.377514,168.987396 -58.377514,168.987396"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116003 id_tlg0093_tlg004.P151115"
+                  points="-75.315109,169.684509 -75.315109,169.684509 -75.315109,169.684509"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928001 id_tlg0656_tlg001.P213927"
+                  points="112.594215,-125.517006 112.594215,-125.517006 112.594215,-125.517006"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928008 id_tlg0656_tlg001.P213927"
+                  points="117.837646,-137.516785 117.837646,-137.516785 117.837646,-137.516785"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928003 id_tlg0656_tlg001.P213927"
+                  points="119.657974,-115.939713 119.657974,-115.939713 119.657974,-115.939713"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226001 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-84.519005,2.375335 -84.519005,2.375335 -84.519005,2.375335"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116007 id_tlg0093_tlg004.P151115"
+                  points="-76.157951,186.412689 -76.157951,186.412689 -76.157951,186.412689"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116005 id_tlg0093_tlg004.P151115"
+                  points="-55.903355,185.195969 -55.903355,185.195969 -55.903355,185.195969"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116006 id_tlg0093_tlg004.P151115"
+                  points="-70.187248,190.449585 -70.187248,190.449585 -70.187248,190.449585"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226002 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-66.298233,10.515284 -66.298233,10.515284 -66.298233,10.515284"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116004 id_tlg0093_tlg004.P151115"
+                  points="-77.782883,173.201935 -77.782883,173.201935 -77.782883,173.201935"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928004 id_tlg0656_tlg001.P213927"
+                  points="114.769196,-120.033188 114.769196,-120.033188 114.769196,-120.033188"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928007 id_tlg0656_tlg001.P213927"
+                  points="136.284180,-121.932945 136.284180,-121.932945 136.284180,-121.932945"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928012 id_tlg0656_tlg001.P213927"
+                  points="128.265717,-139.311966 128.265717,-139.311966 128.265717,-139.311966"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.q151116001 id_tlg0093_tlg004.P151115"
+                  points="-54.444462,175.099060 -54.444462,175.099060 -54.444462,175.099060"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928005 id_tlg0656_tlg001.P213927"
+                  points="113.513214,-132.245712 113.513214,-132.245712 113.513214,-132.245712"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928009 id_tlg0656_tlg001.P213927"
+                  points="119.166672,-116.183823 119.166672,-116.183823 119.166672,-116.183823"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.q213928002 id_tlg0656_tlg001.P213927"
+                  points="133.035339,-136.805878 133.035339,-136.805878 133.035339,-136.805878"
+                  stroke="none"/>
+        <polyline fill="#808080" fill-opacity="0.4"
+                  class="id_katsaros_liritzis_laskaris_2010.q131226009 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-84.032623,10.414878 -84.032623,10.414878 -84.032623,10.414878"
+                  stroke="none"/>
+        <polyline fill="#4b0082" fill-opacity="0.4"
+                  class="id_tlg0093_tlg004.P151115 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-80.439392,14.322237 -80.439392,14.322237 -80.439392,14.322237"
+                  stroke="none"/>
+        <polyline fill="#4b0082" fill-opacity="0.4"
+                  class="id_tlg0656_tlg001.P213927 id_katsaros_liritzis_laskaris_2010.T124253"
+                  points="-65.144249,6.158418 -65.144249,6.158418 -65.144249,6.158418"
+                  stroke="none"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="11.5" cx="124.97302"
+                class="id_tlg0656_tlg001.P213927" cy="-127.25343"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="2.0"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="56.06644"
+                class="id_tlg0656_tlg001.q213928001" cy="-69.2748"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="137.81766"
+                class="id_tlg0656_tlg001.q213928002" cy="-219.88116"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="136.47711"
+                class="id_tlg0656_tlg001.q213928003" cy="-34.76844"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="87.37228"
+                class="id_tlg0656_tlg001.q213928004" cy="-34.940704"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="29.866678"
+                class="id_tlg0656_tlg001.q213928005" cy="-112.4257"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="195.45003"
+                class="id_tlg0656_tlg001.q213928006" cy="-196.95042"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="217.71823"
+                class="id_tlg0656_tlg001.q213928007" cy="-138.76569"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="15.411473"
+                class="id_tlg0656_tlg001.q213928008" cy="-171.43462"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="140.42169"
+                class="id_tlg0656_tlg001.q213928009" cy="15.172019"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="201.65117"
+                class="id_tlg0656_tlg001.q213928010" cy="-103.67717"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="159.77821"
+                class="id_tlg0656_tlg001.q213928011" cy="-193.34984"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="102.76657"
+                class="id_tlg0656_tlg001.q213928012" cy="-203.72513"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="191.69917"
+                class="id_tlg0656_tlg001.q213928013" cy="-161.28326"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="0.005095028"
+                class="id_katsaros_liritzis_laskaris_2010.q131226002"
+                cy="6.391922E-4" stroke="#6aaf6a" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="60.254013"
+                class="id_katsaros_liritzis_laskaris_2010.q131226003"
+                cy="28.761332" stroke="#6aaf6a" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="18.354578"
+                class="id_katsaros_liritzis_laskaris_2010.q131226004"
+                cy="32.336998" stroke="#6aaf6a" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="-26.771692"
+                class="id_katsaros_liritzis_laskaris_2010.q131226006"
+                cy="-40.925392" stroke="#6aaf6a" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#66cdaa" r="5.52" cx="-54.139656"
+                class="id_katsaros_liritzis_laskaris_2010.q131226011"
+                cy="-123.15185" stroke="#478f76" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="5.52" cx="68.77391"
+                class="id_katsaros_liritzis_laskaris_2010.q131226010"
+                cy="98.04705" stroke="#6aaf6a" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#98fb98" r="9.2" cx="-75.13925"
+                class="id_katsaros_liritzis_laskaris_2010.T124253" cy="5.84235"
+                stroke="#6aaf6a" stroke-opacity="1.0" stroke-width="1.5999999"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="-149.62923"
+                class="id_katsaros_liritzis_laskaris_2010.q131226001"
+                cy="21.76599" stroke="#648364" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="-171.76122"
+                class="id_katsaros_liritzis_laskaris_2010.q131226005"
+                cy="-11.230229" stroke="#648364" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#66cdaa" r="5.52" cx="-176.7602"
+                class="id_katsaros_liritzis_laskaris_2010.q131226007"
+                cy="86.36211" stroke="#478f76" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="-112.47845"
+                class="id_katsaros_liritzis_laskaris_2010.q131226008"
+                cy="-64.266075" stroke="#648364" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#66cdaa" r="5.52" cx="-132.5202"
+                class="id_katsaros_liritzis_laskaris_2010.q131226009"
+                cy="110.18192" stroke="#478f76" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="-138.52345"
+                class="id_katsaros_liritzis_laskaris_2010.q131226012"
+                cy="-24.256414" stroke="#648364" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#8fbc8f" r="5.52" cx="-151.32727"
+                class="id_katsaros_liritzis_laskaris_2010.q131226013"
+                cy="-57.077282" stroke="#648364" stroke-opacity="1.0"
+                stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="11.5" cx="-66.4685"
+                class="id_tlg0093_tlg004.P151115" cy="178.51556"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="2.0"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="12.525219"
+                class="id_tlg0093_tlg004.q151116001" cy="87.08732"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-53.76442"
+                class="id_tlg0093_tlg004.q151116002" cy="92.841064"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-171.92586"
+                class="id_tlg0093_tlg004.q151116003" cy="155.96977"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-135.30946"
+                class="id_tlg0093_tlg004.q151116004" cy="185.12924"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="28.699736"
+                class="id_tlg0093_tlg004.q151116005" cy="178.44171"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-48.409863"
+                class="id_tlg0093_tlg004.q151116006" cy="251.73492"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+        <circle fill-opacity="1.0" fill="#f8f8ff" r="5.52" cx="-92.18709"
+                class="id_tlg0093_tlg004.q151116007" cy="250.94536"
+                stroke="#adadb2" stroke-opacity="1.0" stroke-width="0.96"/>
+    </g>
+    <g id="node-labels-outline">
+        <text stroke-linecap="round" font-size="15" x="124.97302" y="-124.47511"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.P213927"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.8125px">
+            PROP
+        </text>
+        <text stroke-linecap="round" font-size="7" x="56.06644" y="-68.01699"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928001"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            1
+        </text>
+        <text stroke-linecap="round" font-size="7" x="137.81766" y="-218.62335"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928002"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            2
+        </text>
+        <text stroke-linecap="round" font-size="7" x="136.47711" y="-33.48841"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928003"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="7" x="87.37228" y="-33.68802"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928004"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            4
+        </text>
+        <text stroke-linecap="round" font-size="7" x="29.866678" y="-111.16846"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928005"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            5
+        </text>
+        <text stroke-linecap="round" font-size="7" x="195.45003" y="-195.67096"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928006"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            6
+        </text>
+        <text stroke-linecap="round" font-size="7" x="217.71823" y="-137.52895"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928007"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="7" x="15.411473" y="-170.15515"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928008"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            8
+        </text>
+        <text stroke-linecap="round" font-size="7" x="140.42169" y="16.451479"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928009"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            9
+        </text>
+        <text stroke-linecap="round" font-size="7" x="201.65117" y="-102.39771"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928010"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            10
+        </text>
+        <text stroke-linecap="round" font-size="7" x="159.77821" y="-192.09203"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928011"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            11
+        </text>
+        <text stroke-linecap="round" font-size="7" x="102.76657" y="-202.46732"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928012"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            12
+        </text>
+        <text stroke-linecap="round" font-size="7" x="191.69917" y="-160.00323"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928013"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            13
+        </text>
+        <text stroke-linecap="round" font-size="7" x="0.005095028" y="1.2584517"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226002"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            2
+        </text>
+        <text stroke-linecap="round" font-size="7" x="60.254013" y="30.04136"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226003"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="7" x="18.354578" y="33.589684"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226004"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            4
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-26.771692" y="-39.64593"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226006"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            6
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-54.139656"
+              y="-121.894035" fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226011"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            11
+        </text>
+        <text stroke-linecap="round" font-size="7" x="68.77391" y="99.32651"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226010"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            10
+        </text>
+        <text stroke-linecap="round" font-size="12" x="-75.13925" y="8.06403"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.T124253"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.25px">
+            THES
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-149.62923" y="23.023802"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226001"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            1
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-171.76122" y="-9.972986"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226005"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            5
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-176.7602" y="87.59884"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226007"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-112.47845" y="-62.986618"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226008"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            8
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-132.5202" y="111.46138"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226009"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            9
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-138.52345" y="-22.998602"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226012"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            12
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-151.32727" y="-55.797253"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226013"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            13
+        </text>
+        <text stroke-linecap="round" font-size="15" x="-66.4685" y="181.29388"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.P151115"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="2.8125px">
+            PROP
+        </text>
+        <text stroke-linecap="round" font-size="7" x="12.525219" y="88.34513"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116001"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            1
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-53.76442" y="94.09888"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116002"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            2
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-171.92586" y="157.2498"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116003"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            3
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-135.30946" y="186.38193"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116004"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            4
+        </text>
+        <text stroke-linecap="round" font-size="7" x="28.699736" y="179.69896"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116005"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            5
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-48.409863" y="253.01439"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116006"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            6
+        </text>
+        <text stroke-linecap="round" font-size="7" x="-92.18709" y="252.1821"
+              fill="#000000" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116007"
+              stroke="#ffffff" stroke-opacity="0.8" stroke-width="1.3125px">
+            7
+        </text>
+        <text stroke-linecap="round" font-size="5" x="39.581673" y="-25.293524"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_29" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="108.95386" y="9.700296"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_30" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            alters
+        </text>
+        <text stroke-linecap="round" font-size="5" x="64.07638" y="10.2010975"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_31" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="13.464211" y="-67.23582"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_32" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-11.316962" y="-135.70137"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_33" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            alters
+        </text>
+        <text stroke-linecap="round" font-size="5" x="118.41031" y="68.550835"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_34" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-8.249291" y="45.630665"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_35" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            exte...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="26.668617" y="49.969524"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_36" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="6.3148446" y="58.740597"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_37" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            exte...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-62.562466" y="21.459047"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_38" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-185.9443" y="121.971664"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_39" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-146.40605" y="147.1907"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_40" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            spec...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="35.33771" y="131.56535"
+              fill="#778899" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_41" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="-99.58275" y="93.624084"
+              fill="#4b0082" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_75" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            exte...
+        </text>
+        <text stroke-linecap="round" font-size="5" x="47.099518" y="-27.353493"
+              fill="#4b0082" stroke-linejoin="round"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_77" stroke="#ffffff"
+              stroke-opacity="1.0" stroke-width="0.46875px">
+            gene...
+        </text>
+    </g>
+    <g id="node-labels">
+        <text font-size="15" x="124.97302" y="-124.47511" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.P213927">
+            PROP
+        </text>
+        <text font-size="7" x="56.06644" y="-68.01699" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928001">
+            1
+        </text>
+        <text font-size="7" x="137.81766" y="-218.62335" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928002">
+            2
+        </text>
+        <text font-size="7" x="136.47711" y="-33.48841" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928003">
+            3
+        </text>
+        <text font-size="7" x="87.37228" y="-33.68802" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928004">
+            4
+        </text>
+        <text font-size="7" x="29.866678" y="-111.16846" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928005">
+            5
+        </text>
+        <text font-size="7" x="195.45003" y="-195.67096" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928006">
+            6
+        </text>
+        <text font-size="7" x="217.71823" y="-137.52895" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928007">
+            7
+        </text>
+        <text font-size="7" x="15.411473" y="-170.15515" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928008">
+            8
+        </text>
+        <text font-size="7" x="140.42169" y="16.451479" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928009">
+            9
+        </text>
+        <text font-size="7" x="201.65117" y="-102.39771" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928010">
+            10
+        </text>
+        <text font-size="7" x="159.77821" y="-192.09203" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928011">
+            11
+        </text>
+        <text font-size="7" x="102.76657" y="-202.46732" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928012">
+            12
+        </text>
+        <text font-size="7" x="191.69917" y="-160.00323" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0656_tlg001.q213928013">
+            13
+        </text>
+        <text font-size="7" x="0.005095028" y="1.2584517" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226002">
+            2
+        </text>
+        <text font-size="7" x="60.254013" y="30.04136" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226003">
+            3
+        </text>
+        <text font-size="7" x="18.354578" y="33.589684" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226004">
+            4
+        </text>
+        <text font-size="7" x="-26.771692" y="-39.64593" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226006">
+            6
+        </text>
+        <text font-size="7" x="-54.139656" y="-121.894035" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226011">
+            11
+        </text>
+        <text font-size="7" x="68.77391" y="99.32651" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226010">
+            10
+        </text>
+        <text font-size="12" x="-75.13925" y="8.06403" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.T124253">
+            THES
+        </text>
+        <text font-size="7" x="-149.62923" y="23.023802" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226001">
+            1
+        </text>
+        <text font-size="7" x="-171.76122" y="-9.972986" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226005">
+            5
+        </text>
+        <text font-size="7" x="-176.7602" y="87.59884" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226007">
+            7
+        </text>
+        <text font-size="7" x="-112.47845" y="-62.986618" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226008">
+            8
+        </text>
+        <text font-size="7" x="-132.5202" y="111.46138" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226009">
+            9
+        </text>
+        <text font-size="7" x="-138.52345" y="-22.998602" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226012">
+            12
+        </text>
+        <text font-size="7" x="-151.32727" y="-55.797253" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial"
+              class="id_katsaros_liritzis_laskaris_2010.q131226013">
+            13
+        </text>
+        <text font-size="15" x="-66.4685" y="181.29388" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.P151115">
+            PROP
+        </text>
+        <text font-size="7" x="12.525219" y="88.34513" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116001">
+            1
+        </text>
+        <text font-size="7" x="-53.76442" y="94.09888" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116002">
+            2
+        </text>
+        <text font-size="7" x="-171.92586" y="157.2498" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116003">
+            3
+        </text>
+        <text font-size="7" x="-135.30946" y="186.38193" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116004">
+            4
+        </text>
+        <text font-size="7" x="28.699736" y="179.69896" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116005">
+            5
+        </text>
+        <text font-size="7" x="-48.409863" y="253.01439" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116006">
+            6
+        </text>
+        <text font-size="7" x="-92.18709" y="252.1821" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_tlg0093_tlg004.q151116007">
+            7
+        </text>
+    </g>
+    <g id="edge-labels">
+        <text font-size="5" x="39.581673" y="-25.293524" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_29">
+            gene...
+        </text>
+        <text font-size="5" x="108.95386" y="9.700296" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_30">
+            alters
+        </text>
+        <text font-size="5" x="64.07638" y="10.2010975" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_31">
+            gene...
+        </text>
+        <text font-size="5" x="13.464211" y="-67.23582" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_32">
+            gene...
+        </text>
+        <text font-size="5" x="-11.316962" y="-135.70137" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_33">
+            alters
+        </text>
+        <text font-size="5" x="118.41031" y="68.550835" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_34">
+            gene...
+        </text>
+        <text font-size="5" x="-8.249291" y="45.630665" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_35">
+            exte...
+        </text>
+        <text font-size="5" x="26.668617" y="49.969524" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_36">
+            gene...
+        </text>
+        <text font-size="5" x="6.3148446" y="58.740597" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_37">
+            exte...
+        </text>
+        <text font-size="5" x="-62.562466" y="21.459047" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_38">
+            gene...
+        </text>
+        <text font-size="5" x="-185.9443" y="121.971664" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_39">
+            gene...
+        </text>
+        <text font-size="5" x="-146.40605" y="147.1907" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_40">
+            spec...
+        </text>
+        <text font-size="5" x="35.33771" y="131.56535" fill="#778899"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_41">
+            gene...
+        </text>
+        <text font-size="5" x="-99.58275" y="93.624084" fill="#4b0082"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_75">
+            exte...
+        </text>
+        <text font-size="5" x="47.099518" y="-27.353493" fill="#4b0082"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_77">
+            gene...
+        </text>
+    </g>
+</svg>

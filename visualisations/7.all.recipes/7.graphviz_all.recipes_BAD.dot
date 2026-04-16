@@ -1,0 +1,525 @@
+digraph G {
+compound=true;
+newrank=true;
+
+rankdir="TB";
+splines=curved;
+
+subgraph source_tlg0093_tlg004 {
+label="tlg0093_tlg004";
+
+"tlg0656_tlg001.P213927" [label=<<b>PROPOSITION</b><br/><i>{1st Dioscorides recipe} To produce white and<br/>effective lead white in the best variety, as well<br/>as in worse varieties: .Pour most pungent vinegar<br/>into a jar, .Place a piece of lead on a lattice,<br/>.Lay the lattice with the lead onto the mouth of<br/>the jar, .Above, throw over covers, .Wait until<br/>the lead, crumbling down, has strained through the<br/>lattice, .Decant away the clean fluid that floats<br/>on top of the vinegar, .Pour the remaining viscous<br/>fluid into a vessel, .Let the viscous fluid dry<br/>under the sun, .Grind the dried substance, .Sift<br/>the ground substance, .The substance that is<br/>sifted away is the better variety of white and<br/>effective lead white, .Grind and sift what remains<br/>above the sieve of the solid substance {, repeat,<br/>and do it again a third and fourth time}, .The<br/>substances that are sifted away at each repeated<br/>grinding and sifting are progressively worse<br/>varieties of white and effective lead white<br/></i>>, gephi_label="PROP", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_tlg0093_tlg004.T151115_1" [label=<MATCHES<br/><i>generalizing,<br/>specifying,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_tlg0656_tlg001.T213927_1" [label=<MATCHES<br/><i>generalizing</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_tlg0007_tlg112.T141553_1" [label=<MATCHES<br/><i>extending,<br/>being part of,<br/>specifying,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_caley_richards_1956.T212135_1" [label=<MATCHES>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_katsaros_liritzis_laskaris_2010.T124253_1" [label=<MATCHES<br/><i>generalizing,<br/>specifying,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+subgraph cluster_tlg0656_tlg001_P213927_tlg0656_tlg001_Q213928 {
+label=<<font color='#9673a6'>Sequence</font>>;
+peripheries=1;
+
+"tlg0656_tlg001.q213928001" [label=<<b>1</b><br/><i>Pour most pungent vinegar into<br/>a jar<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="Pour most pungent vinegar into a jar ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928002" [label=<<b>2</b><br/><i>Place a piece of lead on a<br/>lattice<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="Place a piece of lead on a lattice ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928003" [label=<<b>3</b><br/><i>Lay the lattice with the lead<br/>onto the mouth of the jar<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="Lay the lattice with the lead onto the mouth of the jar ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928004" [label=<<b>4</b><br/><i>Above, throw over covers<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="Above, throw over covers ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928005" [label=<<b>5</b><br/><i>Wait until the lead, crumbling<br/>down, has strained through the<br/>lattice<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="Wait until the lead, crumbling down, has strained through the lattice ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928006" [label=<<b>6</b><br/><i>Decant away the clean fluid<br/>that floats on top of the<br/>vinegar<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="Decant away the clean fluid that floats on top of the vinegar ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928007" [label=<<b>7</b><br/><i>Pour the remaining viscous<br/>fluid into a vessel<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="Pour the remaining viscous fluid into a vessel ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928008" [label=<<b>8</b><br/><i>Let the viscous fluid dry<br/>under the sun<br/></i>>, gephi_label="ph.", phase_number="8", paraphrasis="Let the viscous fluid dry under the sun ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928009" [label=<<b>9</b><br/><i>Grind the dried substance<br/></i>>, gephi_label="ph.", phase_number="9", paraphrasis="Grind the dried substance ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928010" [label=<<b>10</b><br/><i>Sift the ground substance<br/></i>>, gephi_label="ph.", phase_number="10", paraphrasis="Sift the ground substance ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928011" [label=<<b>11</b><br/><i>The substance that is sifted<br/>away is the better variety of<br/>white and effective lead white<br/></i>>, gephi_label="ph.", phase_number="11", paraphrasis="The substance that is sifted away is the better variety of white and effective lead white ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928012" [label=<<b>12</b><br/><i>Grind and sift what remains<br/>above the sieve of the solid<br/>substance {, repeat, and do it<br/>again a third and fourth time}<br/></i>>, gephi_label="ph.", phase_number="12", paraphrasis="Grind and sift what remains above the sieve of the solid substance {, repeat, and do it again a third and fourth time} ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928013" [label=<<b>13</b><br/><i>The substances that are sifted<br/>away at each repeated grinding<br/>and sifting are progressively<br/>worse varieties of white and<br/>effective lead white<br/></i>>, gephi_label="ph.", phase_number="13", paraphrasis="The substances that are sifted away at each repeated grinding and sifting are progressively worse varieties of white and effective lead white ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0656_tlg001.q213928001" -> "tlg0656_tlg001.q213928002" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928002" -> "tlg0656_tlg001.q213928003" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928003" -> "tlg0656_tlg001.q213928004" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928004" -> "tlg0656_tlg001.q213928005" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928005" -> "tlg0656_tlg001.q213928006" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928006" -> "tlg0656_tlg001.q213928007" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928007" -> "tlg0656_tlg001.q213928008" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928008" -> "tlg0656_tlg001.q213928009" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928009" -> "tlg0656_tlg001.q213928010" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928010" -> "tlg0656_tlg001.q213928011" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928011" -> "tlg0656_tlg001.q213928012" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.q213928012" -> "tlg0656_tlg001.q213928013" [dir=none, color="#9673a6"];
+}
+
+"tlg0656_tlg001.q213928001" -> "tlg0093_tlg004.q151115001" [xlabel=<is part of,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0656_tlg001.q213928001" -> "tlg0656_tlg001.q213927001" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0656_tlg001.q213928001" -> "tlg0007_tlg112.q142329001" [xlabel=<extends,<br/>is part of,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928001" -> "caley_richards_1956.q163717001" [xlabel=<is part of,<br/>generalizes,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928001" -> "katsaros_liritzis_laskaris_2010.q131226002" [xlabel=<generalizes,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0656_tlg001.q213928002" -> "tlg0656_tlg001.q213927002" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0656_tlg001.q213928003" -> "tlg0093_tlg004.q151115001" [xlabel=<is part of,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0656_tlg001.q213928003" -> "tlg0656_tlg001.q213927003" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0656_tlg001.q213928003" -> "tlg0007_tlg112.q142329001" [xlabel=<extends,<br/>is part of,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928003" -> "caley_richards_1956.q163717001" [xlabel=<is part of,<br/>generalizes,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928003" -> "katsaros_liritzis_laskaris_2010.q131226003" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928004" -> "tlg0093_tlg004.q151115001" [xlabel=<is part of,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0656_tlg001.q213928004" -> "tlg0656_tlg001.q213927004" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928004" -> "katsaros_liritzis_laskaris_2010.q131226004" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0656_tlg001.q213928005" -> "tlg0093_tlg004.q151115002" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928005" -> "tlg0656_tlg001.q213927005" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928005" -> "katsaros_liritzis_laskaris_2010.q131226006" [xlabel=<generalizes,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0656_tlg001.q213928006" -> "tlg0656_tlg001.q213927006" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928006" -> "caley_richards_1956.q163717008" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928007" -> "tlg0656_tlg001.q213927007" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928007" -> "caley_richards_1956.q163717008" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928008" -> "tlg0656_tlg001.q213927008" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928008" -> "katsaros_liritzis_laskaris_2010.q131226011" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928009" -> "tlg0093_tlg004.q151115005" [xlabel=<generalizes,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928009" -> "tlg0656_tlg001.q213927009" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0656_tlg001.q213928009" -> "tlg0007_tlg112.q142329001" [xlabel=<extends,<br/>is part of,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928009" -> "katsaros_liritzis_laskaris_2010.q131226010" [xlabel=<generalizes,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0656_tlg001.q213928010" -> "tlg0093_tlg004.q151115006" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928010" -> "tlg0656_tlg001.q213927010" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928011" -> "tlg0093_tlg004.q151115007" [xlabel=<generalizes,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0656_tlg001.q213928011" -> "tlg0656_tlg001.q213927011" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0656_tlg001.q213928012" -> "tlg0656_tlg001.q213927012" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.q213928013" -> "tlg0656_tlg001.q213927013" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0656_tlg001.P213927" -> "tlg0656_tlg001.q213928001" [dir=none, lhead="cluster_tlg0656_tlg001_P213927_tlg0656_tlg001_Q213928", color="#9673a6"];
+
+"tlg0656_tlg001.P213927" -> "tlg0656_tlg001.P213927_to_tlg0093_tlg004.T151115_1" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.P213927" -> "tlg0656_tlg001.P213927_to_tlg0656_tlg001.T213927_1" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.P213927" -> "tlg0656_tlg001.P213927_to_tlg0007_tlg112.T141553_1" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.P213927" -> "tlg0656_tlg001.P213927_to_caley_richards_1956.T212135_1" [dir=none, color="#9673a6"];
+
+"tlg0656_tlg001.P213927" -> "tlg0656_tlg001.P213927_to_katsaros_liritzis_laskaris_2010.T124253_1" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.T151115" [label=<<b>THESIS</b><br/>         Theophrastus         <br/>55<br/><i>.Lead the size of a brick is placed over vinegar<br/>in (closed) jars, .They wait for lead to acquire<br/>thickness{, which happens in a maximum of 10<br/>days}, .They open the jars, .They scrape away from<br/>the lead something {resembling a mold}, repeating<br/>this until they have consumed it completely, .They<br/>rub what has been scraped away in a grinding-bowl,<br/>.They always filter off what is being rubbed, .The<br/>final precipitate is lead white<br/></i><font point-size="12">"τίθεται γὰρ μόλυβδος ... τὸ ψιμύθιον"</font>>, gephi_label="THES", locus="55", speaker="Theophrastus", text="τίθεται γὰρ μόλυβδος ὑπὲρ ὄξους ἐν πίθοις ἡλίκον πλίνθος. ὅταν δὲ λάβῃ πάχος, λαμβάνει δὲ μάλιστα ἐν ἡμέραις δέκα, τότʼ ἀνοίγουσιν, εἶτʼ ἀποξύουσιν ὥσπερ εὐρῶτά τινα ἀπʼ αὐτοῦ, καὶ πάλιν, ἕως ἄν καταναλώσωσι. τὸ δʼ ἀποξυόμενον ἐν τριπτῆρι τρίβουσι καὶ ἀφηθοῦσιν ἀεὶ, τὸ δʼ ἔσχατον ὑφιστάμενόν ἐστι τὸ ψιμύθιον", paraphrasis=".Lead the size of a brick is placed over vinegar in (closed) jars, .They wait for lead to acquire thickness{, which happens in a maximum of 10 days}, .They open the jars, .They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely, .They rub what has been scraped away in a grinding-bowl, .They always filter off what is being rubbed, .The final precipitate is lead white ", manifestation="explicit", source="tlg0093_tlg004", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+subgraph cluster_tlg0093_tlg004_T151115_tlg0093_tlg004_Q151115 {
+label=<<font color='#82b366'>Sequence</font>>;
+
+peripheries=1;
+
+"tlg0093_tlg004.q151115001" [label=<<b>1</b><br/><i>Lead the size of a brick is<br/>placed over vinegar in<br/>(closed) jars<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="Lead the size of a brick is placed over vinegar in (closed) jars ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115002" [label=<<b>2</b><br/><i>They wait for lead to acquire<br/>thickness {, which happens in<br/>a maximum of 10 days}<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="They wait for lead to acquire thickness {, which happens in a maximum of 10 days} ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115003" [label=<<b>3</b><br/><i>They open the jars<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="They open the jars ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115004" [label=<<b>4</b><br/><i>They scrape away from the lead<br/>something {resembling a mold},<br/>repeating this until they have<br/>consumed it completely<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="They scrape away from the lead something {resembling a mold}, repeating this until they have consumed it completely ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115005" [label=<<b>5</b><br/><i>They rub what has been scraped<br/>away in a grinding-bowl<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="They rub what has been scraped away in a grinding-bowl ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115006" [label=<<b>6</b><br/><i>They always filter off what is<br/>being rubbed<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="They always filter off what is being rubbed ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115007" [label=<<b>7</b><br/><i>The final precipitate is lead<br/>white<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="The final precipitate is lead white ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0093_tlg004.q151115001" -> "tlg0093_tlg004.q151115002" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115002" -> "tlg0093_tlg004.q151115003" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115003" -> "tlg0093_tlg004.q151115004" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115004" -> "tlg0093_tlg004.q151115005" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115005" -> "tlg0093_tlg004.q151115006" [dir=none, color="#82b366", style="solid"];
+
+"tlg0093_tlg004.q151115006" -> "tlg0093_tlg004.q151115007" [dir=none, color="#82b366", style="solid"];
+}
+
+"tlg0093_tlg004.P151115" [label=<<b>PROPOSITION</b><br/><i>{Theophrastus recipe} To produce lead white: .<br/>Place a piece of lead over vinegar in closed jars,<br/>.Wait for lead to acquire thickness .Open the<br/>jars, .Scrape away from the lead the substance<br/>that has formed on its surface, repeating this<br/>until you have consumed it completely, .Grind what<br/>you have scraped away, .Filter off what you are<br/>grinding, .The final precipitate is lead white<br/></i>>, gephi_label="PROP", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0093_tlg004.P151115_to_tlg0093_tlg004.T151115_1" [label=<MATCHES<br/><i>generalizing</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0093_tlg004.P151115_to_tlg0656_tlg001.T213927_1" [label=<MATCHES<br/><i>extending,<br/>generalizing,<br/>specifying,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0093_tlg004.P151115_to_tlg0007_tlg112.T141553_1" [label=<MATCHES<br/><i>extending,<br/>being part of,<br/>generalizing,<br/>specifying,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0093_tlg004.P151115_to_caley_richards_1956.T212135_1" [label=<MATCHES<br/><i>generalizing,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+"tlg0093_tlg004.P151115_to_katsaros_liritzis_laskaris_2010.T124253_1" [label=<MATCHES<br/><i>extending,<br/>generalizing,<br/>specifying,<br/>altering</i>>, gephi_label="matc", fontsize="11", shape="doubleoctagon", style="rounded,filled", fillcolor="#f9edff", color="#9673a6"];
+
+subgraph cluster_tlg0093_tlg004_P151115_tlg0093_tlg004_Q151116 {
+label=<<font color='#9673a6'>Sequence</font>>;
+peripheries=1;
+
+"tlg0093_tlg004.q151116001" [label=<<b>1</b><br/><i>Place a piece of lead over<br/>vinegar in closed jars<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="Place a piece of lead over vinegar in closed jars ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116002" [label=<<b>2</b><br/><i>Wait for lead to acquire<br/>thickness<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="Wait for lead to acquire thickness ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116003" [label=<<b>3</b><br/><i>Open the jars<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="Open the jars ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116004" [label=<<b>4</b><br/><i>Scrape away from the lead the<br/>substance that has formed on<br/>its surface, repeating this<br/>until you have consumed it<br/>completely<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="Scrape away from the lead the substance that has formed on its surface, repeating this until you have consumed it completely ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116005" [label=<<b>5</b><br/><i>Grind what you have scraped<br/>away<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="Grind what you have scraped away ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116006" [label=<<b>6</b><br/><i>Filter off what you are<br/>grinding<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="Filter off what you are grinding ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116007" [label=<<b>7</b><br/><i>The final precipitate is lead<br/>white<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="The final precipitate is lead white ", shape="box", style="rounded,filled", color="#9673a6", fillcolor="#f9edff"];
+
+"tlg0093_tlg004.q151116001" -> "tlg0093_tlg004.q151116002" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.q151116002" -> "tlg0093_tlg004.q151116003" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.q151116003" -> "tlg0093_tlg004.q151116004" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.q151116004" -> "tlg0093_tlg004.q151116005" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.q151116005" -> "tlg0093_tlg004.q151116006" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.q151116006" -> "tlg0093_tlg004.q151116007" [dir=none, color="#9673a6"];
+}
+
+"tlg0093_tlg004.q151116001" -> "tlg0093_tlg004.q151115001" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116001" -> "tlg0656_tlg001.q213927001" [xlabel=<extends,<br/>generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116001" -> "tlg0656_tlg001.q213927003" [xlabel=<extends,<br/>generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116001" -> "tlg0656_tlg001.q213927004" [xlabel=<extends,<br/>generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116001" -> "tlg0007_tlg112.q142329001" [xlabel=<extends,<br/>is part of,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116001" -> "caley_richards_1956.q163717001" [xlabel=<generalizes,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116001" -> "katsaros_liritzis_laskaris_2010.q131226002" [xlabel=<extends,<br/>generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116001" -> "katsaros_liritzis_laskaris_2010.q131226003" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116001" -> "katsaros_liritzis_laskaris_2010.q131226004" [xlabel=<extends,<br/>generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116002" -> "tlg0093_tlg004.q151115002" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116002" -> "tlg0656_tlg001.q213927005" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116002" -> "caley_richards_1956.q163717002" [xlabel=<extends,<br/>generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116002" -> "katsaros_liritzis_laskaris_2010.q131226006" [xlabel=<generalizes,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0093_tlg004.q151116003" -> "tlg0093_tlg004.q151115003" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0093_tlg004.q151116003" -> "katsaros_liritzis_laskaris_2010.q131226007" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116004" -> "tlg0093_tlg004.q151115004" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116004" -> "tlg0007_tlg112.q142329001" [xlabel=<extends,<br/>is part of,<br/>specifies,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116004" -> "tlg0007_tlg112.q142329002" [xlabel=<extends,<br/>generalizes,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116004" -> "caley_richards_1956.q163717003" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116004" -> "katsaros_liritzis_laskaris_2010.q131226009" [xlabel=<specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0093_tlg004.q151116005" -> "tlg0093_tlg004.q151115005" [xlabel=<generalizes>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=gens];
+
+"tlg0093_tlg004.q151116005" -> "tlg0656_tlg001.q213927009" [xlabel=<generalizes,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116005" -> "katsaros_liritzis_laskaris_2010.q131226010" [xlabel=<generalizes,<br/>alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116006" -> "tlg0093_tlg004.q151115006" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0093_tlg004.q151116006" -> "tlg0656_tlg001.q213927010" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0093_tlg004.q151116006" -> "caley_richards_1956.q163717005" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.q151116007" -> "tlg0093_tlg004.q151115007" [xlabel=<matches>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=matc];
+
+"tlg0093_tlg004.q151116007" -> "tlg0656_tlg001.q213927011" [xlabel=<generalizes,<br/>specifies>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=spec];
+
+"tlg0093_tlg004.q151116007" -> "caley_richards_1956.q163717008" [xlabel=<alters>, fontsize=10, fontcolor="#9673a6", fontname="bold", color="#9673a6", style="dotted", penwidth=1.25, gephi_label=alts];
+
+"tlg0093_tlg004.P151115" -> "tlg0093_tlg004.q151116001" [dir=none, lhead="cluster_tlg0093_tlg004_P151115_tlg0093_tlg004_Q151116", color="#9673a6"];
+
+"tlg0093_tlg004.P151115" -> "tlg0093_tlg004.P151115_to_tlg0093_tlg004.T151115_1" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.P151115" -> "tlg0093_tlg004.P151115_to_tlg0656_tlg001.T213927_1" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.P151115" -> "tlg0093_tlg004.P151115_to_tlg0007_tlg112.T141553_1" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.P151115" -> "tlg0093_tlg004.P151115_to_caley_richards_1956.T212135_1" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.P151115" -> "tlg0093_tlg004.P151115_to_katsaros_liritzis_laskaris_2010.T124253_1" [dir=none, color="#9673a6"];
+
+"tlg0093_tlg004.T151115" -> "tlg0093_tlg004.q151115001" [dir=none, lhead="cluster_tlg0093_tlg004_T151115_tlg0093_tlg004_Q151115", color="#82b366"];
+
+"tlg0093_tlg004.P151115_to_tlg0093_tlg004.T151115_1" -> "tlg0093_tlg004.T151115" [color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_tlg0093_tlg004.T151115_1" -> "tlg0093_tlg004.T151115" [color="#9673a6"];
+}
+
+subgraph source_tlg0656_tlg001 {
+label="tlg0656_tlg001";
+
+"tlg0656_tlg001.T213927" [label=<<b>THESIS</b><br/>     Dioscorides-Pedanius     <br/>5.88.1 (of <i>div</i>)<br/><i>In order for (white and effective) lead white to<br/>come about in the best variety - to be used for<br/>ophthalmological properties - as well as in worse<br/>varieties, .(In summer, ) pour most pungent<br/>vinegar into a broad-mouthed jar OR pot-bellied<br/>clay jar, .Place a leaden brick on a lattice of<br/>reeds, .Lay the lattice of reeds with the leaden<br/>brick onto the mouth of the pot, .Above, throw<br/>over covers to prevent vinegar from evaporating,<br/>.Wait until (the leaden brick), crumbling down,<br/>has strained through (the lattice), .Decant away<br/>the clean fluid that floats on top (of the vinegar<br/>after the leaden brick has crumbled down in it),<br/>.Pour the (remaining) viscous fluid into a vessel,<br/>.Let the viscous fluid dry under the sun, .Smooth<br/>the dried substance with a hand-mill OR in any<br/>way, .Sift the ground substance, .The substance<br/>that is sifted away is the better variety of<br/>(white and effective) lead white, that should be<br/>picked also for ophthalmological properties, .Thin<br/>(with a hand-mill OR in any way) and sift what<br/>remains (above the sieve) of the solid substance<br/>{, repeat, and do it again a third and fourth<br/>time}, .The substances that are sifted away at<br/>each repeated thinning and sifting are<br/>progressively worse varieties of (white and<br/>effective) lead white<br/></i><font point-size="12">"ψιμύθιον δὲ γίνεται ... τέταρτον ποιητέον"</font>>, gephi_label="THES", locus="5.88.1_div", speaker="Dioscorides-Pedanius", text="ψιμύθιον δὲ γίνεται οὕτως · εἰς πιθάκνην πλατύστομον ἢ κεραμεᾶν γάστραν ἐγχέας δριμύτατον ὄξος ἀπέρεισαι μολυβδίνην πλίνθον ἐπὶ τὸ στόμα τοῦ κεραμίου, προυποκειμένου καλαμίνου ῥίπου, ἄνωθέν τε αὐτῆς ἐπίρριψον σκεπάσματα πρὸς τὸ μὴ διαπνεῖσθαι τὸ ὀξος · ὡς δʼ ἂν καταρρυεῖσα διαπέσῃ, τὸ μὲν ἐπαιωρούμενον καὶ καθαρὸν ὑγρὸν ἀπηθητέον, τὸ δὲ γλοιῶδες εἰς ἀγγεῖον ἐγχυτέον καὶ ξηραντέον ἐν ἡλίῳ. εἶτα ἀλεστέον ἐν χειρομυλίῳ ἢ λεαντέον ἄλλως καὶ σηστέον, 2 καὶ μετὰ ταῦτα τὸ λοιπὸν τοῦ στερεμνίου λεπτοποιητέον καὶ σηστέον, ἐναλλάξ τε τὰ αὐτὰ καὶ τρίτον καὶ τέταρτον ποιητέον", paraphrasis="In order for (white and effective) lead white to come about in the best variety - to be used for ophthalmological properties - as well as in worse varieties, .(In summer, ) pour most pungent vinegar into a broad-mouthed jar OR pot-bellied clay jar, .Place a leaden brick on a lattice of reeds, .Lay the lattice of reeds with the leaden brick onto the mouth of the pot, .Above, throw over covers to prevent vinegar from evaporating, .Wait until (the leaden brick), crumbling down, has strained through (the lattice), .Decant away the clean fluid that floats on top (of the vinegar after the leaden brick has crumbled down in it), .Pour the (remaining) viscous fluid into a vessel, .Let the viscous fluid dry under the sun, .Smooth the dried substance with a hand-mill OR in any way, .Sift the ground substance, .The substance that is sifted away is the better variety of (white and effective) lead white, that should be picked also for ophthalmological properties, .Thin (with a hand-mill OR in any way) and sift what remains (above the sieve) of the solid substance {, repeat, and do it again a third and fourth time}, .The substances that are sifted away at each repeated thinning and sifting are progressively worse varieties of (white and effective) lead white ", manifestation="explicit", source="tlg0656_tlg001", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+subgraph cluster_tlg0656_tlg001_T213927_tlg0656_tlg001_Q213927 {
+label=<<font color='#82b366'>Sequence</font>>;
+
+peripheries=1;
+
+"tlg0656_tlg001.q213927001" [label=<<b>1</b><br/><i>(In summer, ) pour most<br/>pungent vinegar into a<br/>broad-mouthed jar<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="(In summer, ) pour most pungent vinegar into a broad-mouthed jar ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927002" [label=<<b>2</b><br/><i>Place a leaden brick on a<br/>lattice of reeds<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="Place a leaden brick on a lattice of reeds ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927003" [label=<<b>3</b><br/><i>Lay the lattice of reeds with<br/>the leaden brick onto the<br/>mouth of the pot (i.e., of the<br/>broad-mouthed jar)<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="Lay the lattice of reeds with the leaden brick onto the mouth of the pot (i.e., of the broad-mouthed jar) ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927004" [label=<<b>4</b><br/><i>Above, throw over covers (to<br/>prevent vinegar from<br/>evaporating)<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="Above, throw over covers (to prevent vinegar from evaporating) ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927005" [label=<<b>5</b><br/><i>Wait until (the leaden brick),<br/>crumbling down, has strained<br/>through (the lattice)<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="Wait until (the leaden brick), crumbling down, has strained through (the lattice) ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927006" [label=<<b>6</b><br/><i>Decant away the clean fluid<br/>that floats on top (of the<br/>vinegar after the leaden brick<br/>has crumbled down in it)<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="Decant away the clean fluid that floats on top (of the vinegar after the leaden brick has crumbled down in it) ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927007" [label=<<b>7</b><br/><i>Pour the (remaining) viscous<br/>fluid into a vessel<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="Pour the (remaining) viscous fluid into a vessel ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927008" [label=<<b>8</b><br/><i>Let the viscous fluid dry<br/>under the sun<br/></i>>, gephi_label="ph.", phase_number="8", paraphrasis="Let the viscous fluid dry under the sun ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927009" [label=<<b>9</b><br/><i>Grind the dried substance with<br/>a hand-mill<br/></i>>, gephi_label="ph.", phase_number="9", paraphrasis="Grind the dried substance with a hand-mill ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927010" [label=<<b>10</b><br/><i>Sift the ground substance<br/></i>>, gephi_label="ph.", phase_number="10", paraphrasis="Sift the ground substance ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927011" [label=<<b>11</b><br/><i>The substance that is sifted<br/>away is the better variety of<br/>(white and effective) lead<br/>white, that should be picked<br/>also for ophthalmological<br/>properties<br/></i>>, gephi_label="ph.", phase_number="11", paraphrasis="The substance that is sifted away is the better variety of (white and effective) lead white, that should be picked also for ophthalmological properties ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927012" [label=<<b>12</b><br/><i>Thin (with a hand-mill) and<br/>sift what remains (above the<br/>sieve) of the solid substance<br/>{, repeat, and do it again a<br/>third and fourth time}<br/></i>>, gephi_label="ph.", phase_number="12", paraphrasis="Thin (with a hand-mill) and sift what remains (above the sieve) of the solid substance {, repeat, and do it again a third and fourth time} ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927013" [label=<<b>13</b><br/><i>The substances that are sifted<br/>away at each repeated thinning<br/>and sifting are progressively<br/>worse varieties of (white and<br/>effective) lead white<br/></i>>, gephi_label="ph.", phase_number="13", paraphrasis="The substances that are sifted away at each repeated thinning and sifting are progressively worse varieties of (white and effective) lead white ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927001" -> "tlg0656_tlg001.q213927002" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927002" -> "tlg0656_tlg001.q213927003" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927003" -> "tlg0656_tlg001.q213927004" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927004" -> "tlg0656_tlg001.q213927005" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927005" -> "tlg0656_tlg001.q213927006" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927006" -> "tlg0656_tlg001.q213927007" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927007" -> "tlg0656_tlg001.q213927008" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927008" -> "tlg0656_tlg001.q213927009" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927009" -> "tlg0656_tlg001.q213927010" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927010" -> "tlg0656_tlg001.q213927011" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927011" -> "tlg0656_tlg001.q213927012" [dir=none, color="#8bb477", style="solid"];
+
+"tlg0656_tlg001.q213927012" -> "tlg0656_tlg001.q213927013" [dir=none, color="#8bb477", style="solid"];
+}
+
+"tlg0656_tlg001.T213927" -> "tlg0656_tlg001.q213927001" [dir=none, lhead="cluster_tlg0656_tlg001_T213927_tlg0656_tlg001_Q213927", color="#8bb477"];
+
+"tlg0656_tlg001.P213927_to_tlg0656_tlg001.T213927_1" -> "tlg0656_tlg001.T213927" [color="#9673a6"];
+
+"tlg0093_tlg004.P151115_to_tlg0656_tlg001.T213927_1" -> "tlg0656_tlg001.T213927" [color="#9673a6"];
+}
+
+subgraph source_tlg0007_tlg112 {
+label="tlg0007_tlg112";
+
+"tlg0007_tlg112.T141553" [label=<<b>THESIS</b><br/>          Plutarchus          <br/>691b<br/><i>When rubbed with vinegar, lead sends forth the<br/>most cooling of deadly drugs, i.e., lead white<br/></i><font point-size="12">"ὅ τε μόλιβδος ... ἐξανίησι ψιμύθιον"</font>>, gephi_label="THES", locus="691b", speaker="Plutarchus", text="ὅ τε μόλιβδος ... ὅς γε τριβόμενος ὄξει τὸ ψυκτικώτατον τῶν θανασίμων φαρμάκων ἐξανίησι ψιμύθιον", paraphrasis="When rubbed with vinegar, lead sends forth the most cooling of deadly drugs, i.e., lead white ", manifestation="explicit", source="tlg0007_tlg112", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+subgraph cluster_tlg0007_tlg112_T141553_tlg0007_tlg112_Q142329 {
+label=<<font color='#82b366'>Sequence</font>>;
+
+peripheries=1;
+
+"tlg0007_tlg112.q142329001" [label=<<b>1</b><br/><i>Lead is rubbed with vinegar<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="Lead is rubbed with vinegar ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"tlg0007_tlg112.q142329002" [label=<<b>2</b><br/><i>It sends forth the most<br/>cooling of deadly drugs, i.e.,<br/>lead white<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="It sends forth the most cooling of deadly drugs, i.e., lead white ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"tlg0007_tlg112.q142329001" -> "tlg0007_tlg112.q142329002" [dir=none, color="#8bb477", style="solid"];
+}
+
+"tlg0007_tlg112.T141553" -> "tlg0007_tlg112.q142329001" [dir=none, lhead="cluster_tlg0007_tlg112_T141553_tlg0007_tlg112_Q142329", color="#8bb477"];
+
+"tlg0093_tlg004.P151115_to_tlg0007_tlg112.T141553_1" -> "tlg0007_tlg112.T141553" [color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_tlg0007_tlg112.T141553_1" -> "tlg0007_tlg112.T141553" [color="#9673a6"];
+}
+
+subgraph source_caley_richards_1956 {
+label="caley_richards_1956";
+
+"caley_richards_1956.T212135" [label=<<b>THESIS</b><br/>Caley-Earle-R., Richards-John-F.<br/>p. 188<br/><i>We performed in miniature the process described by<br/>Theophrastus to produce lead white: .We supported<br/>blocks of lead just above a 5% acetic acid<br/>solution in an open vessel, .White crusts formed<br/>on the blocks {due to corrosion}, .{Repeatedly},<br/>{at intervals of about 10 days}, we scraped off<br/>these crusts, .We identified the obtained product<br/>as a lead acetate containing only a small<br/>proportion of lead carbonate, .We dissolved this<br/>in tap water, .{Almost immediately} we observed a<br/>turbidity {due to the formation of basic lead<br/>carbonate}, .We let the solution stand for a few<br/>hours, .A considerable amount of lead carbonate<br/>precipitated {due to the solution having absorbed<br/>enough carbon dioxide from the air}, ( .We<br/>obtained lead white in the same way as in<br/>Theophrastus's process )<br/></i><font point-size="12">"performing in miniature ... this way"</font>>, gephi_label="THES", locus="p. 188", speaker="Caley-Earle-R., Richards-John-F.", text="performing in miniature ··· ······· ···· ········· by Theophrastus. Lead blocks were ········· ···· ····· · five per cent ······ acid solution ·· ·· open vessel, ··· the white crusts that ···· ······ ·· the blocks by corrosion ···· ······· ··· ·· ········· ·· ····· ten days. The product was ... ········ almost immediately, ··· ····· the solution had ····· ··· · few hours it absorbed enough carbon dioxide from the air ·· ····· ··· ···- ·········· ·· · ············ ······ of carbonate. The statements of Theophrastus suggest that, in the process ·· ·········, white lead formed in just this way", paraphrasis="We performed in miniature the process described by Theophrastus to produce lead white: .We supported blocks of lead just above a 5% acetic acid solution in an open vessel, .White crusts formed on the blocks {due to corrosion}, .{Repeatedly}, {at intervals of about 10 days}, we scraped off these crusts, .We identified the obtained product as a lead acetate containing only a small proportion of lead carbonate, .We dissolved this in tap water, .{Almost immediately} we observed a turbidity {due to the formation of basic lead carbonate}, .We let the solution stand for a few hours, .A considerable amount of lead carbonate precipitated {due to the solution having absorbed enough carbon dioxide from the air}, ( .We obtained lead white in the same way as in Theophrastus's process ) ", manifestation="explicit", source="caley_richards_1956", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+subgraph cluster_caley_richards_1956_T212135_caley_richards_1956_Q163717 {
+label=<<font color='#82b366'>Sequence</font>>;
+
+peripheries=1;
+
+"caley_richards_1956.q163717001" [label=<<b>1</b><br/><i>We supported blocks of lead<br/>just above a 5% acetic acid<br/>solution in an open vessel<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="We supported blocks of lead just above a 5% acetic acid solution in an open vessel ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"caley_richards_1956.q163717002" [label=<<b>2</b><br/><i>White crusts formed on the<br/>blocks {due to corrosion}<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="White crusts formed on the blocks {due to corrosion} ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"caley_richards_1956.q163717003" [label=<<b>3</b><br/><i>{Repeatedly}, {at intervals of<br/>about 10 days}, we scraped off<br/>these crusts<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="{Repeatedly}, {at intervals of about 10 days}, we scraped off these crusts ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"caley_richards_1956.q163717004" [label=<<b>4</b><br/><i>We identified the obtained<br/>product as a lead acetate<br/>containing only a small<br/>proportion of lead carbonate<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="We identified the obtained product as a lead acetate containing only a small proportion of lead carbonate ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"caley_richards_1956.q163717005" [label=<<b>5</b><br/><i>We dissolved this in tap water<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="We dissolved this in tap water ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"caley_richards_1956.q163717006" [label=<<b>6</b><br/><i>{Almost immediately} we<br/>observed a turbidity {due to<br/>the formation of basic lead<br/>carbonate}<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="{Almost immediately} we observed a turbidity {due to the formation of basic lead carbonate} ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"caley_richards_1956.q163717007" [label=<<b>7</b><br/><i>We let the solution stand for<br/>a few hours<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="We let the solution stand for a few hours ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"caley_richards_1956.q163717008" [label=<<b>8</b><br/><i>A considerable amount of lead<br/>carbonate precipitated {due to<br/>the solution having absorbed<br/>enough carbon dioxide from the<br/>air}<br/></i>>, gephi_label="ph.", phase_number="8", paraphrasis="A considerable amount of lead carbonate precipitated {due to the solution having absorbed enough carbon dioxide from the air} ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"caley_richards_1956.q163717009" [label=<<b>9</b><br/><i>( We obtained lead white in<br/>the same way as in<br/>Theophrastus's process )<br/></i>>, gephi_label="ph.", phase_number="9", paraphrasis="( We obtained lead white in the same way as in Theophrastus's process ) ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"caley_richards_1956.q163717001" -> "caley_richards_1956.q163717002" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717002" -> "caley_richards_1956.q163717003" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717003" -> "caley_richards_1956.q163717004" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717004" -> "caley_richards_1956.q163717005" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717005" -> "caley_richards_1956.q163717006" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717006" -> "caley_richards_1956.q163717007" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717007" -> "caley_richards_1956.q163717008" [dir=none, color="#a2b9a3", style="solid"];
+
+"caley_richards_1956.q163717008" -> "caley_richards_1956.q163717009" [dir=none, color="#a2b9a3", style="solid"];
+}
+
+"caley_richards_1956.T212135" -> "caley_richards_1956.q163717001" [dir=none, lhead="cluster_caley_richards_1956_T212135_caley_richards_1956_Q163717", color="#a2b9a3"];
+
+"tlg0093_tlg004.P151115_to_caley_richards_1956.T212135_1" -> "caley_richards_1956.T212135" [color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_caley_richards_1956.T212135_1" -> "caley_richards_1956.T212135" [color="#9673a6"];
+}
+
+subgraph source_katsaros_liritzis_laskaris_2010 {
+label="katsaros_liritzis_laskaris_2010";
+
+"katsaros_liritzis_laskaris_2010.T124253" [label=<<b>THESIS</b><br/>Katsaros-T., Liritzis-Ioannis, Laskaris-N.<br/>p. 71<br/><i>We reproduced in laboratory the white powder<br/>sample PSI-1 (which is composed of cerussite and<br/>hydrocerussite, and is therefore lead white)<br/>following Theophrastus's recipe (on the<br/>preparation of lead white): .We cut commercial<br/>metallic lead in the shape of a brick {approx. 10<br/>cm length by 5 cm width by 2 cm thickness}, .We<br/>placed vinegar on the bottom of a ceramic vessel,<br/>.We hung the brick-shaped piece of lead over the<br/>vinegar within the ceramic vessel, .We covered the<br/>vessel with a skin {approx. 1 mm (in thickness)}<br/>quasi-transparent to air (i.e., such that it<br/>breathes), .We placed the vessel under the sun,<br/>.We waited {for 10 days}, {at temperatures of<br/>average 30 °C and a range of 27-55 degrees}, .We<br/>removed the skin cover, .We took the brick-shaped<br/>lead out, .We removed the white powdered layer<br/>(thus formed) on the surface of the lead by<br/>scratching, .In a marble mortar, we washed and<br/>ground down to a fine powder the white powdered<br/>layer using a marble pestle, .We waited for it to<br/>dry out under the sun, ( .We obtained the white<br/>powder sample PSI-1 (which is composed of<br/>cerussite and hydrocerussite, and is therefore<br/>lead white) following Theophrastus's recipe (on<br/>the preparation of lead white) ), .We applied it<br/>on a prepared wooden surface with a gypsum OR<br/>calcite support<br/></i><font point-size="12">"Sample PSI- 1 ... calcite support"</font>>, gephi_label="THES", locus="p. 71", speaker="Katsaros-T., Liritzis-Ioannis, Laskaris-N.", text="Sample PSI- 1 is the reproduced in laboratory white pow- der following Theophrastus ancient recipe On Stones. (ref. On Stones§ 56 above) . Ccommercial metallic lead cut in the shape of a brick approx. 10 cm length by 5 cm width and 2 cm thickness, hanged over within a ceramic ... out. A white powdered layer on its surface was removed by scratch, then washed in a marble mortar and ground down with marble pestle to a fine powder, following a dry out under the sun. Subsequently it was applied on a prepared wooden surface with a gypsum or calcite support", paraphrasis="We reproduced in laboratory the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white): .We cut commercial metallic lead in the shape of a brick {approx. 10 cm length by 5 cm width by 2 cm thickness}, .We placed vinegar on the bottom of a ceramic vessel, .We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel, .We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes), .We placed the vessel under the sun, .We waited {for 10 days}, {at temperatures of average 30 °C and a range of 27-55 degrees}, .We removed the skin cover, .We took the brick-shaped lead out, .We removed the white powdered layer (thus formed) on the surface of the lead by scratching, .In a marble mortar, we washed and ground down to a fine powder the white powdered layer using a marble pestle, .We waited for it to dry out under the sun, ( .We obtained the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white) ), .We applied it on a prepared wooden surface with a gypsum OR calcite support ", manifestation="explicit", source="katsaros_liritzis_laskaris_2010", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+subgraph cluster_katsaros_liritzis_laskaris_2010_T124253_katsaros_liritzis_laskaris_2010_Q131226 {
+label=<<font color='#82b366'>Sequence</font>>;
+
+peripheries=1;
+
+"katsaros_liritzis_laskaris_2010.q131226001" [label=<<b>1</b><br/><i>We cut commercial metallic<br/>lead in the shape of a brick<br/>{approx. 10 cm length by 5 cm<br/>width by 2 cm thickness}<br/></i>>, gephi_label="ph.", phase_number="1", paraphrasis="We cut commercial metallic lead in the shape of a brick {approx. 10 cm length by 5 cm width by 2 cm thickness} ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226002" [label=<<b>2</b><br/><i>We placed vinegar on the<br/>bottom of a ceramic vessel<br/></i>>, gephi_label="ph.", phase_number="2", paraphrasis="We placed vinegar on the bottom of a ceramic vessel ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226003" [label=<<b>3</b><br/><i>We hung the brick-shaped piece<br/>of lead over the vinegar<br/>within the ceramic vessel<br/></i>>, gephi_label="ph.", phase_number="3", paraphrasis="We hung the brick-shaped piece of lead over the vinegar within the ceramic vessel ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226004" [label=<<b>4</b><br/><i>We covered the vessel with a<br/>skin {approx. 1 mm (in<br/>thickness)} quasi-transparent<br/>to air (i.e., such that it<br/>breathes)<br/></i>>, gephi_label="ph.", phase_number="4", paraphrasis="We covered the vessel with a skin {approx. 1 mm (in thickness)} quasi-transparent to air (i.e., such that it breathes) ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226005" [label=<<b>5</b><br/><i>We placed the vessel under the<br/>sun<br/></i>>, gephi_label="ph.", phase_number="5", paraphrasis="We placed the vessel under the sun ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226006" [label=<<b>6</b><br/><i>We waited {for 10 days}, {at<br/>temperatures of average 30 °C<br/>and a range of 27-55 degrees}<br/></i>>, gephi_label="ph.", phase_number="6", paraphrasis="We waited {for 10 days}, {at temperatures of average 30 °C and a range of 27-55 degrees} ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226007" [label=<<b>7</b><br/><i>We removed the skin cover<br/></i>>, gephi_label="ph.", phase_number="7", paraphrasis="We removed the skin cover ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226008" [label=<<b>8</b><br/><i>We took the brick-shaped lead<br/>out<br/></i>>, gephi_label="ph.", phase_number="8", paraphrasis="We took the brick-shaped lead out ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226009" [label=<<b>9</b><br/><i>We removed the white powdered<br/>layer (thus formed) on the<br/>surface of the lead by<br/>scratching<br/></i>>, gephi_label="ph.", phase_number="9", paraphrasis="We removed the white powdered layer (thus formed) on the surface of the lead by scratching ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226010" [label=<<b>10</b><br/><i>In a marble mortar, we washed<br/>and ground down to a fine<br/>powder the white powdered<br/>layer using a marble pestle<br/></i>>, gephi_label="ph.", phase_number="10", paraphrasis="In a marble mortar, we washed and ground down to a fine powder the white powdered layer using a marble pestle ", shape="box", fillcolor="#f0faf0", color="#82b366", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226011" [label=<<b>11</b><br/><i>We waited for it to dry out<br/>under the sun<br/></i>>, gephi_label="ph.", phase_number="11", paraphrasis="We waited for it to dry out under the sun ", shape="box", fillcolor="#e2efe2", color="#8bb477", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226012" [label=<<b>12</b><br/><i>( We obtained the white powder<br/>sample PSI-1 (which is<br/>composed of cerussite and<br/>hydrocerussite, and is<br/>therefore lead white)<br/>following Theophrastus's<br/>recipe (on the preparation of<br/>lead white) )<br/></i>>, gephi_label="ph.", phase_number="12", paraphrasis="( We obtained the white powder sample PSI-1 (which is composed of cerussite and hydrocerussite, and is therefore lead white) following Theophrastus's recipe (on the preparation of lead white) ) ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226013" [label=<<b>13</b><br/><i>We applied it on a prepared<br/>wooden surface with a gypsum<br/>support<br/></i>>, gephi_label="ph.", phase_number="13", paraphrasis="We applied it on a prepared wooden surface with a gypsum support ", shape="box", fillcolor="#c1d5c2", color="#a2b9a3", style="rounded,filled"];
+
+"katsaros_liritzis_laskaris_2010.q131226001" -> "katsaros_liritzis_laskaris_2010.q131226002" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226002" -> "katsaros_liritzis_laskaris_2010.q131226003" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226003" -> "katsaros_liritzis_laskaris_2010.q131226004" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226004" -> "katsaros_liritzis_laskaris_2010.q131226005" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226005" -> "katsaros_liritzis_laskaris_2010.q131226006" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226006" -> "katsaros_liritzis_laskaris_2010.q131226007" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226007" -> "katsaros_liritzis_laskaris_2010.q131226008" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226008" -> "katsaros_liritzis_laskaris_2010.q131226009" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226009" -> "katsaros_liritzis_laskaris_2010.q131226010" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226010" -> "katsaros_liritzis_laskaris_2010.q131226011" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226011" -> "katsaros_liritzis_laskaris_2010.q131226012" [dir=none, color="#a2b9a3", style="solid"];
+
+"katsaros_liritzis_laskaris_2010.q131226012" -> "katsaros_liritzis_laskaris_2010.q131226013" [dir=none, color="#a2b9a3", style="solid"];
+}
+
+
+"katsaros_liritzis_laskaris_2010.T124253" -> "katsaros_liritzis_laskaris_2010.q131226001" [dir=none, lhead="cluster_katsaros_liritzis_laskaris_2010_T124253_katsaros_liritzis_laskaris_2010_Q131226", color="#a2b9a3"];
+
+"tlg0093_tlg004.P151115_to_katsaros_liritzis_laskaris_2010.T124253_1" -> "katsaros_liritzis_laskaris_2010.T124253" [color="#9673a6"];
+
+"tlg0656_tlg001.P213927_to_katsaros_liritzis_laskaris_2010.T124253_1" -> "katsaros_liritzis_laskaris_2010.T124253" [color="#9673a6"];
+}
+
+// Ensuring all proposition nodes and related elements are included
+
+}

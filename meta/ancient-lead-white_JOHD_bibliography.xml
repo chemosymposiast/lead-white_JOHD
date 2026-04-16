@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliography>
+
+    <listBibl>
+
+        <biblStruct type="bookSection" xml:id="Bernardakis1892">
+            <analytic>
+                <title level="a">Συμποσιακῶν προβλημάτων βιβλία θ᾿</title>
+            </analytic>
+            <monogr>
+                <title level="m">Plutarchi Chaeronensis Moralia</title>
+                <editor>
+                    <forename>Grigorios N.</forename>
+                    <surname>Bernardakis</surname>
+                </editor>
+                <imprint>
+                    <pubPlace>Lipsia</pubPlace>
+                    <biblScope unit="volume">4</biblScope>
+                    <biblScope unit="page">62-395</biblScope>
+                    <publisher>Teubner</publisher>
+                    <date>1892</date>
+                    <note type="url">https://archive.org/details/moralia04plut/page/n61</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+        
+        <biblStruct type="bookSection" xml:id="Burnet1903">
+            <analytic>
+                <title level="a">Λύσις</title>
+            </analytic>
+            <monogr>
+                <title level="m">Platonis Opera</title>
+                <editor><forename>John</forename><surname>Burnet</surname></editor>
+                <imprint>
+                    <pubPlace>Oxford</pubPlace>
+                    <biblScope unit="volume">3</biblScope>
+                    <biblScope unit="page">203-223</biblScope>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1903</date>
+                    <note type="url"
+                        >https://archive.org/details/operarecognovitb03platuoft/page/211/mode/1up</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+        
+        <biblStruct type="book" xml:id="Caley1956">
+            <monogr>
+                <title level="m">Theophrastus. On stones</title>
+                <editor><forename>Earle R.</forename><surname>Caley</surname></editor>
+                <editor><forename>John F.</forename><surname>Richards</surname></editor>
+                <imprint>
+                    <pubPlace>Columbus (OH)</pubPlace>
+                    <publisher>Ohio state university</publisher>
+                    <date>1956</date>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+        <biblStruct type="book" xml:id="Eichholz1965">
+            <monogr>
+                <title level="m">Theophrastus. De lapidibus</title>
+                <author><forename>D. E.</forename><surname>Eichholz</surname></author>
+                <imprint>
+                    <pubPlace>Oxford</pubPlace>
+                    <publisher>Clarendon Press</publisher>
+                    <date>1965</date>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+        <biblStruct type="journalArticle" xml:id="Katsaros2010">
+            <analytic>
+                <title level="a">Identification of Theophrastus’ pigments &lt;hi
+                    rend="italics"&gt;egyptios kyanos&lt;/hi&gt; and &lt;hi
+                    rend="italics"&gt;psimythion&lt;/hi&gt; from archaeological excavations. A case
+                    study</title>
+                <idno type="DOI">10.4000/archeosciences.2632</idno>
+                <author>
+                    <forename>T.</forename>
+                    <surname>Katsaros</surname>
+                </author>
+                <author>
+                    <forename>Ioannis</forename>
+                    <surname>Liritzis</surname>
+                </author>
+                <author>
+                    <forename>N.</forename>
+                    <surname>Laskaris</surname>
+                </author>
+            </analytic>
+            <monogr>
+                <title level="j">ArcheoSciences. Revue d'archéométrie</title>
+                <idno type="ISSN">1960-1360</idno>
+                <imprint>
+                    <biblScope unit="issue">34</biblScope>
+                    <biblScope unit="page">69-80</biblScope>
+                    <date>2010</date>
+                    <note type="url">https://journals.openedition.org/archeosciences/2632</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+        <biblStruct type="thesis" xml:id="Morrone2022">
+            <monogr>
+                <title level="m">Plutarch's chemistry of stones and metals: conceptions and
+                    explanations. With an appendix on the &lt;hi rend="italics"&gt;TheSu&lt;/hi&gt;
+                    XML annotation scheme</title>
+                <title type="short">Plutarch's chemistry of stones and metals</title>
+                <author>
+                    <forename>Daniele</forename>
+                    <surname>Morrone</surname>
+                </author>
+                <imprint>
+                    <date>2022</date>
+                    <note type="accessed">2023-09-21T10:33:06Z</note>
+                    <note type="url">http://doi.org/10.48676/unibo/amsdottorato/10376</note>
+                    <note type="thesisType">PhD Thesis</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+        
+        <biblStruct type="journalArticle" xml:id="Photos-Jones2020">
+            <analytic>
+                <title level="a">&lt;hi rend="italics"&gt;On metal and ‘spoiled’ wine&lt;/hi&gt;:
+                    analysing psimythion (synthetic cerussite) pellets (5th–3rd centuries BCE) and
+                    hypothesising gas-metal reactions over a fermenting liquid within a Greek
+                    pot</title>
+                <idno type="DOI">10.1007/s12520-020-01184-1</idno>
+                <title type="short">On metal and ‘spoiled’ wine</title>
+                <author><forename>E.</forename><surname>Photos-Jones</surname></author>
+                <author><forename>P.</forename><surname>Bots</surname></author>
+                <author><forename>E.</forename><surname>Oikonomou</surname></author>
+                <author><forename>A.</forename><surname>Hamilton</surname></author>
+                <author><forename>C. W.</forename><surname>Knapp</surname></author>
+            </analytic>
+            <monogr>
+                <title level="j">Archaeological and Anthropological Sciences</title>
+                <idno type="ISSN">1866-9557, 1866-9565</idno>
+                <imprint>
+                    <biblScope unit="volume">12</biblScope>
+                    <biblScope unit="issue">10</biblScope>
+                    <biblScope unit="page">243</biblScope>
+                    <date>2020</date>
+                    <note type="accessed">2022-11-25T20:49:38Z</note>
+                    <note type="url">https://link.springer.com/10.1007/s12520-020-01184-1</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+        <biblStruct type="bookSection" xml:id="Principe2018">
+            <analytic>
+                <title level="a">Texts and Practices: The Promises and Problems of Laboratory
+                    Replication and the Chemical Explanation of Early Alchemical Processes</title>
+                <title type="short">Texts and Practices</title>
+                <author>
+                    <forename>Lawrence M.</forename>
+                    <surname>Principe</surname>
+                </author>
+            </analytic>
+            <monogr>
+                <title level="m">Greek Alchemy from Late Antiquity to Early Modernity</title>
+                <idno type="ISBN">978-2-503-58191-0 978-2-503-58192-7</idno>
+                <editor>
+                    <forename>Efthymios</forename>
+                    <surname>Nicolaïdis</surname>
+                </editor>
+                <imprint>
+                    <pubPlace>Turnhout</pubPlace>
+                    <biblScope unit="page">159-169</biblScope>
+                    <publisher>Brepols Publishers</publisher>
+                    <date>2018</date>
+                    <note type="accessed">2022-05-12T13:01:25Z</note>
+                    <note type="url">https://doi.org/10.1484/M.DDA-EB.5.116318</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+        <biblStruct type="book" xml:id="Wellmann1906">
+            <monogr>
+                <title level="m">Pedanii Dioscuridis Anazarbei de materia medica libri
+                    quinque</title>
+                <editor>
+                    <forename>Max</forename>
+                    <surname>Wellmann</surname>
+                </editor>
+                <imprint>
+                    <pubPlace>Berlin</pubPlace>
+                    <publisher>Weidmann</publisher>
+                    <date>1906</date>
+                    <note type="url">https://archive.org/details/BIUSante_65865x01
+                        https://archive.org/details/BIUSante_65865x02
+                        https://archive.org/details/BIUSante_65865x03</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+        <biblStruct type="bookSection" xml:id="Wimmer1862">
+            <analytic>
+                <title level="a">Fr. II. Περὶ λίθων</title>
+            </analytic>
+            <monogr>
+                <title level="m">Theophrasti Eresii opera, quae supersunt, omnia</title>
+                <editor>
+                    <forename>Friedrich</forename>
+                    <surname>Wimmer</surname>
+                </editor>
+                <imprint>
+                    <pubPlace>Lipsiae</pubPlace>
+                    <biblScope unit="volume">3</biblScope>
+                    <biblScope unit="page">34-50</biblScope>
+                    <publisher>Teubner</publisher>
+                    <date>1862</date>
+                    <note type="url">https://archive.org/details/theophrastieresi03theouoft</note>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
+    </listBibl>
+
+</bibliography>

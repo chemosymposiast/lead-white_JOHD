@@ -1,0 +1,330 @@
+digraph G {
+compound=true;
+newrank=true;
+
+rankdir="TB";
+splines=curved;
+
+subgraph source_tlg0059_tlg020 {
+label="tlg0059_tlg020";
+
+"tlg0059_tlg020.S182137" [label=<<b>SUPPORT</b><br/>                              <br/>217b<br/><i>form: unspecified</i><br/><font point-size="12">"οὐ γὰρ δή ... γὰρ ὅτι"</font>>, gephi_label="SUPP", text="οὐ γὰρ δή γε κακὸν γεγονὸς ἔτι ἄν τι τοῦ ἀγαθοῦ οὗ ἐπιθυμοῖ καὶ φίλον εἴη · ἀδύνατον γὰρ ἔφαμεν κακὸν ἀγαθῷ φίλον εἶναι. — ἀδύνατον γάρ. — σκέψασθε δὴ ὃ λέγω. λέγω γὰρ ὅτι", locus="217b", speaker="", form="None", paraphrasis="[omitted] CONTEXT) \"Some things are also themselves of such a sort as whatever may be present (in/to them); others are not\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S182137_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S182137_func" -> "tlg0059_tlg020.T181551" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S182137_to_omitted_ELEMENTS_unspecified" [label=<<b>ELEMENTS</b><br/><i>(unspecified,<br/>omitted,<br/>one or more)</i>>, gephi_label="ELEM", gephi_omitted="true", gephi_unspecified="true", fontsize="11", fillcolor="#f5f5f5", color="#a0a0a0", style="dotted,filled,rounded", shape="box", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S182137_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.S182137_to_omitted_ELEMENTS_unspecified" -> "tlg0059_tlg020.S182137_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T181551" [label=<<b>THESIS</b><br/>           Socrates           <br/>217c<br/><i>Some things are also themselves of such a sort as<br/>whatever may be present (in/to them); others are<br/>not<br/></i><font point-size="12">"ἔνια μέν, οἷον ... δὲ οὔ"</font>>, gephi_label="THES", locus="217c", speaker="Socrates", text="ἔνια μέν, οἷον ἂν ᾖ τὸ παρόν, τοιαῦτά ἐστι καὶ αὐτά, ἔνια δὲ οὔ", paraphrasis="Some things are also themselves of such a sort as whatever may be present (in/to them); others are not ", manifestation="explicit", source="tlg0059_tlg020", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.T182513" [label=<<b>THESIS</b><br/>           Socrates           <br/>217c<br/><i>If someone dyes anything a certain colour, that<br/>which is smeared on is present to the thing that<br/>has been dyed<br/></i><font point-size="12">"εἰ ἐθέλοι τις ... τὸ ἐπαλειφθέν"</font>>, gephi_label="THES", locus="217c", speaker="Socrates", text="εἰ ἐθέλοι τις χρώματί τῳ ὁτιοῦν τι ἀλεῖψαι, πάρεστίν που τῷ ἀλειφθέντι τὸ ἐπαλειφθέν", paraphrasis="If someone dyes anything a certain colour, that which is smeared on is present to the thing that has been dyed ", manifestation="explicit", source="tlg0059_tlg020", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.T182513_in_etiology_in_tlg0059_tlg020.T184302_1" [label=<CORRELATED<br/>in etiology>, fontsize="11", style="rounded,filled,dashed", fillcolor="#e0ffff", color="#008b8b", shape="diamond"];
+
+"tlg0059_tlg020.S183707" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217c<br/><i>form: particular-illustration</i><br/><font point-size="12">"ὥσπερ εἰ ἐθέλοι ... τὸ ἐπαλειφθέν"</font>>, gephi_label="SUPP", text="ὥσπερ εἰ ἐθέλοι τις χρώματί τῳ ὁτιοῦν τι ἀλεῖψαι, πάρεστίν που τῷ ἀλειφθέντι τὸ ἐπαλειφθέν", locus="217c", speaker="Socrates", form="particular-illustration", paraphrasis="\"If someone dyes anything a certain colour, that which is smeared on is present to the thing that has been dyed\" EXPLAINS) \"Some things are also themselves of such a sort as whatever may be present (in/to them); others are not\" ", manifestation="explicit", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S183707_func" [label="EXPLAINS", gephi_label="exp", gephi_omitted="false", fontsize="11", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S183707_func" -> "tlg0059_tlg020.T181551" [color="#927b89", style="filled"];
+
+"tlg0059_tlg020.S183707_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T182513" -> "tlg0059_tlg020.S183707_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S183901" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217c<br/><i>form: affirmation</i><br/><font point-size="12">"πάνυ γε"</font>>, gephi_label="SUPP", text="πάνυ γε", locus="217c", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"If someone dyes anything a certain colour, that which is smeared on is present to the thing that has been dyed\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S183901_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S183901_func" -> "tlg0059_tlg020.T182513" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.T184302" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217c<br/><i>( If someone dyes anything a certain colour, that<br/>which is smeared on being thus present to the<br/>thing that has been dyed, the colour of the thing<br/>that has been dyed is not the same as that of what<br/>is present to it )<br/></i><font point-size="12">"ἆρʼ οὖν καὶ ... τὸ ἐπόν;"</font>>, gephi_label="THES", locus="217c", speaker="Socrates", text="ἆρʼ οὖν καὶ ἔστιν τότε τοιοῦτον τὴν χρόαν τὸ ἀλειφθέν, οἷον τὸ ἐπόν;", paraphrasis="( If someone dyes anything a certain colour, that which is smeared on being thus present to the thing that has been dyed, the colour of the thing that has been dyed is not the same as that of what is present to it ) ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S185420" [label=<<b>impl. SUPPORT</b><br/>            Plato             <br/>217d<br/><i>form: unspecified</i><br/><font point-size="12">"οὐ μανθάνω, ἦ δʼ ὅς"</font>>, gephi_label="SUPP", text="οὐ μανθάνω, ἦ δʼ ὅς", locus="217d", speaker="Plato", form="None", paraphrasis="( {text} CONTEXT) \"\"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ they would be white ] )\" + \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it \" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[ the hair would be white ], not[ the hair would be black ]\" EXPLAINS/justifies) \"( If someone dyes anything a certain colour, that which is smeared on being thus present to the thing that has been dyed, the colour of the thing that has been dyed is not the same as that of what is present to it )\"\" ) ", manifestation="implicit", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S185420_func" [label="CONTEXTUALIZES", gephi_label="(con)", gephi_omitted="false", fontsize="11", fillcolor="#f6ede6", color="#b3a89a", style="dashed,filled", shape="ellipse"];
+
+"tlg0059_tlg020.S185420_func" -> "tlg0059_tlg020.S184918" [color="#b3a89a", style="dashed,filled"];
+
+"tlg0059_tlg020.S184918" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: particular-illustration</i><br/><font point-size="12">"ἀλλʼ ὧδε ... εἴ ... παρουσίᾳ λευκαί"</font>>, gephi_label="SUPP", text="ἀλλʼ ὧδε ... εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν; ... καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω, ἀλλὰ παρούσης λευκότητος οὔτε τι λευκαὶ οὔτε μέλαιναί εἰσιν ... ἀλλʼ ὅταν δή, ὦ φίλε, τὸ γῆρας αὐταῖς ταὐτὸν τοῦτο χρῶμα ἐπαγάγῃ, τότε ἐγένοντο οἷόνπερ τὸ παρόν, λευκοῦ παρουσίᾳ λευκαί", locus="217d", speaker="Socrates", form="particular-illustration", paraphrasis="\"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ they would be white ] )\" + \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it \" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[ the hair would be white ], not[ the hair would be black ]\" EXPLAINS/justifies) \"( If someone dyes anything a certain colour, that which is smeared on being thus present to the thing that has been dyed, the colour of the thing that has been dyed is not the same as that of what is present to it )\" ", manifestation="explicit", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S184918_func" [label="EXPLAINS", gephi_label="exp", gephi_omitted="false", fontsize="11", fillcolor="#edffc4", color="#927b89", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S184918_func" -> "tlg0059_tlg020.T184302" [color="#927b89", style="filled"];
+
+"tlg0059_tlg020.S184918_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T185739" -> "tlg0059_tlg020.S184918_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T191259" -> "tlg0059_tlg020.S184918_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T193646" -> "tlg0059_tlg020.S184918_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S184918_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T195224" -> "tlg0059_tlg020.S184918_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T185739" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217d<br/><i>( If someone dyed your (i.e., Menexenus's) hair,<br/>which is blond, with lead white, not[ they would<br/>be white ] )<br/></i><font point-size="12">"εἴ τίς σου ... φαίνοιντʼ ἄν;"</font>>, gephi_label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν;", paraphrasis="( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ they would be white ] ) ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S191355" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: contrast</i><br/><font point-size="12">"πότερον τότε λευκαὶ ... φαίνοιντʼ ἄν"</font>>, gephi_label="SUPP", text="πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ they would be white ] )\" (CONTRAST) \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S191355_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S191355_func" -> "tlg0059_tlg020.T191259" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S191355_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T185739" -> "tlg0059_tlg020.S191355_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T191259" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217d<br/><i>( If someone dyed your (i.e., Menexenus's) hair,<br/>which is blond, with lead white, they would appear<br/>white )<br/></i><font point-size="12">"εἴ τίς σου ... φαίνοιντʼ ἄν;"</font>>, gephi_label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν;", paraphrasis="( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white ) ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S193431" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217d<br/><i>form: affirmation</i><br/><font point-size="12">"φαίνοιντʼ ἄν, ἦ δʼ ὅς"</font>>, gephi_label="SUPP", text="φαίνοιντʼ ἄν, ἦ δʼ ὅς", locus="217d", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ they would be white ] )\" + \"( If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, they would appear white )\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S193431_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S193431_func" -> "tlg0059_tlg020.T185739" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S193431_func" -> "tlg0059_tlg020.T191259" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.T193646" [label=<<b>THESIS</b><br/>           Socrates           <br/>217d<br/><i>If someone dyed your (i.e., Menexenus's) hair,<br/>which is blond, with lead white, whiteness would<br/>be present to it<br/></i><font point-size="12">"εἴ τίς σου ... αὐταῖς λευκότης"</font>>, gephi_label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν ... καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης", paraphrasis="If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it ", manifestation="explicit", source="tlg0059_tlg020", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S194343" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217d<br/><i>form: affirmation</i><br/><font point-size="12">"ναί"</font>>, gephi_label="SUPP", text="ναί", locus="217d", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S194343_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S194343_func" -> "tlg0059_tlg020.T193646" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S194528" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: contrast</i><br/><font point-size="12">"καὶ μὴν παρείη ... ἀλλʼ ὅμως"</font>>, gephi_label="SUPP", text="καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, whiteness would be present to it\" CONTRAST) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ]\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S194528_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S194528_func" -> "tlg0059_tlg020.T194743" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S194528_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T193646" -> "tlg0059_tlg020.S194528_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T194743" [label=<<b>THESIS</b><br/>           Socrates           <br/>217d<br/><i>If someone dyed your (i.e., Menexenus's) hair,<br/>which is blond, with lead white, not[ the hair<br/>would be in any way whiter than it was before ]<br/></i><font point-size="12">"εἴ τίς σου ... πω ... εἰσιν"</font>>, gephi_label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν ... οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω ... εἰσιν", paraphrasis="If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ] ", manifestation="explicit", source="tlg0059_tlg020", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S195654" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: contrast</i><br/><font point-size="12">"οὐδέν τι μᾶλλον ... πω, ἀλλὰ"</font>>, gephi_label="SUPP", text="οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω, ἀλλὰ", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ]\" CONTRAST) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[ the hair would be white ], not[ the hair would be black ]\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S195654_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S195654_func" -> "tlg0059_tlg020.T195224" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S195654_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S195654_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T195224" [label=<<b>THESIS</b><br/>           Socrates           <br/>217d<br/><i>If someone dyed your (i.e., Menexenus's) hair,<br/>which is blond, with lead white, (though)<br/>whiteness being present, not[ the hair would be<br/>white ], not[ the hair would be black ]<br/></i><font point-size="12">"εἴ τίς σου ... μέλαιναί εἰσιν"</font>>, gephi_label="THES", locus="217d", speaker="Socrates", text="εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν ... παρούσης λευκότητος οὔτε τι λευκαὶ οὔτε μέλαιναί εἰσιν", paraphrasis="If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[ the hair would be white ], not[ the hair would be black ] ", manifestation="explicit", source="tlg0059_tlg020", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S200229" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217d<br/><i>form: affirmation</i><br/><font point-size="12">"ἀληθῆ"</font>>, gephi_label="SUPP", text="ἀληθῆ", locus="217d", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[ the hair would be white ], not[ the hair would be black ]\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S200229_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S200229_func" -> "tlg0059_tlg020.T194743" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S200229_func" -> "tlg0059_tlg020.T195224" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S201741" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: contrast</i><br/><font point-size="12">"καὶ μὴν παρείη ... ἀλλʼ ὅμως"</font>>, gephi_label="SUPP", text="καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως", locus="217d", speaker="Socrates", form="contrast", paraphrasis="\"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, not[ the hair would be in any way whiter than it was before ]\" + \"If someone dyed your (i.e., Menexenus's) hair, which is blond, with lead white, (though) whiteness being present, not[ the hair would be white ], not[ the hair would be black ]\" CONTRAST) \"When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S201741_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S201741_func" -> "tlg0059_tlg020.T200422" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S201741_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S201741_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T195224" -> "tlg0059_tlg020.S201741_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T200422" [label=<<b>THESIS</b><br/>           Socrates           <br/>217d<br/><i>When old age has brought (to hair) the (white)<br/>colour, (the hair) becomes like that which is<br/>present, i.e., white by presence of white<br/></i><font point-size="12">"ὅταν δή, ὦ ... παρουσίᾳ λευκαί"</font>>, gephi_label="THES", locus="217d", speaker="Socrates", text="ὅταν δή, ὦ φίλε, τὸ γῆρας αὐταῖς ταὐτὸν τοῦτο χρῶμα ἐπαγάγῃ, τότε ἐγένοντο οἷόνπερ τὸ παρόν, λευκοῦ παρουσίᾳ λευκαί", paraphrasis="When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white ", manifestation="explicit", source="tlg0059_tlg020", fillcolor="#f0faf0", color="#82b366", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S202031" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217e<br/><i>form: affirmation</i><br/><font point-size="12">"πῶς γὰρ οὔ;"</font>>, gephi_label="SUPP", text="πῶς γὰρ οὔ;", locus="217e", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S202031_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S202031_func" -> "tlg0059_tlg020.T200422" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S202941" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: particular-illustration</i><br/><font point-size="12">"ἀλλʼ ὧδε ... εἴ ... νῦν δή"</font>>, gephi_label="SUPP", text="ἀλλʼ ὧδε ... εἴ τίς σου ξανθὰς οὔσας τὰς τρίχας ψιμυθίῳ ἀλείψειεν, πότερον τότε λευκαὶ εἶεν ἢ φαίνοιντʼ ἄν; ... καὶ μὴν παρείη γʼ ἂν αὐταῖς λευκότης ... ἀλλʼ ὅμως οὐδέν τι μᾶλλον ἂν εἶεν λευκαί πω, ἀλλὰ παρούσης λευκότητος οὔτε τι λευκαὶ οὔτε μέλαιναί εἰσιν ... τοῦτο τοίνυν ἐρωτῶ νῦν δή", locus="217d", speaker="Socrates", form="particular-illustration", paraphrasis="\"{hair dyeing examples}\" JUSTIFIES/explains) \"( When something is present, not[ that which possesses (what is present to it) is such as what is present ] )\" + \"( When something is present, if this is present not in a certain way, not[ that which possesses (what is present to it) is such as what is present ] )\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S202941_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S202941_func" -> "tlg0059_tlg020.T203834" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S202941_func" -> "tlg0059_tlg020.T204708" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S202941_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T185739" -> "tlg0059_tlg020.S202941_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T191259" -> "tlg0059_tlg020.S202941_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T193646" -> "tlg0059_tlg020.S202941_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T194743" -> "tlg0059_tlg020.S202941_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T195224" -> "tlg0059_tlg020.S202941_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S135633" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217d<br/><i>form: particular-illustration</i><br/><font point-size="12">"ἀλλʼ ὅταν δή, ... νῦν δή"</font>>, gephi_label="SUPP", text="ἀλλʼ ὅταν δή, ὦ φίλε, τὸ γῆρας αὐταῖς ταὐτὸν τοῦτο χρῶμα ἐπαγάγῃ, τότε ἐγένοντο οἷόνπερ τὸ παρόν, λευκοῦ παρουσίᾳ λευκαί ... τοῦτο τοίνυν ἐρωτῶ νῦν δή", locus="217d", speaker="Socrates", form="particular-illustration", paraphrasis="\"When old age has brought (to hair) the (white) colour, (the hair) becomes like that which is present, i.e., white by presence of white\" JUSTIFIES/explains) \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S135633_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S135633_func" -> "tlg0059_tlg020.T204411" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S135633_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T200422" -> "tlg0059_tlg020.S135633_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T203834" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217e<br/><i>( When something is present, not[ that which<br/>possesses (what is present to it) is such as what<br/>is present ] )<br/></i><font point-size="12">"τοῦτο τοίνυν ἐρωτῶ ... μή, οὔ;"</font>>, gephi_label="THES", locus="217e", speaker="Socrates", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ;", paraphrasis="( When something is present, not[ that which possesses (what is present to it) is such as what is present ] ) ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S204930" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217e<br/><i>form: contrast</i><br/><font point-size="12">"εἰ ᾧ ἄν ... · ἢ"</font>>, gephi_label="SUPP", text="εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ", locus="217e", speaker="Socrates", form="contrast", paraphrasis="\"( When something is present, not[ that which possesses (what is present to it) is such as what is present ] )\" (CONTRAST) \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[ that which possesses (what is present to it) is such as what is present ] )\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S204930_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S204930_func" -> "tlg0059_tlg020.T204411" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S204930_func" -> "tlg0059_tlg020.T204708" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S204930_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T203834" -> "tlg0059_tlg020.S204930_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T204411" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217e<br/><i>( When something is present, if this is present in<br/>a certain way, that which possesses (what is<br/>present to it) is such as what is present )<br/></i><font point-size="12">"τοῦτο τοίνυν ἐρωτῶ ... μή, οὔ;"</font>>, gephi_label="THES", locus="217e", speaker="Socrates", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ;", paraphrasis="( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present ) ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S205149" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217e<br/><i>form: contrast</i><br/><font point-size="12">"ἐὰν μὲν κατά ... μή, οὔ"</font>>, gephi_label="SUPP", text="ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ", locus="217e", speaker="Socrates", form="contrast", paraphrasis="\"( When something is present, not[ that which possesses (what is present to it) is such as what is present ] )\" (CONTRAST) \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[ that which possesses (what is present to it) is such as what is present ] )\" ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S205149_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S205149_func" -> "tlg0059_tlg020.T204708" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S205149_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T204411" -> "tlg0059_tlg020.S205149_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T204708" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217e<br/><i>( When something is present, if this is present<br/>not in a certain way, not[ that which possesses<br/>(what is present to it) is such as what is present<br/>] )<br/></i><font point-size="12">"τοῦτο τοίνυν ἐρωτῶ ... μή, οὔ;"</font>>, gephi_label="THES", locus="217e", speaker="Socrates", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ;", paraphrasis="( When something is present, if this is present not in a certain way, not[ that which possesses (what is present to it) is such as what is present ] ) ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S205319" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217e<br/><i>form: affirmation</i><br/><font point-size="12">"οὕτω μᾶλλον"</font>>, gephi_label="SUPP", text="οὕτω μᾶλλον", locus="217e", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"( When something is present, not[ that which possesses (what is present to it) is such as what is present ] )\" + \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[ that which possesses (what is present to it) is such as what is present ] )\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S205319_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S205319_func" -> "tlg0059_tlg020.T203834" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S205319_func" -> "tlg0059_tlg020.T204411" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S205319_func" -> "tlg0059_tlg020.T204708" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S210605" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217e<br/><i>form: general-to-particular</i><br/><font point-size="12">"τοῦτο τοίνυν ἐρωτῶ ... οὔ; ... ἄρα"</font>>, gephi_label="SUPP", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ; ... ἄρα", locus="217e", speaker="Socrates", form="general-to-particular", paraphrasis="\"( When something is present, not[ that which possesses (what is present to it) is such as what is present ] )\" + \"( When something is present, if this is present in a certain way, that which possesses (what is present to it) is such as what is present )\" + \"( When something is present, if this is present not in a certain way, not[ that which possesses (what is present to it) is such as what is present ] )\" JUSTIFIES/explains) \"There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S210605_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S210605_func" -> "tlg0059_tlg020.T210154" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S210605_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T203834" -> "tlg0059_tlg020.S210605_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T204411" -> "tlg0059_tlg020.S210605_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T204708" -> "tlg0059_tlg020.S210605_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.T210154" [label=<<b>impl. THESIS</b><br/>           Socrates           <br/>217e<br/><i>There are times in which, when bad is present,<br/>what is neither bad nor good is not yet bad, and<br/>others in which this has already become bad<br/></i><font point-size="12">"τὸ μήτε κακὸν ... τοιοῦτον γέγονεν"</font>>, gephi_label="THES", locus="217e", speaker="Socrates", text="τὸ μήτε κακὸν ἄρα μήτʼ ἀγαθὸν ἐνίοτε κακοῦ παρόντος οὔπω κακόν ἐστιν, ἔστιν δʼ ὅτε ἤδη τὸ τοιοῦτον γέγονεν", paraphrasis="There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad ", manifestation="implicit", source="tlg0059_tlg020", fillcolor="#fcfffd", color="#666666", style="rounded,filled,dashed", shape="box", margin="0.30,0.1"];
+
+"tlg0059_tlg020.S211034" [label=<<b>SUPPORT</b><br/>          Menexenus           <br/>217e<br/><i>form: affirmation</i><br/><font point-size="12">"πάνυ γε"</font>>, gephi_label="SUPP", text="πάνυ γε", locus="217e", speaker="Menexenus", form="affirmation", paraphrasis="{text} AFFIRMS) \"There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad\" ", manifestation="explicit", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S211034_func" [label="JUSTIFIES", gephi_label="jus", gephi_omitted="false", fontsize="11", fillcolor="#dae8fc", color="#7c9ac7", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S211034_func" -> "tlg0059_tlg020.T210154" [color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S210904" [label=<<b>SUPPORT</b><br/>           Socrates           <br/>217e<br/><i>form: unspecified</i><br/><font point-size="12">"τοῦτο τοίνυν ἐρωτῶ ... οὔ; ... ἄρα"</font>>, gephi_label="SUPP", text="τοῦτο τοίνυν ἐρωτῶ νῦν δή, εἰ ᾧ ἄν τι παρῇ, τοιοῦτον ἔσται τὸ ἔχον οἷον τὸ παρόν · ἢ ἐὰν μὲν κατά τινα τρόπον παρῇ, ἔσται, ἐὰν δὲ μή, οὔ; ... ἄρα", locus="217e", speaker="Socrates", form="None", paraphrasis="\"There are times in which, when bad is present, what is neither bad nor good is not yet bad, and others in which this has already become bad\" CONTEXT) [omitted] ", manifestation="explicit", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse", margin="0.05,0.02", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S210904_to_omitted_ELEMENTS_unspecified" [label=<<b>ELEMENTS</b><br/><i>(unspecified,<br/>omitted,<br/>one or more)</i>>, gephi_label="ELEM", gephi_omitted="true", gephi_unspecified="true", fontsize="11", fillcolor="#f5f5f5", color="#a0a0a0", style="dotted,filled,rounded", shape="box", source="tlg0059_tlg020"];
+
+"tlg0059_tlg020.S210904_func" [label="CONTEXTUALIZES", gephi_label="con", gephi_omitted="false", fontsize="11", fillcolor="#ecd4bb", color="#b39c84", style="filled", shape="ellipse"];
+
+"tlg0059_tlg020.S210904_func" -> "tlg0059_tlg020.S210904_to_omitted_ELEMENTS_unspecified" [color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S210904_employed" [label="EMPLOYED IN", gephi_label="in", fontsize="11", fillcolor="#ffe6cc", color="#d79c02", gephi_omitted="false", shape="ellipse", style="filled"];
+
+"tlg0059_tlg020.T210154" -> "tlg0059_tlg020.S210904_employed" [dir=none, color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S182137" -> "tlg0059_tlg020.S182137_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S182137_employed" -> "tlg0059_tlg020.S182137" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S183707" -> "tlg0059_tlg020.S183707_func" [dir=none, color="#927b89", style="filled"];
+
+"tlg0059_tlg020.S183707_employed" -> "tlg0059_tlg020.S183707" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S183901" -> "tlg0059_tlg020.S183901_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.T182513" -> "tlg0059_tlg020.T182513_in_etiology_in_tlg0059_tlg020.T184302_1" [dir=none, color="#008b8b"];
+
+"tlg0059_tlg020.T182513_in_etiology_in_tlg0059_tlg020.T184302_1" -> "tlg0059_tlg020.T184302" [color="#008b8b"];
+
+"tlg0059_tlg020.S185420" -> "tlg0059_tlg020.S185420_func" [dir=none, color="#b3a89a", style="dashed,filled"];
+
+"tlg0059_tlg020.S184918" -> "tlg0059_tlg020.S184918_func" [dir=none, color="#927b89", style="filled"];
+
+"tlg0059_tlg020.S184918_employed" -> "tlg0059_tlg020.S184918" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S191355" -> "tlg0059_tlg020.S191355_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S191355_employed" -> "tlg0059_tlg020.S191355" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S193431" -> "tlg0059_tlg020.S193431_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S194343" -> "tlg0059_tlg020.S194343_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S194528" -> "tlg0059_tlg020.S194528_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S194528_employed" -> "tlg0059_tlg020.S194528" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S195654" -> "tlg0059_tlg020.S195654_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S195654_employed" -> "tlg0059_tlg020.S195654" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S200229" -> "tlg0059_tlg020.S200229_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S201741" -> "tlg0059_tlg020.S201741_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S201741_employed" -> "tlg0059_tlg020.S201741" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S202031" -> "tlg0059_tlg020.S202031_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S202941" -> "tlg0059_tlg020.S202941_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S202941_employed" -> "tlg0059_tlg020.S202941" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S135633" -> "tlg0059_tlg020.S135633_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S135633_employed" -> "tlg0059_tlg020.S135633" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S204930" -> "tlg0059_tlg020.S204930_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S204930_employed" -> "tlg0059_tlg020.S204930" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S205149" -> "tlg0059_tlg020.S205149_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S205149_employed" -> "tlg0059_tlg020.S205149" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S205319" -> "tlg0059_tlg020.S205319_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S210605" -> "tlg0059_tlg020.S210605_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S210605_employed" -> "tlg0059_tlg020.S210605" [color="#d79c02", style="solid"];
+
+"tlg0059_tlg020.S211034" -> "tlg0059_tlg020.S211034_func" [dir=none, color="#7c9ac7", style="filled"];
+
+"tlg0059_tlg020.S210904" -> "tlg0059_tlg020.S210904_func" [dir=none, color="#b39c84", style="filled"];
+
+"tlg0059_tlg020.S210904_employed" -> "tlg0059_tlg020.S210904" [color="#d79c02", style="solid"];
+}
+
+// Ensuring all proposition nodes and related elements are included
+
+}

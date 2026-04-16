@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type="text/css" href="../css/TheSu_tags/TheSu_tags.css"?>
+<tags xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schema/TheSu_tags.xsd">
+  <sharedTags>
+    <tag id="null"/>
+  </sharedTags>
+  <supportFormTags>
+    <tag id="affirmation"/>
+    <tag id="analogy"/>
+    <tag id="consequence-of-acceptance"/>
+    <tag id="contrast"/>
+    <tag id="definition"/>
+    <tag id="empirical-measurement"/>
+    <tag id="experiment"/>
+    <tag id="from-cause-to-effect"/>
+    <tag id="general-to-particular"/>
+    <tag id="generalization"/>
+    <tag id="particular-illustration"/>
+    <tag id="reformulation"/>
+    <tag id="specification"/>
+    <tag id="textual-evidence"/>
+    <tag id="visualization"/>
+  </supportFormTags>
+  <entailmentTags>
+    <tag id="inclusion"/>
+    <tag id="requirement"/>
+  </entailmentTags>
+</tags>

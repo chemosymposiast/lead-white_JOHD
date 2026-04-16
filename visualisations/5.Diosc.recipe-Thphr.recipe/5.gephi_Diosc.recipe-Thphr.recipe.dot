@@ -1,0 +1,107 @@
+digraph G {
+"tlg0656_tlg001" [label="SOURCE", source_id="tlg0656_tlg001", is_source_node="true", shape="diamond", style="filled", color="thistle", fillcolor="thistle", fontcolor="black", fontsize="16", fontname="bold", width="1.5", height="1.5", penwidth="2", margin="0.2,0.1"];
+
+
+"tlg0656_tlg001.T213927" [label="THES", locus="5.88.1_div", speaker="Dioscorides-Pedanius", text="ψιμύθιον δὲ γίνεται οὕτως · εἰς πιθάκνην πλατύστομον ἢ κεραμεᾶν γάστραν ἐγχέας δριμύτατον ὄξος ἀπέρεισαι μολυβδίνην πλίνθον ἐπὶ τὸ στόμα τοῦ κεραμίου, προυποκειμένου καλαμίνου ῥίπου, ἄνωθέν τε αὐτῆς ἐπίρριψον σκεπάσματα πρὸς τὸ μὴ διαπνεῖσθαι τὸ ὀξος · ὡς δʼ ἂν καταρρυεῖσα διαπέσῃ, τὸ μὲν ἐπαιωρούμενον καὶ καθαρὸν ὑγρὸν ἀπηθητέον, τὸ δὲ γλοιῶδες εἰς ἀγγεῖον ἐγχυτέον καὶ ξηραντέον ἐν ἡλίῳ. εἶτα ἀλεστέον ἐν χειρομυλίῳ ἢ λεαντέον ἄλλως καὶ σηστέον, 2 καὶ μετὰ ταῦτα τὸ λοιπὸν τοῦ στερεμνίου λεπτοποιητέον καὶ σηστέον, ἐναλλάξ τε τὰ αὐτὰ καὶ τρίτον καὶ τέταρτον ποιητέον", paraphrasis="In order for (white and effective) lead white to come about in the best variety - to be used for ophthalmological properties - as well as in worse varieties, .(In summer, ) pour most pungent vinegar into a broad-mouthed jar OR pot-bellied clay jar, .Place a leaden brick on a lattice of reeds, .Lay the lattice of reeds with the leaden brick onto the mouth of the pot, .Above, throw over covers to prevent vinegar from evaporating, .Wait until (the leaden brick), crumbling down, has strained through (the lattice), .Decant away the clean fluid that floats on top (of the vinegar after the leaden brick has crumbled down in it), .Pour the (remaining) viscous fluid into a vessel, .Let the viscous fluid dry under the sun, .Smooth the dried substance with a hand-mill OR in any way, .Sift the ground substance, .The substance that is sifted away is the better variety of (white and effective) lead white, that should be picked also for ophthalmological properties, .Thin (with a hand-mill OR in any way) and sift what remains (above the sieve) of the solid substance {, repeat, and do it again a third and fourth time}, .The substances that are sifted away at each repeated thinning and sifting are progressively worse varieties of (white and effective) lead white ", manifestation="explicit", source="tlg0656_tlg001", color="palegreen", label_color="darkseagreen", style="rounded,filled", shape="box", margin="0.30,0.1"];
+
+"tlg0656_tlg001.q213927001" [label="ph.", phase_number="1", paraphrasis="(In summer, ) pour most pungent vinegar into a broad-mouthed jar ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927002" [label="ph.", phase_number="2", paraphrasis="Place a leaden brick on a lattice of reeds ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927003" [label="ph.", phase_number="3", paraphrasis="Lay the lattice of reeds with the leaden brick onto the mouth of the pot (i.e., of the broad-mouthed jar) ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927004" [label="ph.", phase_number="4", paraphrasis="Above, throw over covers (to prevent vinegar from evaporating) ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927005" [label="ph.", phase_number="5", paraphrasis="Wait until (the leaden brick), crumbling down, has strained through (the lattice) ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927006" [label="ph.", phase_number="6", paraphrasis="Decant away the clean fluid that floats on top (of the vinegar after the leaden brick has crumbled down in it) ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927007" [label="ph.", phase_number="7", paraphrasis="Pour the (remaining) viscous fluid into a vessel ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927008" [label="ph.", phase_number="8", paraphrasis="Let the viscous fluid dry under the sun ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927009" [label="ph.", phase_number="9", paraphrasis="Grind the dried substance with a hand-mill ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927010" [label="ph.", phase_number="10", paraphrasis="Sift the ground substance ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927011" [label="ph.", phase_number="11", paraphrasis="The substance that is sifted away is the better variety of (white and effective) lead white, that should be picked also for ophthalmological properties ", shape="box", color="palegreen", label_color="darkseagreen", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927012" [label="ph.", phase_number="12", paraphrasis="Thin (with a hand-mill) and sift what remains (above the sieve) of the solid substance {, repeat, and do it again a third and fourth time} ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0656_tlg001.q213927013" [label="ph.", phase_number="13", paraphrasis="The substances that are sifted away at each repeated thinning and sifting are progressively worse varieties of (white and effective) lead white ", shape="box", color="darkseagreen", label_color="darkgrey", style="rounded,filled"];
+
+"tlg0093_tlg004.P151115" [label="PROP", shape="doubleoctagon", style="rounded,filled", color="ghostwhite", label_color="lightslategrey", paraphrasis="{Theophrastus recipe} To produce lead white: . Place a piece of lead over vinegar in closed jars, .Wait for lead to acquire thickness .Open the jars, .Scrape away from the lead the substance that has formed on its surface, repeating this until you have consumed it completely, .Grind what you have scraped away, .Filter off what you are grinding, .The final precipitate is lead white "];
+
+"tlg0093_tlg004.q151116001" [label="ph.", phase_number="1", paraphrasis="Place a piece of lead over vinegar in closed jars ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116002" [label="ph.", phase_number="2", paraphrasis="Wait for lead to acquire thickness ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116003" [label="ph.", phase_number="3", paraphrasis="Open the jars ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116004" [label="ph.", phase_number="4", paraphrasis="Scrape away from the lead the substance that has formed on its surface, repeating this until you have consumed it completely ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116005" [label="ph.", phase_number="5", paraphrasis="Grind what you have scraped away ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116006" [label="ph.", phase_number="6", paraphrasis="Filter off what you are grinding ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116007" [label="ph.", phase_number="7", paraphrasis="The final precipitate is lead white ", shape="box", style="rounded,filled", label_color="lightslategrey", color="ghostwhite"];
+
+"tlg0093_tlg004.q151116001" -> "tlg0656_tlg001.q213927001" [label="extends, generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116001" -> "tlg0656_tlg001.q213927003" [label="extends, generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116001" -> "tlg0656_tlg001.q213927004" [label="extends, generalizes", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116002" -> "tlg0656_tlg001.q213927005" [label="alters", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116005" -> "tlg0656_tlg001.q213927009" [label="generalizes, alters", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116006" -> "tlg0656_tlg001.q213927010" [label="matches", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0093_tlg004.q151116007" -> "tlg0656_tlg001.q213927011" [label="generalizes, specifies", fontcolor="lightslategrey", color="lightslategrey", style="dotted", penwidth=1.25];
+
+"tlg0656_tlg001.q213927003" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116003" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116006" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927001" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927006" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927010" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927012" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927009" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116004" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116005" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927004" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116001" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927011" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927013" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927002" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116007" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927005" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927007" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0656_tlg001.q213927008" -> "tlg0656_tlg001.T213927" [style="dashed", color="gray"];
+
+"tlg0093_tlg004.q151116002" -> "tlg0093_tlg004.P151115" [style="dashed", color="gray"];
+
+"tlg0656_tlg001" -> "tlg0656_tlg001.T213927" [dir="none", color="thistle", penwidth=0.8, style="dashed,bold"];
+
+"tlg0093_tlg004.P151115" -> "tlg0656_tlg001.T213927" [label="extends, generalizes, specifies, alters", color="indigo", fontcolor="indigo", penwidth=1.5];
+
+}
