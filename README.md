@@ -22,27 +22,25 @@ All annotations are collected in `[ancient-lead-white_JOHD.xml](ancient-lead-whi
 
 ## Sources
 
-
-| Source                                                           | File                                                                                                                             |
-| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Plato, *Lysis*                                                   | `[sources-segmented/tlg0059.tlg020.perseus-grc2.xml](sources-segmented/tlg0059.tlg020.perseus-grc2.xml)`                         |
-| Theophrastus, *De lapidibus*                                     | `[sources-segmented/tlg0093.tlg004.1st1K-grc1.xml](sources-segmented/tlg0093.tlg004.1st1K-grc1.xml)`                             |
-| Dioscorides, *De materia medica*                                 | `[sources-segmented/tlg0656.tlg001.1st1K-grc1.xml](sources-segmented/tlg0656.tlg001.1st1K-grc1.xml)`                             |
-| Plutarch, *Quaestiones convivales*                               | `[sources-segmented/tlg0007.tlg112.perseus-grc2.xml](sources-segmented/tlg0007.tlg112.perseus-grc2.xml)`                         |
-| Caley & Richards, 1956 (copyrighted, therefore largely redacted) | `[sources-segmented/today_caley,richards_1956_copyrighted.xhtml](sources-segmented/today_caley,richards_1956_copyrighted.xhtml)` |
-| Katsaros, Liritzis & Laskaris, 2010                              | `[sources-segmented/today_katsaros,liritzis,laskaris_2010.xhtml](sources-segmented/today_katsaros,liritzis,laskaris_2010.xhtml)` |
-
+| Source                                                           | File                                                                                                                     |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Plato, *Lysis*                                                   | [sources-segmented/tlg0059.tlg020.perseus-grc2.xml](sources-segmented/tlg0059.tlg020.perseus-grc2.xml)                 |
+| Theophrastus, *De lapidibus*                                     | [sources-segmented/tlg0093.tlg004.1st1K-grc1.xml](sources-segmented/tlg0093.tlg004.1st1K-grc1.xml)                     |
+| Dioscorides, *De materia medica*                                 | [sources-segmented/tlg0656.tlg001.1st1K-grc1.xml](sources-segmented/tlg0656.tlg001.1st1K-grc1.xml)                     |
+| Plutarch, *Quaestiones convivales*                               | [sources-segmented/tlg0007.tlg112.perseus-grc2.xml](sources-segmented/tlg0007.tlg112.perseus-grc2.xml)                 |
+| Caley & Richards, 1956 (copyrighted, therefore largely redacted) | [sources-segmented/today_caley,richards_1956_copyrighted.xhtml](sources-segmented/today_caley,richards_1956_copyrighted.xhtml) |
+| Katsaros, Liritzis & Laskaris, 2010                              | [sources-segmented/today_katsaros,liritzis,laskaris_2010.xhtml](sources-segmented/today_katsaros,liritzis,laskaris_2010.xhtml) |
 
 ## Repository structure
 
-- `[ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml)` — main *TheSu* annotation document
-- `[ancient-lead-white_JOHD_new-propositions.xml](ancient-lead-white_JOHD_new-propositions.xml)` — cross-source proposition models (included via XInclude)
-- `[meta/](meta/)` — authority records (indexing tags, relationship tags, people, bibliography)
-- `[schema/](schema/)` — `TheSu.xsd` and `TheSu_tags.xsd`
-- `[css/](css/)` — Oxygen Author-mode stylesheets for the schema and its tag vocabularies
-- `[sources-original/](sources-original/)` — unsegmented base editions of the open-licence sources
-- `[sources-segmented/](sources-segmented/)` — tokenised editions used as stand-off link targets
-- `[visualisations/](visualisations/)` — per-figure folders (figures 1–8 of the paper) with Graphviz and Gephi `.dot` files and `.svg` outputs
+- [ancient-lead-white_JOHD.xml](ancient-lead-white_JOHD.xml) — main *TheSu* annotation document
+- [ancient-lead-white_JOHD_new-propositions.xml](ancient-lead-white_JOHD_new-propositions.xml) — cross-source proposition models (included via XInclude)
+- [meta/](meta/) — authority records (indexing tags, relationship tags, people, bibliography)
+- [schema/](schema/) — TheSu.xsd and TheSu_tags.xsd
+- [css/](css/) — Oxygen Author-mode stylesheets for the schema and its tag vocabularies
+- [sources-original/](sources-original/) — unsegmented base editions of the open-licence sources
+- [sources-segmented/](sources-segmented/) — tokenised editions used as stand-off link targets
+- [visualisations/](visualisations/) — per-figure folders (figures 1–8 of the paper) with Graphviz and Gephi .dot files and .svg outputs
 
 ## How to explore the annotations
 
