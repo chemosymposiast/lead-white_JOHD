@@ -61,7 +61,7 @@ The tool ships per-figure presets (one subfolder per figure under `_config_prese
 
 The Gephi layouts used in the paper (ForceAtlas 2, Fruchterman–Reingold) are applied manually inside Gephi after importing the generated `*_gephi.dot` files, as documented by the tool.
 
-## Citation
+## Citations
 
 * **Data paper (preprint)**
   Morrone, Daniele. 2025. "Lead White in Context Across Greco-Roman Sources: The First *TheSu* XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". Preprint (first submitted June 2025).
