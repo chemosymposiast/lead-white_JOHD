@@ -1,5 +1,7 @@
 # Lead White in Context Across Greco-Roman Sources — *TheSu* XML Annotation Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19614479.svg)](https://doi.org/10.5281/zenodo.19614479)
+
 The first public dataset encoded with the *TheSu* XML stand-off annotation schema, covering Greco-Roman passages on lead white (ψιμύθιον / *cerussa*).
 
 **[https://thesu.io/](https://thesu.io/)**
@@ -61,15 +63,26 @@ The Gephi layouts used in the paper (ForceAtlas 2, Fruchterman–Reingold) are a
 
 ## Citation
 
-**Data paper (preprint, first submitted June 2025):**
+* **Data paper (preprint)**
+  Morrone, Daniele. 2025. "Lead White in Context Across Greco-Roman Sources: The First *TheSu* XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". Preprint (first submitted June 2025).
 
-```
-Morrone, D. (2025). Lead White in Context Across Greco-Roman Sources: The First TheSu XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design. Preprint.
-```
+  ```
+  Morrone, Daniele. 2025. "Lead White in Context Across Greco-Roman Sources: The First TheSu XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". Preprint (first submitted June 2025).
+  ```
 
-**Dataset:** PLACEHOLDER.
+* **Dataset**
+  Morrone, Daniele. 2026. "chemosymposiast/lead-white_JOHD: v1.0.0 – First Public Release (v1.0.0)". *Zenodo*. [https://doi.org/10.5281/zenodo.19614479](https://doi.org/10.5281/zenodo.19614479)
 
-**Visualisation tool:** Morrone, D. (2026). *TheSu-to-DOT*. Zenodo. [https://doi.org/10.5281/zenodo.19613192](https://doi.org/10.5281/zenodo.19613192)
+  ```
+  Morrone, Daniele. 2026. "chemosymposiast/lead-white_JOHD: v1.0.0 – First Public Release (v1.0.0)". Zenodo. https://doi.org/10.5281/zenodo.19614479
+  ```
+
+* **Visualisation tool**
+  Morrone, Daniele. 2026. "chemosymposiast/*TheSu*-to-DOT: v1.0.0 – First release (v1.0.0)". *Zenodo*. [https://doi.org/10.5281/zenodo.19613192](https://doi.org/10.5281/zenodo.19613192)
+
+  ```
+  Morrone, Daniele. 2026. "chemosymposiast/TheSu-to-DOT: v1.0.0 – First release (v1.0.0)". Zenodo. https://doi.org/10.5281/zenodo.19613192
+  ```
 
 ## License
 
