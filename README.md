@@ -1,6 +1,6 @@
 # Lead White in Context Across Greco-Roman Sources — *TheSu* XML Annotation Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19614479.svg)](https://doi.org/10.5281/zenodo.19614479)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19614479.svg)](https://doi.org/10.5281/zenodo.20290847)
 
 The first public dataset encoded with the *TheSu* XML stand-off annotation schema, covering Greco-Roman passages on lead white (ψιμύθιον / *cerussa*).
 
