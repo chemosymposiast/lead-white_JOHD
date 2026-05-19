@@ -100,6 +100,24 @@
             </monogr>
         </biblStruct>
 
+        <biblStruct type="journalArticle" xml:id="Kunzelman2008">
+            <analytic>
+                <title level="a">Sui pigmenti bianchi</title>
+                <author>
+                    <forename>D.</forename>
+                    <surname>Kunzelman</surname>
+                </author>
+            </analytic>
+            <monogr>
+                <title level="j">OPD Restauro</title>
+                <imprint>
+                    <biblScope unit="volume">20</biblScope>
+                    <biblScope unit="page">100-120</biblScope>
+                    <date>2008</date>
+                </imprint>
+            </monogr>
+        </biblStruct>
+
         <biblStruct type="thesis" xml:id="Morrone2022">
             <monogr>
                 <title level="m">Plutarch's chemistry of stones and metals: conceptions and

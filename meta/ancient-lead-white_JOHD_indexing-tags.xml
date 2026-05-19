@@ -66,6 +66,7 @@
         <tag id="winter"/>
         <!--Chemical bodies-->
         <tag id="fluid_n"/>
+        <tag id="air"/>
         <tag id="heat"/>
         <tag id="powder"/>
         <tag id="powdered">
@@ -73,7 +74,7 @@
         </tag>
         <tag id="water"/>
         <!--Chemical properties-->
-        <tag id=" adhesive-malleability-inducing"/>
+        <tag id="adhesive-malleability-inducing"/>
         <tag id="black"/>
         <tag id="blond"/>
         <tag id="cold_a">
@@ -135,6 +136,7 @@
         <tag id="hydrocerussite">
             <parent ref="#cerussite"/>
         </tag>
+        <tag id="kyanos"/>
         <tag id="lead-acetate">
             <parent ref="#lead"/>
             <parent ref="#lead-white"/>

@@ -2,9 +2,9 @@
   xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:thesu="http://alchemeast.eu/thesu/ns/1.0"
   elementFormDefault="qualified" targetNamespace="http://alchemeast.eu/thesu/ns/1.0">
   <xs:annotation>
-    <xs:appinfo>TheSu XML version 0.93</xs:appinfo>
+    <xs:appinfo>TheSu XML version 0.95</xs:appinfo>
     <xs:documentation>Welcome to TheSu XML!</xs:documentation>
-    <xs:documentation>This is version 0.93 of the Thesu XML Schema Definition and
+    <xs:documentation>This is version 0.95 of the Thesu XML Schema Definition and
       documentation.</xs:documentation>
     <xs:documentation>This XML Schema Definition and documentation was entirely authored by Daniele
       Morrone. For queries, suggestions, or feedback regarding this schema, please feel free to
@@ -13,9 +13,11 @@
     <xs:documentation>The URL for the TheSu XML Schema Definition is
       https://alchemeast.eu/thesu/ns/1.0/TheSu.xsd. To associate this schema with your XML file,
       start by creating a 'thesu:TheSu' root element. Then, include in this element the following
-      attributes: <thesu:TheSu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://alchemeast.eu/thesu/ns/1.0 https://alchemeast.eu/thesu/ns/1.0/TheSu.xsd" xmlns:thesu="http://alchemeast.eu/thesu/ns/1.0"> </thesu:TheSu>
+      attributes: <thesu:TheSu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://alchemeast.eu/thesu/ns/1.0 https://alchemeast.eu/thesu/ns/1.0/TheSu.xsd"
+        xmlns:thesu="http://alchemeast.eu/thesu/ns/1.0"> </thesu:TheSu>
     </xs:documentation>
-    <xs:documentation>This software was developed as part of two research projects. From 2018 to
+    <xs:documentation>This software was developed as part of three research projects. From 2018 to
       2022, as part of Alchemy in the Making: From Ancient Babylonia via Graeco-Roman Egypt into the
       Byzantine, Syriac, and Arabic Traditions, acronym AlchemEast. The AlchemEast project has
       received funding from the European Research Council (ERC) under the European Union’s Horizon
@@ -23,7 +25,13 @@
       Another History of Platonism: The Role of Aristotle’s Criticisms of Plato in the Development
       of Ancient Platonism, acronym PlatoViaAristotle. The PlatoViaAristotle project has received
       funding from the European Research Council (ERC) under the European Union’s Horizon 2020
-      research and innovation programme (G.A. 885273).</xs:documentation>
+      research and innovation programme (G.A. 885273). From 2023 to 2027, as part of Advancing
+      Digital History with TheSu XML: The Next Step in its Development, with a
+      Historical-Philosophical and Chemical Exploration of Lead and Lead White in Greco-Roman
+      Sources. This project has received funding from the Fonds voor Wetenschappelijk Onderzoek -
+      Vlaanderen (FWO), reference no. 1235725N.</xs:documentation>
+    <xs:documentation>TheSu XML Schema Definition and documentation are licensed under the Creative
+      Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).</xs:documentation>
     <xs:documentation>For effective navigation of this documentation, it is advisable to start with
       the 'TheSu' element, the root element of a TheSu document. Following this, attention should be
       directed towards the 'THESIS', 'SUPPORT', and 'PROPOSITION' elements, as they are the most
@@ -47,16 +55,17 @@
       practices that are advisable but not obligatory. 'May' and 'can', on the other hand, lean
       towards neutrality, simply indicating available options without a strong recommendation or
       preference.</xs:documentation>
-    <xs:documentation>Latest updates: [2023.11.23 Daniele Morrone; v. 0.96] Added human-readable
-      definitions to almost all elements and attributes for annotating processual theses. Also made
-      extensive fixes, integrations, and redesigns for a more accurate alignment with the intended
-      logic. [2022.07.11 Daniele Morrone; v. 0.90] Added elements and attributes for the annotation
-      of processual theses. [2022.06.22 Daniele Morrone; v. 0.72] Bug fix and small integrations.
-      [2022.05.15 Daniele Morrone; v. 0.72] Corrected typos and spelling mistakes. [2021.12.27
-      Daniele Morrone; v. 0.72] Re-modelled the 'proof' complexType on the basis of 'includedRef'
-      and re-defined 'marker' elements as restrictions of this complexType only allowing for
-      'locusRef'. [2021.12.01 Daniele Morrone] TheSu documentation version 0.70
-      completed.</xs:documentation>
+    <xs:documentation>Latest updates: [2026.05.19 Daniele Morrone; v. 0.95] Integrated corrections
+      to the modelling of processual theses and added project and licence metadata. [2023.11.23
+      Daniele Morrone; v. 0.93] Added human-readable definitions to almost all elements and
+      attributes for annotating processual theses. Also made extensive fixes, integrations, and
+      redesigns for a more accurate alignment with the intended logic. [2022.07.11 Daniele Morrone;
+      v. 0.90] Added elements and attributes for the annotation of processual theses. [2022.06.22
+      Daniele Morrone; v. 0.72] Bug fix and small integrations. [2022.05.15 Daniele Morrone; v.
+      0.72] Corrected typos and spelling mistakes. [2021.12.27 Daniele Morrone; v. 0.72] Re-modelled
+      the 'proof' complexType on the basis of 'includedRef' and re-defined 'marker' elements as
+      restrictions of this complexType only allowing for 'locusRef'. [2021.12.01 Daniele Morrone]
+      TheSu documentation version 0.70 completed.</xs:documentation>
     <xs:documentation>Roadmap to version 1.00: &#10007; Adding all the missing human-readable
       elements' and complexTypes' definitions &#10007; Integrating several planned miscellaneous
       changes and improvements into the scheme &#10007; Re-evaluating the logic of the distinction
@@ -3661,8 +3670,8 @@
       <xs:complexContent>
         <xs:restriction base="xs:anyType">
           <xs:sequence>
-            <xs:element ref="thesu:assentSupSpeaker" minOccurs="0" maxOccurs="unbounded">
-            </xs:element>
+            <xs:element ref="thesu:assentSupSpeaker" minOccurs="0" maxOccurs="unbounded"
+            > </xs:element>
           </xs:sequence>
         </xs:restriction>
       </xs:complexContent>
