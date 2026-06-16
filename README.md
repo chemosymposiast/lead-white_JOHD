@@ -1,6 +1,6 @@
 # Lead White in Context Across Greco-Roman Sources — *TheSu* XML Annotation Dataset
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19614479.svg)](https://doi.org/10.5281/zenodo.20290847)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19614478.svg)](https://doi.org/10.5281/zenodo.19614478)
 
 The first public dataset encoded with the *TheSu* XML stand-off annotation schema, covering Greco-Roman passages on lead white (ψιμύθιον / *cerussa*).
 
@@ -12,9 +12,9 @@ The first public dataset encoded with the *TheSu* XML stand-off annotation schem
 - **Languages:** English, Ancient Greek, Latin
 - **Formats:** XML, XSD, CSS, XHTML, DOT, SVG
 - **License:** [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
-- **Related paper:** *Lead White in Context Across Greco-Roman Sources: The First TheSu XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design* — invited full submission for peer review (June 2025) following abstract selection (June 2024); **preprint**.
+- **Related paper:** *Lead White in Context Across Greco-Roman Sources: The First TheSu XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design* — published in the *Journal of Open Humanities Data* 12, article 76 (16 June 2026): [10.5334/johd.568](https://doi.org/10.5334/johd.568).
 - **Schema documentation:** [https://thesu.io/documentation/](https://thesu.io/documentation/)
-- **Visualisation tool:** [chemosymposiast/TheSu-to-DOT](https://github.com/chemosymposiast/TheSu-to-DOT) — archived on Zenodo: [10.5281/zenodo.19613192](https://doi.org/10.5281/zenodo.19613192)
+- **Visualisation tool:** [TheSu-to-DOT](https://github.com/chemosymposiast/TheSu-to-DOT) — Zenodo record: [10.5281/zenodo.19613191](https://doi.org/10.5281/zenodo.19613191)
 
 ## What this dataset is
 
@@ -54,8 +54,8 @@ All annotations are collected in [ancient-lead-white_JOHD.xml](ancient-lead-whit
 
 The `.dot` and `.svg` files under [visualisations/](visualisations/) can be regenerated from the annotation using the companion tool **TheSu-to-DOT**:
 
-- Repository: [https://github.com/chemosymposiast/TheSu-to-DOT](https://github.com/chemosymposiast/TheSu-to-DOT)
-- Archived release: [10.5281/zenodo.19613192](https://doi.org/10.5281/zenodo.19613192)
+- Repository: [TheSu-to-DOT](https://github.com/chemosymposiast/TheSu-to-DOT)
+- Zenodo record: [10.5281/zenodo.19613191](https://doi.org/10.5281/zenodo.19613191)
 
 The tool ships per-figure presets (one subfolder per figure under `_config_presets/`, e.g. `1.Plutarch`, `2.Plato`, …, `8.everything`) and step-by-step reproduction instructions in its `JOHD_dataset_reproduction.md`.
 
@@ -63,25 +63,25 @@ The Gephi layouts used in the paper (ForceAtlas 2, Fruchterman–Reingold) are a
 
 ## Citations
 
-* **Data paper (preprint)**
-  Morrone, Daniele. 2025. "Lead White in Context Across Greco-Roman Sources: The First *TheSu* XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". Preprint (first submitted June 2025).
+* **Data paper**
+  Morrone, Daniele. 2026. "Lead White in Context Across Greco-Roman Sources: The First *TheSu* XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". *Journal of Open Humanities Data* 12: 76. [https://doi.org/10.5334/johd.568](https://doi.org/10.5334/johd.568)
 
   ```
-  Morrone, Daniele. 2025. "Lead White in Context Across Greco-Roman Sources: The First TheSu XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". Preprint (first submitted June 2025).
+  Morrone, Daniele. 2026. "Lead White in Context Across Greco-Roman Sources: The First TheSu XML Annotation Dataset of Arguments and Recipes, with Graph Visualisations and Discussion of their Design". Journal of Open Humanities Data 12: 76. https://doi.org/10.5334/johd.568
   ```
 
 * **Dataset**
-  Morrone, Daniele. 2026. "chemosymposiast/lead-white_JOHD: v1.0.0 – First Public Release (v1.0.0)". *Zenodo*. [https://doi.org/10.5281/zenodo.19614479](https://doi.org/10.5281/zenodo.19614479)
+  Morrone, Daniele. 2026. "lead-white_JOHD". *Zenodo*. [https://doi.org/10.5281/zenodo.19614478](https://doi.org/10.5281/zenodo.19614478)
 
   ```
-  Morrone, Daniele. 2026. "chemosymposiast/lead-white_JOHD: v1.0.0 – First Public Release (v1.0.0)". Zenodo. https://doi.org/10.5281/zenodo.19614479
+  Morrone, Daniele. 2026. "lead-white_JOHD". Zenodo. https://doi.org/10.5281/zenodo.19614478
   ```
 
 * **Visualisation tool**
-  Morrone, Daniele. 2026. "chemosymposiast/*TheSu*-to-DOT: v1.0.0 – First release (v1.0.0)". *Zenodo*. [https://doi.org/10.5281/zenodo.19613192](https://doi.org/10.5281/zenodo.19613192)
+  Morrone, Daniele. 2026. "*TheSu*-to-DOT". *Zenodo*. [https://doi.org/10.5281/zenodo.19613191](https://doi.org/10.5281/zenodo.19613191)
 
   ```
-  Morrone, Daniele. 2026. "chemosymposiast/TheSu-to-DOT: v1.0.0 – First release (v1.0.0)". Zenodo. https://doi.org/10.5281/zenodo.19613192
+  Morrone, Daniele. 2026. "TheSu-to-DOT". Zenodo. https://doi.org/10.5281/zenodo.19613191
   ```
 
 ## License
